@@ -73,9 +73,9 @@ const AboutProject = ({heading}) => {
             ].map((item) => (
               <li
                 key={item}
-                className="flex items-start gap-2 text-gray-700 text-sm"
+                className="group flex items-start gap-2 text-gray-700 text-sm transition-transform duration-300 hover:translate-x-1.5"
               >
-                <FaCheck className="mt-0.5 text-[#c8952a] flex-shrink-0 text-sm" />
+                <FaCheck className="mt-0.5 text-[#c8952a] flex-shrink-0 text-sm transition-transform duration-300 group-hover:scale-125" />
                 <span>{item}</span>
               </li>
             ))}

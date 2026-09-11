@@ -31,7 +31,7 @@ export default function VillaFeatures() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
 
           {/* Card 1 — Interiors */}
-          <div className="bg-white p-7" style={{ borderTop: "3px solid #DCA54A" }}>
+          <div className="bg-white p-7 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-400" style={{ borderTop: "3px solid #DCA54A" }}>
             <p style={{ fontSize: "10px", fontWeight: 600, letterSpacing: "2px", color: "#c8922a", textTransform: "uppercase", marginBottom: "8px" }}>
               Interiors &amp; Design
             </p>
@@ -47,7 +47,7 @@ export default function VillaFeatures() {
               ))}
             </ul>
             <div style={{ borderTop: "0.5px solid #e8dfc8", paddingTop: "10px" }}>
-              <p style={{ fontSize: "11px", fontWeight: 600, color: "#8a7a5a", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "6px" }}>
+              <p style={{ fontSize: "11px", fontWeight: 600, color: "#6b5c3e", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "6px" }}>
                 Fully furnished includes
               </p>
               <div className="flex flex-wrap gap-1.5">
@@ -61,7 +61,7 @@ export default function VillaFeatures() {
           </div>
 
           {/* Card 2 — Space & Layout */}
-          <div className="bg-white p-7" style={{ borderTop: "3px solid #DCA54A" }}>
+          <div className="bg-white p-7 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-400" style={{ borderTop: "3px solid #DCA54A" }}>
             <p style={{ fontSize: "10px", fontWeight: 600, letterSpacing: "2px", color: "#c8922a", textTransform: "uppercase", marginBottom: "8px" }}>
               Space &amp; Layout
             </p>
@@ -75,7 +75,7 @@ export default function VillaFeatures() {
               ].map((v) => (
                 <div key={v.label} className="flex-1 text-center py-3" style={{ background: "#faf6e8", border: "0.5px solid #d4c9ae" }}>
                   <div style={{ fontSize: "18px", fontWeight: 700, color: "#DCA54A" }}>{v.label}</div>
-                  <div style={{ fontSize: "11px", color: "#8a7a5a" }}>{v.sub}</div>
+                  <div style={{ fontSize: "11px", color: "#6b5c3e" }}>{v.sub}</div>
                 </div>
               ))}
             </div>
@@ -90,7 +90,7 @@ export default function VillaFeatures() {
           </div>
 
           {/* Card 3 — Social Infrastructure */}
-          <div className="bg-white p-7" style={{ borderTop: "3px solid #DCA54A" }}>
+          <div className="bg-white p-7 shadow-sm hover:shadow-xl hover:-translate-y-1.5 transition-all duration-400" style={{ borderTop: "3px solid #DCA54A" }}>
             <p style={{ fontSize: "10px", fontWeight: 600, letterSpacing: "2px", color: "#c8922a", textTransform: "uppercase", marginBottom: "8px" }}>
               The Corridor
             </p>
@@ -100,7 +100,7 @@ export default function VillaFeatures() {
             <div className="flex flex-col gap-3">
               {Object.entries(nearby).map(([category, items]) => (
                 <div key={category}>
-                  <p style={{ fontSize: "11px", fontWeight: 600, color: "#8a7a5a", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "5px" }}>
+                  <p style={{ fontSize: "11px", fontWeight: 600, color: "#6b5c3e", textTransform: "uppercase", letterSpacing: "1px", marginBottom: "5px" }}>
                     {category}
                   </p>
                   <div className="flex flex-wrap gap-1.5">

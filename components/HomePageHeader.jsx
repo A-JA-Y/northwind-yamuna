@@ -42,7 +42,11 @@ export default function HomePageHeader() {
   return (
     <>
       {/* Main header */}
-      <header className={`w-full bg-white border-b border-[rgba(196,154,43,0.2)] fixed left-0 right-0 top-0 z-30 transition-shadow duration-300 ${scrolled ? "shadow-lg" : "shadow-sm"}`}>
+      <header
+        className={`w-full bg-white border-b border-[rgba(196,154,43,0.2)] fixed left-0 right-0 top-0 z-30 transition-shadow duration-300 ${
+          scrolled ? "shadow-lg" : "shadow-sm"
+        }`}
+      >
         <div className="max-w-7xl mx-auto px-4 lg:px-8 flex items-stretch gap-0 h-[72px]">
 
           {/* Logo */}

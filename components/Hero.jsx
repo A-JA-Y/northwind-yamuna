@@ -5,16 +5,16 @@ import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import bghero from "../assets/hero-desktop.webp";
 import banner768 from "../assets/hero-mobile.webp";
-import aboutView from "../assets/about-1.webp";
-import wellnessView from "../assets/amenity-3.webp";
-import landscapeView from "../assets/about-5.webp";
+import sanctuaryAerial from "../assets/sanctuary-aerial.webp";
+import sanctuaryPool from "../assets/sanctuary-pool-twilight.webp";
+import sanctuaryLawn from "../assets/sanctuary-open-lawn.webp";
 
 const Hero = () => {
   const slides = [
-    { desktop: bghero, mobile: banner768, alt: "Northwind Estates residences at Sector 22D" },
-    { desktop: aboutView, mobile: aboutView, alt: "Northwind Estates landscaped residences" },
-    { desktop: wellnessView, mobile: wellnessView, alt: "Northwind Estates wellness amenity" },
-    { desktop: landscapeView, mobile: landscapeView, alt: "Northwind Estates central green" },
+    { desktop: bghero, mobile: banner768, alt: "Northwind Estates residences at Sector 22D", position: "object-[right_top]" },
+    { desktop: sanctuaryAerial, mobile: sanctuaryAerial, alt: "NorthWind Sanctuary aerial view of towers, pool and landscaped green", position: "object-[center_60%]" },
+    { desktop: sanctuaryPool, mobile: sanctuaryPool, alt: "NorthWind Sanctuary twilight swimming pool", position: "object-center" },
+    { desktop: sanctuaryLawn, mobile: sanctuaryLawn, alt: "NorthWind Sanctuary open lawn and landscaped green", position: "object-center" },
   ];
   const [current, setCurrent] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -60,16 +60,17 @@ const Hero = () => {
               alt={slide.alt}
               fill
               priority={index === 0}
+              placeholder="blur"
               sizes="100vw"
               quality={90}
-              className={`object-cover object-[right_top] hero-image ${index === current ? "hero-image-active" : ""}`}
+              className={`object-cover ${slide.position} hero-image ${index === current ? "hero-image-active" : ""}`}
             />
           </picture>
         ))}
 
         <div className="absolute inset-0 bg-gradient-to-r from-[#171b18]/30 via-transparent to-white/5 pointer-events-none" />
 
-        <div className="absolute bottom-7 left-1/2 -translate-x-1/2 flex items-center gap-3 z-10" role="tablist" aria-label="Hero slides">
+        <div className="absolute bottom-7 left-1/2 -translate-x-1/2 flex items-center gap-2.5 z-10" role="tablist" aria-label="Hero slides">
           {slides.map((slide, index) => (
             <button
               key={slide.alt}
@@ -78,13 +79,36 @@ const Hero = () => {
               aria-label={`Show slide ${index + 1}`}
               aria-selected={index === current}
               onClick={() => goTo(index)}
-              className={`h-1.5 transition-all duration-500 ${index === current ? "w-10 bg-white" : "w-5 bg-white/50 hover:bg-white/80"}`}
-            />
+              className="carousel-dot"
+              style={{ width: index === current ? 40 : 18, height: 6 }}
+            >
+              <span
+                className="carousel-dot-fill"
+                style={{
+                  "--carousel-duration": "5200ms",
+                  animationPlayState: index === current && !isPaused ? "running" : "paused",
+                  width: index === current ? undefined : index < current ? "100%" : "0%",
+                }}
+                data-active={index === current || undefined}
+              />
+            </button>
           ))}
         </div>
 
-        <button type="button" aria-label="Previous hero image" onClick={() => goTo(current - 1)} className="hero-arrow left-4 md:left-8">‹</button>
-        <button type="button" aria-label="Next hero image" onClick={() => goTo(current + 1)} className="hero-arrow right-4 md:right-8">›</button>
+        <button type="button" aria-label="Previous hero image" onClick={() => goTo(current - 1)} className="hero-arrow left-4 md:left-8">
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M10 2.5L4 8l6 5.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
+        <button type="button" aria-label="Next hero image" onClick={() => goTo(current + 1)} className="hero-arrow right-4 md:right-8">
+          <svg width="18" height="18" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+            <path d="M6 2.5l6 5.5-6 5.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+          </svg>
+        </button>
+
+        <div className="hero-scroll-cue hidden sm:flex" aria-hidden="true">
+          <span />
+        </div>
       </div>
     </section>
   );

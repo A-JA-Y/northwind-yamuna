@@ -39,8 +39,8 @@ export default function ReasonsToInvest() {
                 { icon: <FaBuilding />, text: "Only 3 homes per floor with 4 lifts per tower" },
                 { icon: <FaLeaf />, text: "Wellness master plan around a large central green" },
               ].map((item, i) => (
-                <li key={i} className="flex items-center gap-3">
-                  <span className="text-[#DCA54A] text-lg">{item.icon}</span>
+                <li key={i} className="group flex items-center gap-3 transition-transform duration-300 hover:translate-x-1.5">
+                  <span className="text-[#DCA54A] text-lg transition-transform duration-300 group-hover:scale-125">{item.icon}</span>
                   <span className="text-gray-800 text-sm">{item.text}</span>
                 </li>
               ))}
@@ -59,8 +59,8 @@ export default function ReasonsToInvest() {
                 { icon: <FaConciergeBell />, text: "20×5 payment plan* — only 20% upfront" },
                 { icon: <FaShieldAlt />, text: "Clean YEIDA-auction title; CREDAI-member developer" },
               ].map((item, i) => (
-                <li key={i} className="flex items-center gap-3">
-                  <span className="text-[#DCA54A] text-lg">{item.icon}</span>
+                <li key={i} className="group flex items-center gap-3 transition-transform duration-300 hover:translate-x-1.5">
+                  <span className="text-[#DCA54A] text-lg transition-transform duration-300 group-hover:scale-125">{item.icon}</span>
                   <span className="text-gray-800 text-sm">{item.text}</span>
                 </li>
               ))}

@@ -46,9 +46,15 @@ export default function PlansSection() {
         {/* FLOOR PLAN GRID */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {plans.map((img, i) => (
-            <div
+            <button
+              type="button"
               key={i}
-              className="relative rounded-md overflow-hidden shadow-md group cursor-pointer"
+              aria-label={
+                isUnlocked
+                  ? `View floor plan ${i + 1}`
+                  : `Unlock floor plan ${i + 1}`
+              }
+              className="relative rounded-md overflow-hidden shadow-md hover:shadow-xl group cursor-pointer text-left transition-shadow duration-300"
               onClick={() => {
                 if (!isUnlocked) {
                   openModal();
@@ -60,17 +66,33 @@ export default function PlansSection() {
               <Image
                 src={img}
                 alt={`Northwind Sector 22D Plan ${i + 1}`}
+                placeholder="blur"
                 className={`w-full h-[140px] object-cover transition duration-500 ${
-                  !isUnlocked ? "blur-[1px] scale-105" : "group-hover:scale-105"
+                  !isUnlocked
+                    ? "blur-[6px] scale-110 group-hover:blur-[4px]"
+                    : "group-hover:scale-105"
                 }`}
               />
 
               {!isUnlocked && (
-                <div className="absolute inset-0 flex items-center justify-center bg-black/40 text-white text-xs">
-                  Unlock
+                <div className="absolute inset-0 flex flex-col items-center justify-center gap-1.5 bg-gradient-to-t from-black/75 via-black/45 to-black/25 text-white transition-colors duration-300 group-hover:from-black/80 group-hover:via-black/55">
+                  <svg
+                    width="18"
+                    height="18"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    aria-hidden="true"
+                    className="transition-transform duration-300 group-hover:-translate-y-0.5"
+                  >
+                    <rect x="4" y="10" width="16" height="10" rx="2" stroke="currentColor" strokeWidth="1.7" />
+                    <path d="M8 10V7a4 4 0 1 1 8 0v3" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" />
+                  </svg>
+                  <span className="text-[11px] font-semibold uppercase tracking-widest">
+                    Unlock
+                  </span>
                 </div>
               )}
-            </div>
+            </button>
           ))}
         </div>
 
@@ -102,7 +124,12 @@ export default function PlansSection() {
             <Image
               src={masterPlan}
               alt="Northwind Sector 22D Master Plan"
-              className="w-full h-[260px] md:h-[320px] object-cover blur-[1px] scale-105"
+              placeholder="blur"
+              className={`w-full h-[260px] md:h-[320px] object-cover transition-all duration-500 ${
+                isUnlocked
+                  ? "group-hover:scale-105"
+                  : "blur-[5px] scale-110 group-hover:blur-[3px]"
+              }`}
             />
 
             {/* Overlay */}
@@ -127,8 +154,8 @@ export default function PlansSection() {
 
       {/* FLOOR PLAN MODAL */}
       {activePlan && (
-        <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
-          <div className="relative bg-white p-3 rounded-lg max-w-3xl w-full">
+        <div className="modal-backdrop-in fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+          <div className="modal-panel-in relative bg-white p-3 rounded-lg max-w-3xl w-full">
             <button
               onClick={() => setActivePlan(null)}
               className="absolute top-2 right-2 text-black text-xl"
@@ -147,8 +174,8 @@ export default function PlansSection() {
 
       {/* MASTER PLAN MODAL */}
       {isMasterOpen && (
-        <div className="fixed inset-0 bg-black/30 flex items-center justify-center z-50">
-          <div className="relative bg-white p-4 rounded-lg max-w-4xl w-full text-center">
+        <div className="modal-backdrop-in fixed inset-0 bg-black/30 flex items-center justify-center z-50">
+          <div className="modal-panel-in relative bg-white p-4 rounded-lg max-w-4xl w-full text-center">
 
             <button
               onClick={() => setIsMasterOpen(false)}

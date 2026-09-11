@@ -1,68 +1,96 @@
 "use client";
 
 import Image from "next/image";
-import { useState, useEffect, useRef } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 
-export default function ImageSlider({images}) {
+const AUTO_INTERVAL = 4200;
+
+export default function ImageSlider({ images }) {
   const [current, setCurrent] = useState(0);
-  const intervalRef = useRef(null);
+  const [isPaused, setIsPaused] = useState(false);
+  const touchStart = useRef(null);
 
-  const startAutoSlide = () => {
-    intervalRef.current = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % images.length);
-    }, 3000);
-  };
-
-  const stopAutoSlide = () => {
-    if (intervalRef.current) clearInterval(intervalRef.current);
-  };
+  const goTo = useCallback(
+    (index) => setCurrent((index + images.length) % images.length),
+    [images.length]
+  );
+  const nextSlide = useCallback(() => goTo(current + 1), [current, goTo]);
+  const prevSlide = useCallback(() => goTo(current - 1), [current, goTo]);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % images.length);
-    }, 3000);
-
+    if (isPaused || images.length <= 1) return undefined;
+    const interval = setInterval(nextSlide, AUTO_INTERVAL);
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, [isPaused, nextSlide, images.length]);
 
-  const nextSlide = () => {
-    setCurrent((prev) => (prev + 1) % images.length);
+  const handleTouchStart = (event) => {
+    touchStart.current = event.touches[0].clientX;
+  };
+  const handleTouchEnd = (event) => {
+    if (touchStart.current === null) return;
+    const distance = event.changedTouches[0].clientX - touchStart.current;
+    if (Math.abs(distance) > 40) {
+      if (distance < 0) nextSlide();
+      else prevSlide();
+    }
+    touchStart.current = null;
   };
 
-  const prevSlide = () => {
-    setCurrent((prev) => (prev - 1 + images.length) % images.length);
+  const handleKeyDown = (event) => {
+    if (event.key === "ArrowRight") nextSlide();
+    if (event.key === "ArrowLeft") prevSlide();
   };
 
   return (
     <div
-      className="relative w-full h-full overflow-hidden rounded shadow-2xl"
-      onMouseEnter={stopAutoSlide}
-      onMouseLeave={startAutoSlide}
+      className="relative w-full h-full overflow-hidden rounded shadow-2xl group/slider outline-none"
+      role="region"
+      aria-roledescription="carousel"
+      aria-label="Image gallery"
+      tabIndex={0}
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+      onFocus={() => setIsPaused(true)}
+      onBlur={() => setIsPaused(false)}
+      onKeyDown={handleKeyDown}
+      onTouchStart={handleTouchStart}
+      onTouchEnd={handleTouchEnd}
     >
-      {/* Images */}
+      {/* Slides */}
       {images.map((img, index) => (
-        <Image
+        <div
           key={index}
-          src={img}
-          alt={`Amenity ${index + 1}`}
-          className={`absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-1000 ${
-            index === current ? "opacity-100 z-10" : "opacity-0"
+          className={`carousel-slide absolute inset-0 ${
+            index === current ? "carousel-slide-active" : ""
           }`}
-          fill
-          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 512px"
-          quality={80}
-
-        />
+          aria-hidden={index !== current}
+        >
+          <Image
+            src={img}
+            alt={`Gallery image ${index + 1}`}
+            className="w-full h-full object-cover"
+            fill
+            placeholder="blur"
+            sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 512px"
+            quality={85}
+            priority={index === 0}
+          />
+        </div>
       ))}
+
+      {/* Bottom gradient for control legibility */}
+      <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/55 to-transparent pointer-events-none z-10" />
 
       {/* Left Button */}
       <button
         type="button"
         onClick={prevSlide}
         aria-label="Previous image"
-        className="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-black/55 text-white px-3 py-2 rounded-full hover:bg-[#c49a2b] transition-colors"
+        className="carousel-arrow left-3 opacity-100 sm:opacity-0 sm:group-hover/slider:opacity-100 focus-visible:opacity-100"
       >
-        ‹
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M10 2.5L4 8l6 5.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
       </button>
 
       {/* Right Button */}
@@ -70,24 +98,34 @@ export default function ImageSlider({images}) {
         type="button"
         onClick={nextSlide}
         aria-label="Next image"
-        className="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-black/55 text-white px-3 py-2 rounded-full hover:bg-[#c49a2b] transition-colors"
+        className="carousel-arrow right-3 opacity-100 sm:opacity-0 sm:group-hover/slider:opacity-100 focus-visible:opacity-100"
       >
-        ›
+        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M6 2.5l6 5.5-6 5.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
+        </svg>
       </button>
 
-      {/* Dots Indicator */}
-      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-20">
+      {/* Progress-fill indicators */}
+      <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-1.5 z-20" role="tablist" aria-label="Slides">
         {images.map((_, index) => (
           <button
             key={index}
             type="button"
-            onClick={() => setCurrent(index)}
+            role="tab"
+            onClick={() => goTo(index)}
             aria-label={`Show image ${index + 1}`}
-            aria-current={index === current ? "true" : undefined}
-            className={`w-3 h-3 rounded-full transition-all ${
-              index === current ? "bg-white" : "bg-white/50"
-            }`}
-          />
+            aria-selected={index === current}
+            className="carousel-dot"
+          >
+            <span
+              className="carousel-dot-fill"
+              style={{
+                animationPlayState: index === current && !isPaused ? "running" : "paused",
+                width: index === current ? undefined : index < current ? "100%" : "0%",
+              }}
+              data-active={index === current || undefined}
+            />
+          </button>
         ))}
       </div>
     </div>

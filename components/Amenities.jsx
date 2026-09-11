@@ -95,8 +95,8 @@ export default function Amenities() {
 
             <ul className="flex flex-col gap-[18px]">
               {amenities.map((item, i) => (
-                <li key={i} className="flex items-center gap-4">
-                  <span className="flex-shrink-0 text-lg text-[#DCA54A]">
+                <li key={i} className="group flex items-center gap-4 transition-transform duration-300 hover:translate-x-1.5">
+                  <span className="flex-shrink-0 text-lg text-[#DCA54A] transition-transform duration-300 group-hover:scale-125">
                     {item.icon}
                   </span>
                   <span className="text-sm md:text-base">{item.text}</span>

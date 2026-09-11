@@ -27,17 +27,24 @@ export default function BlogSection() {
         {/* Latest Blogs */}
         <div className="grid md:grid-cols-3 gap-6">
           {latestBlogs.map((item) => (
-            <div key={item.id} onClick={()=>router.push(`/blogs/${item.slug}`)} className="bg-[#FAF8F4] rounded shadow hover:shadow-lg transition">
-              <Image
-                src={item.image}
-                alt={item.title}
-                width={400}
-                height={250}
-                className="w-full h-[180px] object-cover"
-              />
+            <div
+              key={item.id}
+              onClick={() => router.push(`/blogs/${item.slug}`)}
+              className="group bg-[#FAF8F4] rounded overflow-hidden shadow hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-400 cursor-pointer"
+            >
+              <div className="overflow-hidden">
+                <Image
+                  src={item.image}
+                  alt={item.title}
+                  width={400}
+                  height={250}
+                  quality={85}
+                  className="w-full h-[180px] object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+              </div>
               <div className="p-4">
                 <p className="text-xs text-[#DCA54A] mb-2">{item.category}</p>
-                <h3 className="font-semibold text-gray-900 mb-2">{item.title}</h3>
+                <h3 className="font-semibold text-gray-900 mb-2 transition-colors group-hover:text-[#c8952a]">{item.title}</h3>
                 <p className="text-sm text-gray-600">{item.excerpt}</p>
               </div>
             </div>

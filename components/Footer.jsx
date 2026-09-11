@@ -15,7 +15,7 @@ export default function Footer() {
             <p className="text-[#c9a84c] text-[11px] font-semibold tracking-widest uppercase mb-3">
               Northwind Yamuna
             </p>
-            <p className="text-gray-400 text-xs leading-relaxed">
+            <p className="text-gray-300 text-xs leading-relaxed">
               Northwind Yamuna is the official enquiry portal run by Real Revenue, an
               authorised channel partner for Northwind Estates&apos; new launch in Sector 22D,
               Yamuna Expressway — fully furnished 3 &amp; 4 BHK wellness homes, 15 minutes
@@ -34,7 +34,7 @@ export default function Footer() {
                   <li key={item.href}>
                     <Link
                       href={item.href}
-                      className="text-gray-300 text-xs hover:text-[#DCA54A] transition-colors"
+                      className="inline-block text-gray-300 text-xs hover:text-[#DCA54A] hover:translate-x-1 transition-all duration-300"
                     >
                       {item.label}
                     </Link>
@@ -46,7 +46,7 @@ export default function Footer() {
                   <li key={item.href}>
                     <Link
                       href={item.href}
-                      className="text-gray-300 text-xs hover:text-[#DCA54A] transition-colors"
+                      className="inline-block text-gray-300 text-xs hover:text-[#DCA54A] hover:translate-x-1 transition-all duration-300"
                     >
                       {item.label}
                     </Link>
@@ -78,14 +78,14 @@ export default function Footer() {
               </svg>
               <a href="tel:+919717700596" className="hover:text-[#DCA54A] transition-colors">+91 97177 00596</a>
             </div>
-            <p className="text-gray-500 text-[11px] mt-2">
+            <p className="text-gray-400 text-[11px] mt-2">
               Call / WhatsApp · 10 am – 7 pm, all days
             </p>
           </div>
         </div>
 
         <div className="text-center mb-4">
-          <p className="text-xs text-gray-400 leading-relaxed">
+          <p className="text-xs text-gray-300 leading-relaxed">
             Disclaimer : This website (northwindyamuna.com) is owned and operated by Real
             Revenue, a unit of Earlydays Innovations Pvt. Ltd., an authorised channel partner
             for Northwind Estates. It is not the official website of the developer. The content

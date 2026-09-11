@@ -1,8 +1,10 @@
 @import "tailwindcss";
 
-/* ——— Contrast tuning: darken body-text grays slightly (WCAG) ——— */
+/* ——— Contrast tuning: body-text grays meet WCAG AA (4.5:1) on light backgrounds.
+   gray-400 was #79808c = 3.98:1 on white, which failed. #6b7280 = 4.83:1.
+   Dark-background text (footer) uses gray-300/400 instead — see Footer.jsx. ——— */
 @theme {
-  --color-gray-400: #79808c;
+  --color-gray-400: #6b7280;
   --color-gray-500: #4b5563;
   --color-gray-600: #374151;
 }
@@ -65,11 +67,14 @@ select:focus-visible {
   z-index: 10;
   width: 42px;
   height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid rgba(255,255,255,.6);
   color: #fff;
   background: rgba(25, 28, 24, .32);
-  font-size: 30px;
-  line-height: 1;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
   transform: translateY(-50%);
   transition: background 200ms ease, border-color 200ms ease, transform 200ms ease;
 }
@@ -78,6 +83,145 @@ select:focus-visible {
   border-color: #fff;
   background: #a47822;
   transform: translateY(-50%) scale(1.06);
+}
+
+.hero-arrow:active {
+  transform: translateY(-50%) scale(.95);
+}
+
+/* ——— Modern in-page carousel (About / Amenities galleries) ——— */
+.carousel-slide {
+  opacity: 0;
+  z-index: 0;
+  transition: opacity 900ms ease;
+}
+
+.carousel-slide-active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.carousel-slide img {
+  transform: scale(1.04);
+  transition: transform 6500ms cubic-bezier(.2,.7,.2,1);
+  will-change: transform;
+}
+
+.carousel-slide-active img {
+  transform: scale(1.14);
+}
+
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  color: #fff;
+  background: rgba(20, 16, 4, .4);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, .35);
+  transform: translateY(-50%);
+  transition: background 200ms ease, border-color 200ms ease, transform 200ms ease, opacity 200ms ease;
+}
+
+.carousel-arrow:hover {
+  background: #a47822;
+  border-color: #fff;
+  transform: translateY(-50%) scale(1.08);
+}
+
+.carousel-arrow:active {
+  transform: translateY(-50%) scale(.94);
+}
+
+.carousel-dot {
+  position: relative;
+  width: 22px;
+  height: 4px;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, .35);
+  overflow: hidden;
+  cursor: pointer;
+  transition: width 400ms cubic-bezier(.2,.7,.2,1), background-color 200ms ease;
+}
+
+.carousel-dot:hover {
+  background: rgba(255, 255, 255, .55);
+}
+
+.carousel-dot-fill {
+  display: block;
+  height: 100%;
+  width: 0%;
+  background: #fff;
+  border-radius: 999px;
+}
+
+.carousel-dot-fill[data-active] {
+  animation: carouselFill var(--carousel-duration, 4200ms) linear forwards;
+}
+
+@keyframes carouselFill {
+  from { width: 0%; }
+  to { width: 100%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carousel-slide img { transition: none; transform: none; }
+  .carousel-dot-fill[data-active] { animation: none; width: 60%; }
+}
+
+.hero-scroll-cue {
+  position: absolute;
+  left: 50%;
+  bottom: 22px;
+  z-index: 10;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  transform: translateX(-50%);
+  opacity: .75;
+  pointer-events: none;
+}
+
+.hero-scroll-cue span {
+  display: block;
+  width: 22px;
+  height: 34px;
+  border: 2px solid rgba(255, 255, 255, .75);
+  border-radius: 999px;
+  position: relative;
+}
+
+.hero-scroll-cue span::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 50%;
+  width: 4px;
+  height: 8px;
+  background: #fff;
+  border-radius: 999px;
+  transform: translateX(-50%);
+  animation: heroScrollDot 1800ms ease-in-out infinite;
+}
+
+@keyframes heroScrollDot {
+  0% { opacity: 1; top: 6px; }
+  70% { opacity: 0; top: 18px; }
+  100% { opacity: 0; top: 18px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-scroll-cue span::before { animation: none; }
 }
 
 .scroll-reveal {
@@ -89,6 +233,24 @@ select:focus-visible {
 .scroll-reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* ——— Staggered reveal for cards / list items inside a revealed section ———
+   No will-change here on purpose: these fire once, and there can be 70+ of them
+   on a page — leaving them layer-promoted for the session wastes GPU memory. */
+.reveal-item {
+  opacity: 0;
+  transform: translateY(22px) scale(.97);
+  transition: opacity 620ms ease, transform 620ms cubic-bezier(.2,.7,.2,1);
+}
+
+.scroll-reveal.is-visible .reveal-item {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal-item { opacity: 1; transform: none; transition: none; }
 }
 
 main > section:not(.scroll-reveal),
@@ -158,6 +320,73 @@ section:hover img {
   filter: saturate(1.04) contrast(1.02);
 }
 
+/* ——— Sitewide gold CTA polish: lift + glow on hover, press feedback on click ——— */
+button[class*="DCA54A"],
+a[class*="DCA54A"],
+button[class*="C49A2B"],
+a[class*="C49A2B"],
+button[class*="c49a2b"],
+a[class*="c49a2b"],
+button[class*="c8952a"],
+a[class*="c8952a"],
+button[class*="c9a84c"],
+a[class*="c9a84c"],
+button[class*="c9943a"],
+a[class*="c9943a"] {
+  transition-property: transform, box-shadow, background-color, border-color, opacity;
+  transition-duration: 260ms;
+  transition-timing-function: cubic-bezier(.2,.7,.2,1);
+}
+
+button[class*="DCA54A"]:hover, a[class*="DCA54A"]:hover,
+button[class*="C49A2B"]:hover, a[class*="C49A2B"]:hover,
+button[class*="c49a2b"]:hover, a[class*="c49a2b"]:hover,
+button[class*="c8952a"]:hover, a[class*="c8952a"]:hover,
+button[class*="c9a84c"]:hover, a[class*="c9a84c"]:hover,
+button[class*="c9943a"]:hover, a[class*="c9943a"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px -8px rgba(180, 138, 42, .48);
+}
+
+button[class*="DCA54A"]:active, a[class*="DCA54A"]:active,
+button[class*="C49A2B"]:active, a[class*="C49A2B"]:active,
+button[class*="c49a2b"]:active, a[class*="c49a2b"]:active,
+button[class*="c8952a"]:active, a[class*="c8952a"]:active,
+button[class*="c9a84c"]:active, a[class*="c9a84c"]:active,
+button[class*="c9943a"]:active, a[class*="c9943a"]:active {
+  transform: translateY(0) scale(.97);
+  box-shadow: 0 4px 10px -4px rgba(180, 138, 42, .4);
+}
+
+/* ——— Modal entrance: soft fade + pop instead of an instant snap ——— */
+@keyframes modalBackdropIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes modalPanelIn {
+  from { opacity: 0; transform: translateY(18px) scale(.96); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.modal-backdrop-in { animation: modalBackdropIn 260ms ease both; }
+.modal-panel-in { animation: modalPanelIn 320ms cubic-bezier(.2,.7,.2,1) both; }
+
+/* ——— Slim gold-accented scrollbar for a more considered, on-brand feel ——— */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #c49a2b #f1ede1;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: #f1ede1; }
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #c49a2b, #a8841e);
+  border-radius: 999px;
+  border: 2px solid #f1ede1;
+}
+::-webkit-scrollbar-thumb:hover { background: #a8841e; }
+
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
   *, *::before, *::after {
@@ -167,6 +396,14 @@ section:hover img {
     scroll-behavior: auto !important;
   }
   .scroll-reveal { opacity: 1; transform: none; }
+  button[class*="DCA54A"]:hover, a[class*="DCA54A"]:hover,
+  button[class*="C49A2B"]:hover, a[class*="C49A2B"]:hover,
+  button[class*="c49a2b"]:hover, a[class*="c49a2b"]:hover,
+  button[class*="c8952a"]:hover, a[class*="c8952a"]:hover,
+  button[class*="c9a84c"]:hover, a[class*="c9a84c"]:hover,
+  button[class*="c9943a"]:hover, a[class*="c9943a"]:hover {
+    transform: none;
+  }
 }
 
 

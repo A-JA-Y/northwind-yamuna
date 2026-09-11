@@ -1,6 +1,38 @@
 "use client";
 import { useState, useMemo, useRef, useEffect } from "react";
 
+/* Eases the displayed figure to its new value so slider drags read as
+   a continuous change rather than a hard number swap. */
+function useAnimatedNumber(value, duration = 450) {
+  const [display, setDisplay] = useState(value);
+  const frame = useRef(null);
+  const from = useRef(value);
+
+  useEffect(() => {
+    const start = performance.now();
+    const startValue = from.current;
+    const delta = value - startValue;
+    if (delta === 0) return undefined;
+
+    const tick = (now) => {
+      const t = Math.min((now - start) / duration, 1);
+      const eased = 1 - Math.pow(1 - t, 3);
+      const next = startValue + delta * eased;
+      setDisplay(next);
+      from.current = next;
+      if (t < 1) frame.current = requestAnimationFrame(tick);
+      else from.current = value;
+    };
+
+    frame.current = requestAnimationFrame(tick);
+    return () => {
+      if (frame.current) cancelAnimationFrame(frame.current);
+    };
+  }, [value, duration]);
+
+  return display;
+}
+
 function SliderField({ label, min, max, step, value, onChange, pillLabel, rightLabel }) {
   const pct = (value - min) / (max - min);
   const fillWidth = pct * 100;
@@ -15,14 +47,14 @@ function SliderField({ label, min, max, step, value, onChange, pillLabel, rightL
         </div>
       </div>
 
-      <div className="relative h-9">
+      <div className="relative h-9 group/slider">
         <div className="absolute top-1/2 left-0 right-0 h-[2px] bg-gray-200 -translate-y-1/2 rounded" />
         <div
           className="absolute top-1/2 left-0 h-[2px] bg-gray-900 -translate-y-1/2 rounded"
           style={{ width: `${fillWidth}%` }}
         />
         <div
-          className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 bg-white border border-gray-200 rounded-full px-2.5 py-1 text-xs font-semibold whitespace-nowrap pointer-events-none text-gray-900"
+          className="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 bg-white border border-gray-200 rounded-full px-2.5 py-1 text-xs font-semibold whitespace-nowrap pointer-events-none text-gray-900 shadow-sm transition-[transform,box-shadow,border-color] duration-200 group-hover/slider:scale-110 group-hover/slider:border-[#c49a2b] group-hover/slider:shadow-md"
           style={{ left: `${pillLeft}%` }}
         >
           {pillLabel}
@@ -33,8 +65,9 @@ function SliderField({ label, min, max, step, value, onChange, pillLabel, rightL
           max={max}
           step={step}
           value={value}
+          aria-label={label}
           onChange={(e) => onChange(Number(e.target.value))}
-          className="absolute inset-0 w-full opacity-0 cursor-pointer"
+          className="absolute inset-0 w-full opacity-0 cursor-grab active:cursor-grabbing"
         />
       </div>
     </div>
@@ -60,9 +93,10 @@ export default function EmiCalculator() {
 
   const fmt = (n) => Math.round(n).toLocaleString("en-IN");
   const downAmt = loan * downPercent / 100;
+  const animatedEmi = useAnimatedNumber(emi);
 
   return (
-    <section className="w-full min-h-screen bg-[#FAF8F4] flex justify-center items-start p-6 box-border">
+    <section className="w-full bg-[#FAF8F4] flex justify-center items-start px-6 py-16 box-border">
       <div className="w-full max-w-[480px] bg-white p-6 rounded-2xl shadow-[0_2px_20px_rgba(0,0,0,0.07)]">
         <h3 className="text-[11px] font-bold tracking-[0.1em] uppercase mb-6 text-gray-900">
           EMI Calculator
@@ -135,8 +169,8 @@ export default function EmiCalculator() {
             Estimated Monthly EMI
           </p>
           <div className="flex items-baseline gap-1.5">
-            <span className="text-[clamp(26px,6vw,36px)] font-bold text-gray-900">
-              {fmt(emi)}
+            <span className="text-[clamp(26px,6vw,36px)] font-bold text-gray-900 tabular-nums">
+              {fmt(animatedEmi)}
             </span>
             <span className="text-gray-400 text-sm">₹ / month</span>
           </div>

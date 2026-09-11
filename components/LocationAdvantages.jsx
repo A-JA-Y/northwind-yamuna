@@ -44,10 +44,10 @@ export default function LocationAdvantages() {
 
             <ul className="space-y-4">
               {checkItems.map((item, i) => (
-                <li key={i} className="flex items-start gap-3">
+                <li key={i} className="group flex items-start gap-3 transition-transform duration-300 hover:translate-x-1.5">
 
                   {/* Check Icon */}
-                  <span className="text-[#c8922a] mt-1">
+                  <span className="text-[#c8922a] mt-1 transition-transform duration-300 group-hover:scale-125">
                     ✓
                   </span>
 

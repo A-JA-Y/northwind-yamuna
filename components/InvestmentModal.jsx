@@ -78,13 +78,13 @@ const link = document.createElement("a");
   return (
     /* Backdrop */
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
+      className="modal-backdrop-in fixed inset-0 z-50 flex items-center justify-center bg-black/60 px-4"
       onClick={(e) => e.target === e.currentTarget && onClose?.()}
     >
       {/* pum-container: Modal Box — dark black border, white bg */}
       <div
         className="
-          pum-container relative bg-white
+          modal-panel-in pum-container relative bg-white
           w-[90%] lg:w-[40%]
           border-4 border-black
           rounded-lg shadow-2xl

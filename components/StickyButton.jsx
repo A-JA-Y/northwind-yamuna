@@ -25,8 +25,8 @@ export default function StickyDownloadButton() {
         fixed bottom-16 right-0
         flex flex-col items-center justify-center
         bg-[#c8952a] text-white font-semibold
-        shadow-lg transition-colors duration-200
-        hover:bg-blue-700
+        shadow-lg
+        hover:bg-[#a8841e]
         px-[7px] py-[10px] z-[1000]
         rounded-l-md rounded-r-none
       "

@@ -65,6 +65,7 @@ export default function ProjectHighlights() {
                 src={card.image}
                 alt={card.title}
                 fill
+                placeholder="blur"
                 className="object-cover group-hover:scale-110 transition duration-500"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 230px"
                 quality={80}
