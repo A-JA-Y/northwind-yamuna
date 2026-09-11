@@ -1,0 +1,1305 @@
+================================================================================
+NORTHWINDYAMUNA.COM — COMPLETE WEBSITE CONTENT PACK
+Project: Northwind Estates, Sector 22D, Yamuna Expressway (marketed as Northwind Wellness)
+Site type: Authorised channel partner microsite — marketed by Real Revenue (a unit of Earlydays Innovations Pvt. Ltd.)
+Prepared: September 2026
+================================================================================
+
+HOW TO USE THIS FILE
+- Every page below has: URL slug, meta title (50–60 chars), meta description (140–160 chars), focus keyword, secondary keywords, H1, and full body copy with H2/H3 headings in order.
+- Facts are drawn from the developer's YEIDA acquisition announcement (May 2026), the developer's corporate site, and current launch communication circulating in the market. Anything not yet frozen by the developer is marked with an asterisk (*) and covered by the disclaimer.
+- Amenity and specification lists are the planned/indicative scope for a fully furnished, wellness-themed launch. Trim or reorder once the developer releases the final approved plans.
+- Keep the asterisk footnote ("*Indicative. Subject to change without notice.") wherever a price, area, payment plan or possession figure appears.
+
+--------------------------------------------------------------------------------
+SECTION 0 — MASTER FACT SHEET (single source of truth for the whole site)
+--------------------------------------------------------------------------------
+Project name (marketing):        Northwind Estates Sector 22D / Northwind Wellness
+Developer:                       Northwind Estates (NorthWind Estates Pvt. Ltd.)
+Developer leadership:            Mr. Manoj Kumar Garg (Chairman & CEO, 25+ years in Greater Noida real estate); Mr. Shaurya Garg (Marketing & Sales Director — B.Tech DTU, MSc International Real Estate & Planning, UCL); Mr. Anubhav Jain (Finance & Management Director — Durham University); Mr. Samyak Jain (Design & Construction Director — architect, CEPT Ahmedabad)
+Developer corporate office:      Plot 07, Sector Pi-1, Greater Noida, Uttar Pradesh 201306 | info@nwestates.in | +91-888 111 0909 (Mon–Sat, 10 am–7 pm)
+Developer credentials:           20+ years of leadership expertise; 10 lakh+ sq. ft. delivered; CREDAI member; "Emerging Luxury Developer of the Year" – ET NOW; "Upcoming Ultra Luxury Project of the Year" – Times Realty & Infrastructure Conclave 2026 (for NorthWind Sanctuary)
+Delivered / legacy portfolio:    Satyam Galleria (Sector P3, Greater Noida); Jagat Plaza (Jagat Farm, Greater Noida); Satyam Complex 1 & 2 (Alpha 2, Greater Noida); Mega Mall, Angel Jupiter, Angel Golf Avenue 2, Angel Mercury (Indirapuram); Angel Techpark (Sector 62, Noida)
+Ongoing flagship:                NorthWind Sanctuary, Plot 07, Sector Pi-1, Greater Noida — 4.5 acres, 3 towers (Amaltas, Banyan, Cedar), 185 ultra-premium residences incl. 5 penthouses, 80% landscaped greens, IGBC Platinum pre-certified, UP RERA UPRERAPRJ798312; 3 BHK saleable 1,895 sq. ft. (carpet 957 sq. ft.); 55 m Olympic-length pool, pickleball court, putting green, sky walk
+Official site status:            northwindestates.com lists "Yamuna Expressway — Coming Soon"; project name and RERA number will be published there on registration
+Architects:                      Confluence (same practice behind NorthWind Sanctuary)
+Location:                        Sector 22D, Yamuna Expressway, Greater Noida (YEIDA region), Gautam Buddh Nagar, Uttar Pradesh
+Land:                            5 acres, allotted through YEIDA auction (May 2026); winning bid ₹189 crore
+Towers / height:                 6 towers, G+30
+Total residences:                540
+Density:                         Only 3 apartments per floor, 4 high-speed lifts per tower, 3-side open homes
+Theme:                           Wellness-led community; low-density planning; large central green
+Configurations:                  3 BHK + 3T – 1,675 sq. ft. | 4 BHK + 4T + Servant – 2,200 sq. ft.
+Furnishing:                      Fully furnished homes
+Amenities:                       30+ lifestyle and wellness amenities (planned)
+Price:                           3 BHK from ₹1.23 Cr* | 4 BHK – Price on request
+Payment plan:                    20×5* (20% on booking, balance in construction-linked 5% instalments)
+RERA:                            Under process — number to be published on registration
+Possession:                      Tentative 2030–31* (to be confirmed with RERA registration)
+Enquiry number (site & brochure): +91 97177 00596
+Channel partner:                 Real Revenue, a unit of Earlydays Innovations Pvt. Ltd.
+Domain:                          northwindyamuna.com
+
+Key distances (approximate, by road):
+- Noida International Airport (Jewar, DXN): 10–15 km / about 15 minutes
+- International Film City, Sector 21: about 5 minutes (adjacent sector)
+- Jewar toll plaza, Yamuna Expressway: about 8 minutes
+- Buddh International Circuit, Sector 25: about 10 minutes
+- Gautam Buddha University: about 20 minutes
+- Pari Chowk, Greater Noida: 18–25 km / about 25 minutes
+- Galgotias University / Knowledge Park: about 25 minutes
+- Noida Sector 18 (Atta Market / DLF Mall): about 45 minutes
+- Delhi border (Kalindi Kunj) via Noida Expressway: about 60 minutes
+- Agra via Yamuna Expressway: about 90 minutes
+
+Airport facts (for copy): Noida International Airport (IATA: DXN) opened to commercial flights on 15 June 2026. Phase 1 handles 12 million passengers a year on a 3,900 m runway with a 1,01,590 sq. m. terminal; the master plan scales to 70 million passengers a year by Phase 4. Operated by Yamuna International Airport Pvt. Ltd., a 100% subsidiary of Zurich Airport International AG.
+
+Film City facts (for copy): International Film City, Sector 21 YEIDA — 1,000-acre master plan, Phase 1 on 230 acres by Bayview Bhutani Film City (Boney Kapoor with Bhutani Infra), Phase 1 investment ₹1,510 crore, first studio targeted by end-2026.
+
+Micro-market pricing (for investment copy): premium apartment launches in Sector 22D are quoting ₹9,000–₹9,500 per sq. ft. basic sale price (bare-shell). Northwind's launch pricing works out to roughly ₹7,350 per sq. ft.* for a fully furnished home.
+
+--------------------------------------------------------------------------------
+SECTION 1 — KEYWORD MAP
+--------------------------------------------------------------------------------
+Primary (brand + location):
+- northwind estates yamuna expressway sector 22d
+- northwind sector 22d
+- northwind yamuna expressway
+- northwind estates sector 22d
+- northwind wellness yamuna expressway
+- north wind estates yamuna expressway
+
+Brand modifiers (from "People also search for"):
+- northwind estates yamuna expressway sector 22d price
+- northwind estates yamuna expressway sector 22d location
+- northwind estates yamuna expressway sector 22d address
+- northwind estates yamuna expressway sector 22d reviews
+- northwind estates yamuna expressway sector 22d floor plan
+- northwind estates yamuna expressway sector 22d brochure
+- northwind estates yamuna expressway sector 22d payment plan
+- northwind estates yamuna expressway sector 22d rera
+- north wind estates owner name
+- northwind estates greater noida
+
+Generic / category:
+- 3 bhk flats in sector 22d yamuna expressway
+- 4 bhk flats in sector 22d yamuna expressway
+- luxury apartments yamuna expressway
+- fully furnished flats yamuna expressway
+- flats near jewar airport
+- flats near noida international airport
+- new launch sector 22d yamuna expressway
+- wellness homes greater noida
+- low density apartments yamuna expressway
+- yamuna expressway new launch 2026
+- sector 22d yamuna expressway projects
+
+Long-tail (blog + FAQ targets):
+- is sector 22d yamuna expressway a good investment
+- sector 22d yamuna expressway distance from jewar airport
+- best residential projects in sector 22d yamuna expressway
+- 20x5 payment plan meaning real estate
+- fully furnished vs bare shell flat which is better
+- yamuna expressway property appreciation after jewar airport
+
+Page-to-keyword assignment:
+/                          → northwind estates yamuna expressway sector 22d
+/overview                  → northwind sector 22d
+/3-bhk                     → 3 bhk flats in sector 22d yamuna expressway
+/4-bhk                     → 4 bhk flats in sector 22d yamuna expressway
+/price                     → northwind estates yamuna expressway sector 22d price
+/floor-plans               → northwind estates yamuna expressway sector 22d floor plan
+/amenities                 → northwind wellness yamuna expressway amenities
+/location                  → northwind estates yamuna expressway sector 22d location
+/specifications            → fully furnished flats yamuna expressway
+/northwind-estates         → north wind estates developer
+/faqs                      → northwind estates yamuna expressway sector 22d reviews / rera
+/contact                   → northwind estates yamuna expressway sector 22d address
+/blog/*                    → long-tail queries above
+
+--------------------------------------------------------------------------------
+SECTION 2 — GLOBAL ELEMENTS (header, footer, CTAs, forms)
+--------------------------------------------------------------------------------
+SITE NAME (for <title> suffix and schema):  Northwind Yamuna
+TAGLINE:  Wellness-led luxury living, minutes from Noida International Airport
+
+HEADER NAVIGATION (in order):
+Home | Overview | 3 BHK | 4 BHK | Price | Floor Plans | Amenities | Location | Specifications | Developer | Blog | Contact
+Header CTA button:  Get Launch Price
+Sticky mobile bar:  Call  |  WhatsApp  |  Brochure
+
+PRIMARY CTAs (use consistently):
+- Get Launch Price
+- Download E-Brochure
+- Book a Site Visit
+- WhatsApp Now
+- Request a Call Back
+
+CLICK-TO-CALL:  tel:+919717700596   (display: +91 97177 00596)
+WHATSAPP LINK:  https://wa.me/919717700596?text=Hi%2C%20I%20am%20interested%20in%20Northwind%20Estates%20Sector%2022D%20Yamuna%20Expressway.%20Please%20share%20the%20price%20list%20and%20brochure.
+
+LEAD FORM (modal + inline):
+Heading:  Get the launch price list and e-brochure
+Sub-line:  Share your details and our project advisor will call you back within 15 minutes during working hours.
+Fields:  Full Name | Mobile Number (10 digits) | Email (optional) | I'm looking for: 3 BHK / 4 BHK / Not sure yet | Purpose: Self-use / Investment
+Consent line:  I agree to be contacted by Real Revenue about Northwind Estates Sector 22D via call, SMS and WhatsApp.
+Button:  Send Me the Price List
+Success message:  Thank you. Your request has been received. A project advisor will call you shortly from +91 97177 00596 — please save the number so you don't miss the call. You can also reach us on WhatsApp right away.
+
+THANK-YOU PAGE (/thank-you) — noindex:
+H1:  Thank you — we've got your request
+Body:  Our project advisor will call you within 15 minutes during working hours (10 am – 7 pm, all days). Meanwhile, you can download the e-brochure below or message us on WhatsApp to fix a site visit for this weekend.
+Buttons:  Download E-Brochure | WhatsApp Now | Back to Home
+
+ANNOUNCEMENT BAR (top strip):
+New Launch • Sector 22D, Yamuna Expressway • Fully Furnished 3 & 4 BHK • From ₹1.23 Cr* • 20×5 Payment Plan* • Call +91 97177 00596
+
+FOOTER — ABOUT BLOCK:
+Northwind Yamuna is the official enquiry portal run by Real Revenue, an authorised channel partner for Northwind Estates' new launch in Sector 22D, Yamuna Expressway. We help home buyers and investors get launch pricing, floor plans, payment plans and site visits directly from the project sales team, at no extra cost.
+
+FOOTER — QUICK LINKS:  Overview | 3 BHK Apartments | 4 BHK Apartments | Price & Payment Plan | Floor Plans | Amenities | Location | Specifications | About Northwind Estates | FAQs | Blog | Contact | Privacy Policy | Disclaimer
+
+FOOTER — CONTACT:
+Call / WhatsApp: +91 97177 00596
+Site address: Northwind Estates, Sector 22D, Yamuna Expressway, Greater Noida, Uttar Pradesh
+Developer's corporate office: Plot 07, Sector Pi-1, Greater Noida, Uttar Pradesh 201306
+
+FOOTER — RERA STRIP:
+UP RERA registration for this project is under process. The registration number will be displayed here and on all marketing material as soon as it is granted. Verify on up-rera.in.
+
+FOOTER — DISCLAIMER (full):
+This website (northwindyamuna.com) is owned and operated by Real Revenue, a unit of Earlydays Innovations Pvt. Ltd., an authorised channel partner for Northwind Estates. It is not the official website of the developer. The content on this site — including project details, prices, areas, payment plans, amenities, specifications, images, renders and timelines — is for information purposes only and is based on launch communication available at the time of publishing. All figures marked with an asterisk (*) are indicative and subject to change without prior notice. Areas mentioned are super built-up areas unless stated otherwise. Images and renders are artistic impressions and do not form part of any offer or contract. Nothing on this site constitutes an offer, invitation to offer, or legal commitment of any kind. Buyers are advised to verify all details, approvals and the UP RERA registration status with the developer before making any booking decision. By submitting your details you consent to being contacted by Real Revenue regarding this project.
+
+COPYRIGHT LINE:  © 2026 Real Revenue (Earlydays Innovations Pvt. Ltd.). All rights reserved. Authorised Channel Partner.
+
+--------------------------------------------------------------------------------
+SECTION 3 — PAGE COPY
+--------------------------------------------------------------------------------
+
+================================================================================
+PAGE 1 — HOME
+================================================================================
+URL:            https://northwindyamuna.com/
+Meta title:     Northwind Estates Sector 22D Yamuna Expressway | 3 & 4 BHK
+Meta desc:      Northwind Estates Sector 22D Yamuna Expressway: fully furnished 3 & 4 BHK wellness homes on 5 acres, 15 min from Noida Airport. From ₹1.23 Cr*. Call now.
+Focus keyword:  northwind estates yamuna expressway sector 22d
+Secondary:      northwind sector 22d, northwind wellness, fully furnished flats yamuna expressway, flats near jewar airport
+OG title:       Northwind Estates Sector 22D, Yamuna Expressway — New Launch
+OG desc:        Fully furnished 3 & 4 BHK wellness homes. 5 acres, 6 towers, only 3 homes per floor. 15 minutes from Noida International Airport.
+
+--- HERO ---
+Eyebrow:   New Launch • Sector 22D, Yamuna Expressway
+H1:        Northwind Estates Sector 22D, Yamuna Expressway
+Sub-head:  Fully furnished 3 & 4 BHK wellness residences on 5 acres — just 3 homes per floor, 15 minutes from Noida International Airport.
+Hero bullets:
+• 3 BHK 1,675 sq. ft. from ₹1.23 Cr*
+• 4 BHK 2,200 sq. ft. — price on request
+• 20×5 payment plan* | RERA under process
+CTA 1:  Get Launch Price     CTA 2:  Download E-Brochure
+
+--- QUICK FACTS STRIP ---
+5 Acres  |  6 Towers, G+30  |  540 Residences  |  3 Homes per Floor  |  4 Lifts per Tower  |  30+ Amenities  |  Fully Furnished
+
+--- H2: A wellness-first address in the airport growth corridor ---
+Northwind Estates has brought its low-density, design-led approach from NorthWind Sanctuary in Greater Noida to Sector 22D on the Yamuna Expressway. The new launch sits on a 5-acre YEIDA parcel the developer secured in May 2026 with a winning bid of ₹189 crore, and it has been planned as a wellness community rather than a tightly packed high-rise cluster.
+
+Six towers of G+30 floors hold 540 residences in total. Every floor carries only three apartments, served by four high-speed lifts, so each home opens on three sides for daylight and cross-ventilation. Homes come fully furnished, and the site plan keeps most of the ground free for a central green, walking loops and open-air wellness zones.
+
+Noida International Airport at Jewar started commercial flights in June 2026 and is about 15 minutes away. The 1,000-acre International Film City in the adjoining Sector 21 is under construction. For a buyer, this means moving into a sector where the infrastructure is already visible rather than promised.
+
+--- H2: Configurations and launch pricing ---
+(table)
+Configuration            | Super area     | Launch price
+3 BHK + 3 Toilets        | 1,675 sq. ft.  | ₹1.23 Cr* onwards
+4 BHK + 4T + Servant     | 2,200 sq. ft.  | Price on request
+*Indicative. Subject to change without notice. Payment plan 20×5*: 20% on booking, balance in construction-linked instalments.
+CTA:  Get the full price list on WhatsApp
+
+--- H2: Why buyers are shortlisting Northwind in Sector 22D ---
+H3: Only 3 homes per floor
+Three apartments on a floor with four lifts is rare at this price point on the Yamuna Expressway. It means shorter lift waits, no shared walls on multiple sides, and a private lobby feel on every level.
+
+H3: Fully furnished, move-in ready
+Modular kitchen, wardrobes, air-conditioning and light fittings are part of the offer, so the ₹1.23 Cr* starting price is closer to the final cost of living in the home than a bare-shell quote would be.
+
+H3: Wellness built into the master plan
+The project has been themed around everyday wellness — a clubhouse with spa and yoga spaces, jogging and cycling loops, a reflexology path, senior-friendly zones and a large central green that the towers look onto.
+
+H3: 15 minutes from an operational international airport
+Sector 22D is among the residential sectors closest to Noida International Airport. Commercial flights began on 15 June 2026, and the airport is planned to scale to 70 million passengers a year.
+
+H3: Designed by Confluence
+The same architecture practice that shaped NorthWind Sanctuary, one of the first IGBC Pre-Certified Platinum group housing projects in Greater Noida, is designing this community.
+
+H3: A developer with a delivered track record
+Northwind Estates is a CREDAI member with over two decades in real estate and an ET NOW award for Emerging Luxury Developer of the Year.
+
+--- H2: Location snapshot — Sector 22D, Yamuna Expressway ---
+Sector 22D lies on the eastern side of the Yamuna Expressway, in the belt YEIDA has earmarked for premium group housing. Northwind's 5-acre plot sits in a planned residential sector with wide roads, authority-laid services and the International Film City coming up next door — a location chosen for the airport, not just near it.
+• Noida International Airport — about 15 minutes
+• International Film City, Sector 21 — about 5 minutes
+• Buddh International Circuit — about 10 minutes
+• Pari Chowk, Greater Noida — about 25 minutes
+• Noida Sector 18 — about 45 minutes
+• Agra via Yamuna Expressway — about 90 minutes
+Link:  See the full location guide →
+
+--- H2: Amenities at a glance ---
+Wellness clubhouse • Temperature-controlled pool • Spa, sauna and steam • Yoga and meditation deck • Fully equipped gym • Jogging and cycling track • Reflexology path • Kids' play area and crèche • Multipurpose sports court • Indoor games lounge • Banquet hall • Mini theatre • Co-working lounge • Central landscaped green • EV charging • 3-tier security
+Link:  Explore all 30+ amenities →
+
+--- H2: Floor plans ---
+Two thoughtfully planned layouts, both three-side open with wide balconies off the living room and master bedroom.
+Card 1: 3 BHK + 3T — 1,675 sq. ft. — [View plan]
+Card 2: 4 BHK + 4T + Servant — 2,200 sq. ft. — [View plan]
+CTA:  Download all floor plans
+
+--- H2: Payment plan ---
+20×5 construction-linked plan*: pay 20% at booking and the balance in easy 5% instalments tied to construction milestones. Home loan assistance is available from leading banks and HFCs once RERA registration is granted.
+CTA:  Talk to a project advisor
+
+--- H2: About Northwind Estates ---
+Northwind Estates is a Greater Noida-based developer led by Chairman & CEO Mr. Manoj Kumar Garg, with over 20 years of leadership experience, 10 lakh+ sq. ft. delivered and a stated philosophy of "The Art of Rare Living". Its flagship, NorthWind Sanctuary in Sector Pi-1, is a 4.5-acre, 185-residence community with 80% landscaped greens and IGBC Platinum pre-certification, named Upcoming Ultra Luxury Project of the Year at the Times Realty & Infrastructure Conclave 2026. The Sector 22D launch is the company's first project on the Yamuna Expressway.
+Link:  Read more about the developer →
+
+--- H2: Frequently asked questions ---
+Q: Where exactly is Northwind Estates Sector 22D located?
+A: The project is in Sector 22D, Yamuna Expressway, within the YEIDA notified area of Greater Noida, Gautam Buddh Nagar district, Uttar Pradesh. It is about 15 minutes from Noida International Airport and next to the International Film City sector.
+
+Q: What is the starting price of Northwind Estates Sector 22D?
+A: The 3 BHK (1,675 sq. ft.) starts at ₹1.23 Cr* under the launch offer. 4 BHK pricing is shared on request. All prices are indicative and subject to change.
+
+Q: Are the apartments really fully furnished?
+A: Yes. The launch offer covers fully furnished homes — modular kitchen, wardrobes, air-conditioning and light fittings are included. The final furnishing schedule will be part of the builder-buyer agreement.
+
+Q: Is the project RERA registered?
+A: UP RERA registration is under process. The registration number will be displayed on this website as soon as it is issued. Bookings before registration are taken as expressions of interest only.
+
+Q: What is the 20×5 payment plan?
+A: You pay 20% of the cost at booking and the balance in 5% instalments linked to construction stages. Exact milestones will be listed in the payment schedule shared with the price list.
+
+Q: When is possession expected?
+A: The tentative possession window is 2030–31*, to be confirmed when the project is registered with UP RERA.
+
+Q: How many flats are there per floor?
+A: Only three. Each of the six G+30 towers has four high-speed lifts serving three apartments per floor.
+
+Q: Is this the developer's official website?
+A: No. northwindyamuna.com is run by Real Revenue, an authorised channel partner. You get the same launch pricing and offers as you would from the developer's sales office, along with dedicated support for site visits and documentation.
+
+--- BOTTOM CTA BAND ---
+H2:  Launch offers are for a limited inventory
+Body:  Early buyers get the best floors, views and pricing. Call +91 97177 00596 or leave your number and we'll send the price list, floor plans and payment schedule on WhatsApp.
+Buttons:  Call Now | WhatsApp Now | Book a Site Visit
+
+
+================================================================================
+PAGE 2 — PROJECT OVERVIEW
+================================================================================
+URL:            https://northwindyamuna.com/overview
+Meta title:     Northwind Sector 22D Overview | 5 Acres, 6 Towers, 540 Homes
+Meta desc:      Full overview of Northwind Sector 22D on Yamuna Expressway — 5-acre wellness community, 6 towers of G+30, only 3 homes per floor, fully furnished 3 & 4 BHK.
+Focus keyword:  northwind sector 22d
+Secondary:      northwind estates sector 22d, northwind wellness, new launch sector 22d yamuna expressway, low density apartments yamuna expressway
+Breadcrumb:     Home › Overview
+
+H1: Northwind Sector 22D — Project Overview
+
+Intro:
+Northwind Sector 22D is the first Yamuna Expressway project from Northwind Estates, planned as a wellness-led residential community on a 5-acre YEIDA plot. This page brings together everything that has been shared about the project so far — land, planning, towers, density, configurations, furnishing, pricing and the approval status — in one place.
+
+H2: Project at a glance
+(table)
+Project name            | Northwind Estates Sector 22D (Northwind Wellness)
+Developer               | Northwind Estates
+Location                | Sector 22D, Yamuna Expressway, Greater Noida (YEIDA)
+Land parcel             | 5 acres (YEIDA auction, May 2026)
+Towers                  | 6
+Floors                  | G+30
+Total residences        | 540
+Apartments per floor    | 3
+Lifts per tower         | 4 high-speed
+Configurations          | 3 BHK + 3T (1,675 sq. ft.) | 4 BHK + 4T + Servant (2,200 sq. ft.)
+Furnishing              | Fully furnished
+Amenities               | 30+ (wellness-themed)
+Architects              | Confluence
+Launch price            | 3 BHK from ₹1.23 Cr* | 4 BHK on request
+Payment plan            | 20×5*
+RERA                    | Under process
+Possession              | Tentative 2030–31*
+
+H2: The land and how it was acquired
+In May 2026, Northwind Estates emerged as the highest bidder in a YEIDA auction for a 5-acre group housing parcel in Sector 22D, with a bid of ₹189 crore. The company's chairman, Mr. Manoj Kumar Garg, described the Yamuna Expressway region as entering a new phase of urban and economic transformation, with infrastructure on a scale that creates long-term ecosystems rather than short-term real estate cycles. A YEIDA allotment through open auction also means a clean title and a defined development timeline, which matters when you are buying at launch.
+
+H2: Planning philosophy — fewer homes, more open ground
+Most 5-acre group housing plots on the expressway are planned with four to six apartments per floor. Northwind has gone the other way: six slim towers, three homes on each floor, four lifts per tower. The result is 540 homes on a footprint that leaves the ground level largely open for a central green, walking and cycling loops, and outdoor wellness spaces. Every apartment is three-side open, which brings in daylight from more than one direction and allows real cross-ventilation instead of a single-aspect layout.
+
+H2: Wellness as the organising idea
+The project is being marketed as Northwind Wellness for a reason. The clubhouse programme leans towards spa, sauna, steam, yoga and meditation rather than only a gym and a banquet hall. Outdoor spaces include a reflexology path, senior citizen seating zones, a jogging track and an herb garden. The intent is that daily routines — a morning walk, an evening swim, a weekend yoga session — happen inside the campus rather than needing a drive.
+
+H2: Homes that come furnished
+The launch covers fully furnished apartments. In practical terms that means the modular kitchen, wardrobes in all bedrooms, split air-conditioners, false ceilings with light fittings and bathroom fittings are all part of the offer. For an end user, it removes six to nine months of interior work after possession. For an investor, a furnished home rents faster and at a premium in an airport-driven market.
+
+H2: Two configurations
+H3: 3 BHK + 3 Toilets — 1,675 sq. ft.
+A compact-luxury three-bedroom home with a living-dining space that opens to the main balcony, a separate kitchen with utility, and an attached toilet for every bedroom. Suited to families of four to five and to investors who want the most in-demand ticket size in the sector.
+
+H3: 4 BHK + 4 Toilets + Servant — 2,200 sq. ft.
+A four-bedroom home with a servant room and toilet, a larger living-dining area and wider balconies. Suited to joint families, buyers upgrading from Noida or Greater Noida, and NRIs who want a ready home near the airport.
+
+H2: Pricing and payment
+The 3 BHK starts at ₹1.23 Cr* under the launch offer, which works out to roughly ₹7,350 per sq. ft.* for a furnished home. For context, premium bare-shell launches in Sector 22D are currently quoting ₹9,000–₹9,500 per sq. ft. The 4 BHK price is shared on request. Payment is on a 20×5 plan* — 20% at booking, balance in construction-linked 5% instalments.
+
+H2: Approvals and timeline
+UP RERA registration is under process and will be published here the moment it is granted. Possession is tentatively planned for 2030–31*, which is consistent with a G+30 development on a parcel allotted in mid-2026. Until registration, bookings are accepted as expressions of interest with full refund terms.
+
+H2: Who this project is for
+• Families working in Noida, Greater Noida or the expressway industrial belt who want more space and cleaner air than a Noida high-rise offers at the same budget.
+• Frequent flyers and aviation, hospitality and logistics professionals who benefit from a 15-minute airport commute.
+• Investors looking at rental demand from airport, Film City and industrial-park staff over the next five years.
+• NRIs who want a furnished, lock-and-leave home in the NCR's fastest-developing corridor.
+
+CTA band:  Get the overview deck and price list on WhatsApp → +91 97177 00596
+
+
+================================================================================
+PAGE 3 — 3 BHK APARTMENTS
+================================================================================
+URL:            https://northwindyamuna.com/3-bhk-flats-sector-22d-yamuna-expressway
+Meta title:     3 BHK Flats in Sector 22D Yamuna Expressway | Northwind
+Meta desc:      Fully furnished 3 BHK flats in Sector 22D Yamuna Expressway by Northwind Estates. 1,675 sq ft, 3-side open, 3 homes per floor. From ₹1.23 Cr* on 20×5 plan.
+Focus keyword:  3 bhk flats in sector 22d yamuna expressway
+Secondary:      northwind 3 bhk, 3 bhk near jewar airport, 3 bhk yamuna expressway price, fully furnished 3 bhk greater noida
+Breadcrumb:     Home › 3 BHK Apartments
+
+H1: 3 BHK Flats in Sector 22D, Yamuna Expressway — Northwind Estates
+
+Intro:
+The 3 BHK at Northwind Sector 22D is a 1,675 sq. ft. fully furnished home with an attached toilet for each of its three bedrooms, planned as one of only three apartments on its floor. It starts at ₹1.23 Cr* under the launch offer and is the configuration most buyers in the sector are asking for.
+
+H2: 3 BHK at a glance
+(table)
+Configuration       | 3 BHK + 3 Toilets
+Super area          | 1,675 sq. ft.
+Balconies           | Living/dining balcony + master bedroom balcony
+Kitchen             | Modular, with separate utility
+Furnishing          | Fully furnished
+Homes per floor     | 3
+Lifts per tower     | 4
+Launch price        | ₹1.23 Cr* onwards
+Payment plan        | 20×5*
+
+H2: Layout walk-through
+You enter into a foyer that opens to the living and dining area, planned as one continuous space with the main balcony running along it. The kitchen sits off the dining side with a utility balcony for washing and storage. The master bedroom takes a corner, with its own balcony and an attached toilet with a shower enclosure. The second and third bedrooms each have an attached toilet, one of which doubles as the guest toilet. Because there are only three homes on the floor, the apartment is open on three sides, so the living room, master bedroom and at least one more bedroom get direct light.
+
+H2: What "fully furnished" includes in the 3 BHK
+• Modular kitchen with hob, chimney and under-counter storage
+• Wardrobes in all three bedrooms
+• Split air-conditioners in the living room and all bedrooms
+• False ceiling with LED lighting in living, dining and bedrooms
+• Sanitaryware and CP fittings from premium brands
+• Video door phone and main door with digital lock
+Final furnishing schedule will be annexed to the builder-buyer agreement.
+
+H2: Price and payment plan for the 3 BHK
+(table)
+Item                       | Detail
+Launch price               | ₹1.23 Cr* onwards
+Effective rate             | ≈ ₹7,350 per sq. ft.* (furnished)
+Booking amount             | 20% of total cost*
+Balance                    | Construction-linked 5% instalments*
+GST, stamp duty, registration | As applicable, extra
+*Indicative. Floor-rise, view and PLC may apply on select units.
+CTA:  Get the 3 BHK price sheet on WhatsApp
+
+H2: Who is buying the 3 BHK
+Young families moving out of 2 BHKs in Noida Extension or Greater Noida West, professionals posted in the YEIDA industrial belt, and first-time investors who want a furnished unit that can be rented out to airport and Film City staff soon after possession. At 1,675 sq. ft. it is larger than most 3 BHKs launched in the sector, which helps at resale.
+
+H2: 3 BHK vs 4 BHK — how to choose
+Pick the 3 BHK if your household is four to five people, if you want the lowest entry ticket into a low-density project, or if you plan to lease it. Pick the 4 BHK if you have live-in help, parents visiting for long stretches, or need a dedicated work-from-home room. Both share the same floor plate, lifts, amenities and furnishing standard.
+
+H2: FAQs — 3 BHK at Northwind Sector 22D
+Q: What is the carpet area of the 3 BHK?
+A: The 1,675 sq. ft. figure is super area. The RERA carpet area will be published with the registration and typically runs at 65–70% of super area for this type of layout.
+
+Q: Can I see a sample flat?
+A: A furnished sample flat is planned at the site. Until it is ready, walk-throughs are done on the 3D model at the Greater Noida sales office and on-site.
+
+Q: Is there a preferred floor?
+A: Mid to upper floors in the towers facing the central green are the most requested. Floor-rise charges may apply above a certain level; ask for the current floor-wise price sheet.
+
+CTA band:  Book a site visit for the 3 BHK → Call +91 97177 00596
+
+
+================================================================================
+PAGE 4 — 4 BHK APARTMENTS
+================================================================================
+URL:            https://northwindyamuna.com/4-bhk-flats-sector-22d-yamuna-expressway
+Meta title:     4 BHK Flats in Sector 22D Yamuna Expressway | Northwind
+Meta desc:      Fully furnished 4 BHK + servant flats in Sector 22D Yamuna Expressway by Northwind Estates. 2,200 sq ft, 3-side open, 4 lifts per tower. Price on request.
+Focus keyword:  4 bhk flats in sector 22d yamuna expressway
+Secondary:      northwind 4 bhk, 4 bhk with servant room yamuna expressway, luxury 4 bhk near jewar airport, 4 bhk greater noida new launch
+Breadcrumb:     Home › 4 BHK Apartments
+
+H1: 4 BHK Flats in Sector 22D, Yamuna Expressway — Northwind Estates
+
+Intro:
+The 4 BHK at Northwind Sector 22D is a 2,200 sq. ft. fully furnished home with four bedrooms, four toilets and a servant room, planned three-side open on a floor shared with only two other families. Pricing is shared on request because inventory in this configuration is limited to a fraction of the 540 homes.
+
+H2: 4 BHK at a glance
+(table)
+Configuration       | 4 BHK + 4 Toilets + Servant room
+Super area          | 2,200 sq. ft.
+Balconies           | Wide living/dining balcony + master bedroom balcony
+Kitchen             | Modular, with utility and servant access
+Furnishing          | Fully furnished
+Homes per floor     | 3
+Lifts per tower     | 4
+Price               | On request
+Payment plan        | 20×5*
+
+H2: Layout walk-through
+The apartment opens through a foyer into a large living and dining area with a wide balcony that runs along the front. The kitchen sits beside the dining space with a utility area and a servant room with its own toilet, planned so household help can come and go without crossing the living room. The master bedroom is a corner suite with a walk-in wardrobe zone, an attached toilet and a private balcony. Three more bedrooms, each with an attached toilet, complete the plan — one of them works well as a study or a parents' room on the quieter side of the floor plate.
+
+H2: What "fully furnished" includes in the 4 BHK
+• Modular kitchen with hob, chimney, tall unit and under-counter storage
+• Wardrobes in all four bedrooms; walk-in wardrobe framing in the master bedroom
+• Split air-conditioners in the living-dining area and all four bedrooms
+• False ceiling with LED lighting across living, dining and bedrooms
+• Premium sanitaryware and CP fittings; shower enclosures in master and one more toilet
+• Video door phone, digital main-door lock and provision for home automation
+Final furnishing schedule will be annexed to the builder-buyer agreement.
+
+H2: Price and payment plan for the 4 BHK
+Launch pricing for the 4 BHK is shared on request so that buyers get the current floor-wise sheet rather than a figure that changes with inventory. The payment structure is the same 20×5 plan*: 20% at booking, balance in construction-linked 5% instalments. GST, stamp duty and registration are extra as applicable.
+CTA:  Request the 4 BHK price sheet
+
+H2: Who is buying the 4 BHK
+Joint families upgrading from Greater Noida or Noida, senior professionals and business owners who fly often, and NRIs who want a large, furnished, lock-and-leave home 15 minutes from the airport. The servant room is a practical necessity for most of these households, and a 2,200 sq. ft. four-bedroom is rare in a project where every floor has only three homes.
+
+H2: FAQs — 4 BHK at Northwind Sector 22D
+Q: How many 4 BHK units are there?
+A: The exact tower-wise split will be published with the RERA registration. 4 BHKs are a minority of the 540 homes, which is why pricing is on request.
+
+Q: Does the servant room have a separate entry?
+A: The servant room and utility are planned off the kitchen side so that help can use the service passage without crossing the living area. Confirm the exact door placement on the tower-specific plan.
+
+Q: Can two 4 BHKs on the same floor be bought together?
+A: Yes, subject to availability. Families often take two of the three homes on a floor to have the level nearly to themselves.
+
+CTA band:  See the 4 BHK plan with a project advisor → +91 97177 00596
+
+
+================================================================================
+PAGE 5 — PRICE & PAYMENT PLAN
+================================================================================
+URL:            https://northwindyamuna.com/price
+Meta title:     Northwind Sector 22D Price List 2026 | 3 BHK from ₹1.23 Cr*
+Meta desc:      Northwind Sector 22D Yamuna Expressway price list: 3 BHK 1,675 sq ft from ₹1.23 Cr*, 4 BHK 2,200 sq ft on request. 20×5 payment plan, offers and cost breakup.
+Focus keyword:  northwind estates yamuna expressway sector 22d price
+Secondary:      northwind sector 22d price list, northwind yamuna expressway payment plan, 3 bhk price sector 22d, 20x5 payment plan
+Breadcrumb:     Home › Price & Payment Plan
+
+H1: Northwind Estates Sector 22D Price List and Payment Plan
+
+Intro:
+This page carries the launch pricing shared for Northwind Sector 22D as of September 2026, the 20×5 payment structure, what is included and what is extra, and how the price compares with other launches in the sector. Figures marked * are indicative and will be updated as the developer revises the price sheet.
+
+H2: Launch price list
+(table)
+Configuration              | Super area     | Launch price          | Effective rate
+3 BHK + 3T                 | 1,675 sq. ft.  | ₹1.23 Cr* onwards     | ≈ ₹7,350 / sq. ft.*
+4 BHK + 4T + Servant       | 2,200 sq. ft.  | On request            | On request
+*Indicative. Subject to change without notice. Floor-rise, PLC and view premium may apply on select units.
+
+H2: 20×5 payment plan explained
+(table)
+Stage                                   | Payment
+On booking / allotment                   | 20% of total cost*
+Subsequent construction milestones       | 5% at each milestone until completion*
+On offer of possession                   | Balance, plus registration charges
+The plan keeps the upfront outlay at one-fifth of the cost and spreads the balance across construction stages, which suits buyers funding through a home loan. The full milestone schedule is part of the price sheet.
+
+H2: What the launch price includes
+• Fully furnished home as per the furnishing schedule (modular kitchen, wardrobes, ACs, false ceiling and lighting, sanitary fittings)
+• One covered car park
+• Club membership
+• Power backup and water connection provisions as per the approved plan
+Extra, as applicable: GST, stamp duty and registration, IFMS (interest-free maintenance security), additional car park, external development / infrastructure charges if levied by the authority, and any floor-rise, PLC or view premium.
+
+H2: How Northwind compares in Sector 22D
+Premium apartment launches in Sector 22D during 2026 have quoted basic sale prices of ₹9,000–₹9,500 per sq. ft. for bare-shell homes, with furnished interiors adding roughly ₹900–₹1,200 per sq. ft. on top. Northwind's ₹1.23 Cr* for a furnished 1,675 sq. ft. 3 BHK works out to about ₹7,350 per sq. ft.*, which puts it at the value end of the sector while offering lower density (three homes per floor) than most of its neighbours.
+
+H2: Approximate cost sheet — 3 BHK (illustrative)
+(table)
+Head                                     | Amount (approx.)
+Basic cost (launch price)                | ₹1,23,00,000*
+GST @ 5% (under-construction)            | ₹6,15,000*
+Stamp duty + registration (UP, approx. 7%) | ₹8,61,000*
+IFMS and other charges                   | As per price sheet
+Indicative total                         | ₹1.37–1.40 Cr* (excluding home loan costs)
+Stamp duty is lower for women buyers in Uttar Pradesh on the first ₹10 lakh of value; check current rates at registration.
+
+H2: Home loan and EMI
+On a ₹1.23 Cr* home with 80% funding, a ₹98 lakh loan at 8.5% over 20 years works out to an EMI of roughly ₹85,000 per month. Loans are sanctioned by banks and HFCs once the project holds a UP RERA registration; pre-approvals can be started earlier on the basis of income documents.
+
+H2: Launch offers
+Early buyers at Northwind Sector 22D get first pick of towers, floors and central-green-facing units at the launch price. Offers change with inventory, so ask for the current sheet rather than relying on a screenshot.
+CTA:  Get today's price sheet on WhatsApp
+
+H2: FAQs — price and payment
+Q: Is ₹1.23 Cr the all-inclusive price?
+A: It is the launch basic price* for the 3 BHK, inclusive of furnishing. GST, stamp duty, registration and IFMS are additional.
+
+Q: Can I pay more than 20% upfront for a discount?
+A: Down-payment and flexi plans are sometimes offered on select inventory. Ask the project advisor for current options.
+
+Q: Will the price go up after RERA registration?
+A: Launch prices are usually the lowest point in a project's life cycle. Revisions after registration are common in Sector 22D, where neighbouring projects have raised rates within months of launch.
+
+CTA band:  Lock the launch price → Call +91 97177 00596
+
+
+================================================================================
+PAGE 6 — FLOOR PLANS
+================================================================================
+URL:            https://northwindyamuna.com/floor-plans
+Meta title:     Northwind Sector 22D Floor Plans | 3 BHK & 4 BHK Layouts
+Meta desc:      Northwind Estates Sector 22D floor plans: 3 BHK + 3T 1,675 sq ft and 4 BHK + 4T + servant 2,200 sq ft. Three-side open, 3 homes per floor. Download plans.
+Focus keyword:  northwind estates yamuna expressway sector 22d floor plan
+Secondary:      northwind sector 22d floor plan, 3 bhk floor plan yamuna expressway, 4 bhk floor plan sector 22d, northwind layout
+Breadcrumb:     Home › Floor Plans
+
+H1: Northwind Sector 22D Floor Plans — 3 BHK and 4 BHK Layouts
+
+Intro:
+Northwind Sector 22D offers two apartment layouts across its six towers. Both are three-side open, both put the living-dining space and master bedroom on the balcony side, and both keep the kitchen and service areas together. Floor plans below describe the room arrangement; tower-specific dimensioned drawings are shared with the price list.
+
+H2: Typical floor plate — 3 homes, 4 lifts
+Each tower floor holds three apartments arranged around a central core of four high-speed lifts and two staircases. The arrangement gives each home a corner position with openings on three sides. Service shafts and refuse chutes are planned in the core, away from the living spaces.
+
+H2: 3 BHK + 3 Toilets — 1,675 sq. ft.
+Room arrangement:
+• Entrance foyer
+• Living and dining — one continuous space opening to the main balcony
+• Kitchen with utility balcony
+• Master bedroom — corner, attached toilet, private balcony
+• Bedroom 2 — attached toilet
+• Bedroom 3 — attached toilet (also serves as guest toilet)
+• Two balconies
+Best for: families of four to five, first-time buyers in the sector, rental investors.
+[Download 3 BHK plan]
+
+H2: 4 BHK + 4 Toilets + Servant — 2,200 sq. ft.
+Room arrangement:
+• Entrance foyer
+• Large living and dining with wide front balcony
+• Kitchen with utility; servant room and toilet off the service side
+• Master bedroom — corner suite, walk-in wardrobe zone, attached toilet, private balcony
+• Bedroom 2 — attached toilet
+• Bedroom 3 — attached toilet
+• Bedroom 4 / study — attached toilet
+• Two to three balconies depending on tower position
+Best for: joint families, buyers with live-in help, NRIs, senior professionals.
+[Download 4 BHK plan]
+
+H2: Master plan highlights
+• 5-acre site with six towers placed along the periphery, leaving a large central green
+• Clubhouse and pool at the heart of the site, visible from most homes
+• Jogging and cycling loop around the green, reflexology path and senior zones on the quieter edge
+• Basement and stilt parking, keeping the ground level vehicle-free
+• Separate entry for residents and service traffic
+[Download master plan]
+
+H2: How to read the areas
+The 1,675 and 2,200 sq. ft. figures are super built-up areas, which include the apartment, balconies and a proportionate share of common areas. The RERA carpet area, which counts only the usable area inside the walls, will be published with the registration. Ask the project advisor for both numbers before comparing with other projects.
+
+H2: FAQs — floor plans
+Q: Are there any 2 BHK or 5 BHK units?
+A: No. The project is planned with 3 BHK and 4 BHK homes only.
+
+Q: Can the layout be customised?
+A: Structural walls cannot be changed. Furnishing choices within the standard schedule may have limited options; ask at booking.
+
+Q: Which facing is best?
+A: Units facing the central green get the quietest and greenest outlook; expressway-side units on higher floors get long views. Vastu-oriented buyers should ask for the tower orientation sheet.
+
+CTA band:  Get dimensioned floor plans and the master plan on WhatsApp → +91 97177 00596
+
+
+================================================================================
+PAGE 7 — AMENITIES
+================================================================================
+URL:            https://northwindyamuna.com/amenities
+Meta title:     Northwind Wellness Amenities | 30+ Facilities in Sector 22D
+Meta desc:      30+ wellness amenities at Northwind Estates Sector 22D Yamuna Expressway — spa clubhouse, heated pool, yoga deck, jogging track, sports courts and more.
+Focus keyword:  northwind wellness yamuna expressway amenities
+Secondary:      northwind sector 22d amenities, wellness homes greater noida, clubhouse yamuna expressway apartments, low density apartments yamuna expressway
+Breadcrumb:     Home › Amenities
+
+H1: Amenities at Northwind Wellness, Sector 22D — 30+ Ways to Live Well
+
+Intro:
+Northwind Sector 22D has been planned around wellness — the idea that the campus should support a healthier daily routine without residents needing to leave it. The planned amenity list below groups the 30+ facilities by how you would use them. All amenities are as per the proposed plan and will be finalised with the approved drawings.
+
+H2: Wellness and fitness
+• Wellness clubhouse with spa, sauna and steam rooms
+• Temperature-controlled swimming pool with deck
+• Kids' pool
+• Fully equipped gymnasium with cardio and strength zones
+• Yoga and meditation deck
+• Aerobics and dance studio
+• Jogging track around the central green
+• Cycling loop
+• Reflexology walking path
+• Herb and organic garden
+
+H2: Sports
+• Multipurpose court (basketball / volleyball / tennis)
+• Badminton court
+• Squash court
+• Cricket practice net
+• Indoor games lounge — table tennis, billiards, carrom, chess
+• Skating rink for children
+
+H2: Community and leisure
+• Banquet and party hall
+• Mini theatre
+• Co-working lounge with meeting room
+• Library and reading lounge
+• Café and convenience store
+• Guest suites for visiting family
+• Amphitheatre and event lawn
+• Senior citizen zone with shaded seating
+• Kids' play area with soft-fall surface
+• Crèche and activity room
+• Pet park
+
+H2: Green and sustainable
+• Large central landscaped green with the towers on the periphery
+• Rainwater harvesting
+• Sewage treatment plant with treated water reuse for landscaping
+• Solar lighting in common areas
+• Waste segregation and organic composting
+• EV charging points in parking
+
+H2: Safety and convenience
+• 3-tier security with boom barriers, CCTV and manned lobbies
+• Video door phone in every home
+• 4 high-speed lifts per tower, including a stretcher-size lift
+• 100% power backup for common areas and standard backup for apartments
+• Fire detection and suppression as per NBC norms
+• Vehicle-free ground level with basement and stilt parking
+
+H2: Why low density changes how amenities feel
+With 540 homes on 5 acres and only three homes per floor, the pool, gym and courts are shared by far fewer families than in a typical 1,000-plus-unit township. Booking a slot for the badminton court or finding a lane in the pool on a weekend is a very different experience when the resident base is a third of the size.
+
+H2: FAQs — amenities
+Q: Is club membership included in the price?
+A: Yes, club membership is part of the launch price. Monthly maintenance charges are separate and will be fixed closer to possession.
+
+Q: When will the clubhouse be ready?
+A: The clubhouse is planned to be completed along with the first phase of towers so that it is usable from the first possessions.
+
+Q: Are guests allowed to use the amenities?
+A: Guest usage rules are set by the residents' association after handover; most communities allow accompanied guests with nominal charges for the pool and guest suites.
+
+CTA band:  Walk the master plan with a project advisor → Book a Site Visit
+
+
+================================================================================
+PAGE 8 — LOCATION
+================================================================================
+URL:            https://northwindyamuna.com/location
+Meta title:     Northwind Sector 22D Location | 15 Min from Noida Airport
+Meta desc:      Northwind Estates Sector 22D Yamuna Expressway location: 15 min to Noida International Airport, 5 min to Film City, 10 min to BIC, 25 min to Pari Chowk.
+Focus keyword:  northwind estates yamuna expressway sector 22d location
+Secondary:      sector 22d yamuna expressway location, flats near jewar airport, northwind sector 22d address, sector 22d distance from jewar airport
+Breadcrumb:     Home › Location
+
+H1: Northwind Estates Sector 22D Location — Yamuna Expressway's Airport Corridor
+
+Intro:
+Sector 22D sits on the Yamuna Expressway in the belt of YEIDA sectors closest to Noida International Airport. It is a planned residential sector with group housing plots allotted to established developers, wide sector roads, and the International Film City coming up in the adjoining Sector 21. This page covers the address, distances, and the infrastructure that is shaping the area.
+
+H2: Address
+Northwind Estates, Sector 22D, Yamuna Expressway, Greater Noida (YEIDA notified area), Gautam Buddh Nagar, Uttar Pradesh.
+Nearest expressway access: Yamuna Expressway service road, with the Jewar toll plaza about 8 minutes away.
+[Embed Google Map: Sector 22D, Yamuna Expressway]
+
+H2: Distance chart
+(table)
+Landmark                                          | Approx. distance / time
+Noida International Airport (Jewar, DXN)          | 10–15 km / 15 min
+International Film City, Sector 21                | Adjacent sector / 5 min
+Jewar toll plaza, Yamuna Expressway               | 8 min
+Buddh International Circuit, Sector 25            | 10 min
+Gautam Buddha University                          | 20 min
+Pari Chowk, Greater Noida                         | 18–25 km / 25 min
+Galgotias University, Knowledge Park              | 25 min
+Yamuna Expressway – Eastern Peripheral Expressway interchange | 15 min
+Noida Sector 18 (DLF Mall of India)               | 45 min
+Delhi border, Kalindi Kunj                        | 60 min
+Agra via Yamuna Expressway                        | 90 min
+Times are typical off-peak drive times and will vary with traffic.
+
+H2: Noida International Airport — 15 minutes away, and operational
+Noida International Airport at Jewar started commercial flights on 15 June 2026. Phase 1 has a single 3,900-metre runway, a 1,01,590 sq. m. terminal and capacity for 12 million passengers a year; the master plan takes it to 70 million passengers by Phase 4. It is operated by Yamuna International Airport Pvt. Ltd., a wholly owned subsidiary of Zurich Airport International AG. For Sector 22D residents this means a 15-minute airport run and, over the next decade, the arrival of hotels, MRO facilities, logistics parks and the jobs that come with them.
+
+H2: International Film City — the next sector over
+YEIDA's International Film City in Sector 21 is a 1,000-acre master plan, with Phase 1 on 230 acres being developed by Bayview Bhutani Film City (a partnership between filmmaker Boney Kapoor and Bhutani Infra) at an investment of about ₹1,510 crore. The first permanent studio is targeted by end-2026. Studios bring a large floating and resident workforce, which is the kind of rental demand a furnished 3 BHK in Sector 22D is well placed to capture.
+
+H2: Industrial and institutional belt
+The YEIDA region around Sector 22D is where the state has concentrated its new-economy parks: the Medical Devices Park in Sector 28, electronics and semiconductor manufacturing clusters, the Toy Park and the Apparel Park, along with the Buddh International Circuit in Sector 25. Gautam Buddha University and the Knowledge Park cluster of colleges are 20–25 minutes towards Greater Noida.
+
+H2: Connectivity in the pipeline
+• Metro: the Noida–Greater Noida Aqua Line extension towards the airport passes through the YEIDA corridor; the nearest operational station today is around 20 minutes away at Greater Noida.
+• Pod taxi: a planned corridor linking Film City, the airport and YEIDA sectors.
+• Rapid rail: the Ghaziabad–Jewar RRTS extension is at DPR stage.
+• Road: the Yamuna Expressway links to the Noida Expressway (towards Delhi), the Eastern Peripheral Expressway (towards Ghaziabad, Sonipat and Palwal) and Agra.
+
+H2: The neighbourhood — a developer cluster
+Sector 22D is a YEIDA-planned group housing sector, which means the roads, water, sewer and power infrastructure are laid by the authority to a master plan rather than left to individual projects. Northwind's plot was allotted in the same 2026 auction cycle that brought several established developers to the sector, so the neighbourhood will build out together — sector roads, retail plots and institutional sites included — rather than around a stand-alone tower cluster.
+
+H2: Daily needs today and tomorrow
+Schools, hospitals and retail within Greater Noida (Pari Chowk, Knowledge Park) are 25 minutes away today. YEIDA's sector plan allots institutional and commercial plots within and around Sector 22D, and airport-linked hospitality and retail are already under construction closer to Jewar. Buyers should plan for the first two to three years to lean on Greater Noida for schooling and healthcare, with local options growing as the sector populates.
+
+H2: FAQs — location
+Q: What is the pin code for Sector 22D, Yamuna Expressway?
+A: The sector falls under the YEIDA notified area in Gautam Buddh Nagar; the postal pin is assigned by the nearest post office and will be confirmed in the allotment documents.
+
+Q: How far is Sector 22D from Noida?
+A: Noida Sector 18 is about 45 minutes by road via the Yamuna and Noida Expressways.
+
+Q: Is there a metro station near Sector 22D?
+A: Not yet. The Aqua Line extension towards the airport is planned; the nearest operational station is at Greater Noida, about 20 minutes away.
+
+CTA band:  Get directions and a site visit pick-up → +91 97177 00596
+
+
+================================================================================
+PAGE 9 — SPECIFICATIONS
+================================================================================
+URL:            https://northwindyamuna.com/specifications
+Meta title:     Northwind Sector 22D Specifications | Fully Furnished Homes
+Meta desc:      Specifications of Northwind Estates Sector 22D fully furnished flats — modular kitchen, wardrobes, ACs, flooring, doors, windows, electricals and security.
+Focus keyword:  fully furnished flats yamuna expressway
+Secondary:      northwind sector 22d specifications, northwind furnished flats, luxury apartment specifications greater noida
+Breadcrumb:     Home › Specifications
+
+H1: Northwind Sector 22D Specifications — What a Fully Furnished Home Includes
+
+Intro:
+Northwind Sector 22D is offered as a fully furnished home, which is unusual for a launch in this price band. The specifications below describe the planned standard for structure, finishes and furnishing. The final specification sheet and furnishing schedule will be annexed to the builder-buyer agreement and may vary within the same standard.
+
+H2: Structure
+• Earthquake-resistant RCC frame structure designed for Seismic Zone IV
+• G+30 towers with basement and stilt parking
+• External walls in AAC blocks / RCC with weather-resistant textured paint
+
+H2: Flooring
+• Living, dining and bedrooms: large-format vitrified tiles
+• Master bedroom: option of laminated wooden flooring as per furnishing schedule
+• Kitchen and utility: anti-skid vitrified tiles
+• Toilets: anti-skid ceramic tiles on floor, designer tiles up to ceiling height on walls
+• Balconies: anti-skid tiles with MS / glass railing
+
+H2: Kitchen (furnished)
+• Modular kitchen with granite / quartz counter and stainless-steel sink
+• Hob and chimney
+• Overhead and under-counter storage, tall unit in the 4 BHK
+• Provision for water purifier, dishwasher and washing machine in utility
+
+H2: Bedrooms (furnished)
+• Wardrobes in all bedrooms; walk-in wardrobe framing in the 4 BHK master bedroom
+• Split air-conditioners in all bedrooms
+• False ceiling with LED lighting
+
+H2: Living and dining (furnished)
+• Split air-conditioners
+• False ceiling with cove and spot lighting
+• Provision for TV and home-theatre wiring
+
+H2: Toilets
+• Premium sanitaryware and single-lever CP fittings
+• Shower enclosure in master toilet (and one more toilet in the 4 BHK)
+• Hot and cold water mixer, provision for geyser and exhaust
+• False ceiling with moisture-resistant panels
+
+H2: Doors and windows
+• Main door: engineered wood frame with veneer / laminate finish, digital lock and video door phone
+• Internal doors: flush doors with laminate finish and premium hardware
+• Windows: UPVC / aluminium with glazed panels and mosquito mesh
+
+H2: Electricals
+• Concealed copper wiring with modular switches
+• Adequate power points in all rooms; AC points pre-wired
+• MCB / ELCB protection per apartment
+• Standard power backup for apartments; 100% backup for common areas and lifts
+
+H2: Common areas and lifts
+• 4 high-speed lifts per tower, including a stretcher-size lift
+• Air-conditioned ground-floor lobbies with designer finishes
+• Fire detection, sprinklers and hydrants as per NBC norms
+
+H2: Security
+• 3-tier security: main gate, tower entry and apartment level
+• CCTV in common areas, basements and lobbies
+• Video door phone and intercom to security
+
+H2: Why buy furnished instead of bare-shell
+A bare-shell 3 BHK of this size typically needs ₹15–20 lakh and six to nine months of interior work before it can be lived in or let out. A furnished home moves that cost into the same price and payment plan, is ready to rent from the day of possession, and — because the furnishing is done at scale by the developer — usually comes in cheaper than a one-off interior job.
+
+H2: FAQs — specifications
+Q: Can I opt out of the furnishing for a lower price?
+A: The launch offer is for furnished homes. Ask the project advisor whether a bare-shell option exists on specific inventory.
+
+Q: Which brands will be used?
+A: Brand names for sanitaryware, fittings, ACs and kitchen hardware will be listed in the furnishing schedule annexed to the agreement.
+
+Q: Is there a warranty on furnishing?
+A: Manufacturer warranties on appliances and fittings pass to the buyer; structural defects are covered under RERA's five-year defect liability.
+
+CTA band:  Get the detailed specification sheet → WhatsApp +91 97177 00596
+
+
+================================================================================
+PAGE 10 — ABOUT THE DEVELOPER
+================================================================================
+URL:            https://northwindyamuna.com/northwind-estates
+Meta title:     About Northwind Estates | Greater Noida Luxury Developer
+Meta desc:      Northwind Estates: CREDAI-member developer, 20+ years' experience, ET NOW Emerging Luxury Developer of the Year, builder of NorthWind Sanctuary, Greater Noida.
+Focus keyword:  north wind estates developer
+Secondary:      northwind estates greater noida, north wind estates owner name, northwind sanctuary, northwind estates reviews
+Breadcrumb:     Home › About Northwind Estates
+
+H1: About Northwind Estates — The Developer Behind Sector 22D
+
+Intro:
+Northwind Estates (NorthWind Estates Pvt. Ltd.) is a Greater Noida-based real estate developer built on more than two decades of experience and a stated philosophy it calls "The Art of Rare Living". The company's approach favours fewer, larger homes on generous open ground over high-density towers, and its first project on the Yamuna Expressway follows the same thinking.
+
+H2: Company snapshot
+(table)
+Company               | NorthWind Estates Pvt. Ltd.
+Chairman & CEO        | Mr. Manoj Kumar Garg
+Corporate office      | Plot 07, Sector Pi-1, Greater Noida, Uttar Pradesh 201306
+Experience            | 20+ years of leadership expertise; 25+ years for the chairman in Greater Noida real estate
+Delivered             | 10 lakh+ sq. ft. across Greater Noida, Noida and Indirapuram
+Memberships           | CREDAI
+Recognition           | Emerging Luxury Developer of the Year — ET NOW; Upcoming Ultra Luxury Project of the Year — Times Realty & Infrastructure Conclave 2026
+Flagship project      | NorthWind Sanctuary, Sector Pi-1, Greater Noida (IGBC Platinum pre-certified)
+New launch            | Sector 22D, Yamuna Expressway (5 acres, ₹189 crore YEIDA allotment)
+Architects            | Confluence
+
+H2: Leadership
+Mr. Manoj Kumar Garg, Chairman & CEO, brings more than 25 years in Greater Noida's real estate market and leads strategy, growth and execution. Announcing the Sector 22D acquisition, he said the group sees the Yamuna Expressway region entering a completely new phase of urban and economic transformation, and that infrastructure of the airport's scale creates long-term ecosystems rather than short-term real estate growth — which is why the company chose to commit to the corridor early.
+
+He is joined by a second-generation leadership team: Mr. Shaurya Garg, Marketing & Sales Director (B.Tech in Computer Science from Delhi Technological University and an MSc in International Real Estate & Planning from University College London); Mr. Anubhav Jain, Finance & Management Director (Business Management, Durham University); and Mr. Samyak Jain, Design & Construction Director, an architect trained at CEPT Ahmedabad who oversees spatial planning, materials and sustainable construction.
+
+H2: Values the company builds on
+Northwind Estates lists six principles on its corporate site: dynamism, sustainability, transparency, innovation, client focus and ethical standards. Its stated mission puts "real in realty" at the core — trust, transparency and a customer-first approach. In practice that shows up as green pre-certification on its flagship, an open-auction land acquisition for its new launch, and a low-density planning template it has carried from Greater Noida to the expressway.
+
+H2: A delivered track record behind the Sector 22D launch
+The group behind Northwind Estates has delivered over 10 lakh sq. ft. across Greater Noida, Noida and Indirapuram — Satyam Galleria, Jagat Plaza and Satyam Complex 1 & 2 in Greater Noida among them — and has completed and handed over projects in this market across more than one cycle. For a buyer at Sector 22D, that history is the practical answer to the first question asked at any launch: has this developer finished what it started before?
+
+H2: What NorthWind Sanctuary tells you about Sector 22D
+The developer's ongoing flagship, NorthWind Sanctuary in Sector Pi-1, Greater Noida, is the closest preview of the Sector 22D launch, because it was planned by the same architects (Confluence) on the same principles:
+• 4.5 acres, three towers, 185 residences — 80% of the site kept as landscaped greens (Sector 22D: 5 acres, six slim towers, a large central green)
+• Large, three-side-open 3 BHK and 4 BHK homes (Sector 22D: 1,675 and 2,200 sq. ft., three homes per floor)
+• A wellness-led amenity programme — 55-metre pool, reflexology pathway, sky walk, pickleball (Sector 22D: spa clubhouse, yoga deck, reflexology path, jogging loop)
+• IGBC Platinum pre-certification, UP RERA UPRERAPRJ798312, and Upcoming Ultra Luxury Project of the Year at the Times Realty & Infrastructure Conclave 2026
+Buyers considering Sector 22D can visit Sanctuary on the same site-visit trip to see the developer's finish quality first-hand.
+
+H2: The Sector 22D acquisition
+In May 2026 Northwind Estates was the highest bidder in a YEIDA auction for a 5-acre group housing plot in Sector 22D, at ₹189 crore. Buying through an authority auction, rather than assembling private land, gives the project a clean title, a defined plot and a development schedule set by YEIDA — three things that reduce risk for a launch-stage buyer.
+
+H2: Why buyers trust a CREDAI member
+CREDAI membership commits a developer to a code of conduct on advertising, agreements and delivery, and gives buyers a grievance channel beyond the courts. Together with the RERA framework, it is one of the practical checks a buyer can make before booking at launch.
+
+H2: FAQs — the developer
+Q: Who is the owner of Northwind Estates?
+A: NorthWind Estates Pvt. Ltd. is led by Mr. Manoj Kumar Garg, Chairman & CEO, with Mr. Shaurya Garg (Marketing & Sales), Mr. Anubhav Jain (Finance & Management) and Mr. Samyak Jain (Design & Construction) as directors. The company is headquartered at Plot 07, Sector Pi-1, Greater Noida.
+
+Q: What projects has Northwind Estates delivered?
+A: The group's delivered portfolio of over 10 lakh sq. ft. includes Satyam Galleria, Jagat Plaza and Satyam Complex 1 & 2 in Greater Noida, Mega Mall, Angel Jupiter, Angel Golf Avenue 2 and Angel Mercury in Indirapuram, and Angel Techpark in Sector 62, Noida. NorthWind Sanctuary in Sector Pi-1 (UP RERA UPRERAPRJ798312, IGBC Platinum pre-certified) is the ongoing flagship.
+
+Q: How do I contact the developer directly?
+A: The corporate office is at Plot 07, Sector Pi-1, Greater Noida 201306 (+91-888 111 0909, info@nwestates.in, Mon–Sat 10 am–7 pm). For the Sector 22D launch, call the project desk on +91 97177 00596 for pricing and site visits.
+
+CTA band:  Visit NorthWind Sanctuary and the Sector 22D site in one trip → Book a Site Visit
+
+
+================================================================================
+PAGE 11 — FAQs
+================================================================================
+URL:            https://northwindyamuna.com/faqs
+Meta title:     Northwind Sector 22D FAQs | Price, RERA, Possession, Reviews
+Meta desc:      Answers on Northwind Estates Sector 22D Yamuna Expressway — price, RERA status, possession, furnishing, payment plan, location, site visits and reviews.
+Focus keyword:  northwind estates yamuna expressway sector 22d reviews
+Secondary:      northwind sector 22d rera, northwind yamuna expressway possession, northwind sector 22d payment plan
+Breadcrumb:     Home › FAQs
+
+H1: Northwind Estates Sector 22D — Frequently Asked Questions
+
+H2: Project basics
+Q: What is Northwind Estates Sector 22D?
+A: A new residential launch by Northwind Estates on a 5-acre YEIDA plot in Sector 22D, Yamuna Expressway — six towers of G+30, 540 fully furnished 3 and 4 BHK homes, three homes per floor, planned as a wellness community.
+
+Q: Why is it also called Northwind Wellness?
+A: Wellness is the theme of the master plan and clubhouse — spa, yoga, reflexology, jogging loops and a large central green. Sales teams and partners use "Northwind Wellness" as the working name; the official project name will be published with the RERA registration.
+
+Q: How big is the project?
+A: 5 acres, 6 towers, G+30 floors, 540 residences.
+
+H2: Homes
+Q: What configurations are available?
+A: 3 BHK + 3T at 1,675 sq. ft. and 4 BHK + 4T + servant at 2,200 sq. ft. super area.
+
+Q: Are the homes furnished?
+A: Yes — modular kitchen, wardrobes, ACs, false ceilings with lighting and sanitary fittings are part of the offer.
+
+Q: How many homes per floor?
+A: Three, served by four high-speed lifts per tower.
+
+H2: Price and payment
+Q: What is the starting price?
+A: ₹1.23 Cr* for the 3 BHK. 4 BHK pricing on request.
+
+Q: What is the payment plan?
+A: 20×5* — 20% at booking, balance in 5% construction-linked instalments.
+
+Q: What charges are extra?
+A: GST, stamp duty, registration, IFMS, additional parking, and any floor-rise, PLC or view premium.
+
+H2: Approvals and timeline
+Q: Is Northwind Sector 22D RERA registered?
+A: Registration is under process. The number will be displayed here once granted. Until then, bookings are expressions of interest with refundable terms.
+
+Q: When is possession?
+A: Tentatively 2030–31*, to be confirmed at registration.
+
+Q: Is the land title clear?
+A: The plot was allotted by YEIDA through an open auction in May 2026, which gives the project a clean, authority-allotted title.
+
+H2: Location
+Q: How far is the airport?
+A: Noida International Airport is 10–15 km away, about 15 minutes by road.
+
+Q: What is nearby?
+A: International Film City (Sector 21) is the adjoining sector; Buddh International Circuit is about 10 minutes; Pari Chowk about 25 minutes.
+
+H2: Buying process
+Q: How do I book?
+A: Call +91 97177 00596 or submit the form. A project advisor shares the price sheet and available units, arranges a site visit, and guides you through the expression-of-interest and allotment steps.
+
+Q: Is there any brokerage or extra charge for booking through this site?
+A: No. Real Revenue is an authorised channel partner and is paid by the developer. You get the same price and offers as at the developer's sales office.
+
+Q: Can NRIs buy?
+A: Yes. NRIs can buy residential property in India through NRE/NRO accounts; we assist with documentation and power-of-attorney formalities.
+
+H2: Reviews
+Q: What do buyers say about Northwind Estates?
+A: The developer's delivered project, NorthWind Sanctuary, is known in Greater Noida for its low density, large homes and IGBC Platinum pre-certification. Sector 22D is a launch-stage project, so reviews will build as construction progresses; we recommend visiting Sanctuary to judge the quality first-hand.
+
+CTA band:  Still have a question? WhatsApp +91 97177 00596
+
+
+================================================================================
+PAGE 12 — CONTACT
+================================================================================
+URL:            https://northwindyamuna.com/contact
+Meta title:     Contact Northwind Sector 22D Sales | Call +91 97177 00596
+Meta desc:      Contact the Northwind Estates Sector 22D Yamuna Expressway sales desk for price list, floor plans, site visit and booking. Call or WhatsApp +91 97177 00596.
+Focus keyword:  northwind estates yamuna expressway sector 22d address
+Secondary:      northwind sector 22d contact number, northwind yamuna expressway site visit, northwind estates sales office
+Breadcrumb:     Home › Contact
+
+H1: Contact the Northwind Sector 22D Sales Desk
+
+Intro:
+Get the launch price list, floor plans, payment schedule and a site visit for Northwind Estates Sector 22D. Our project advisors are available on call and WhatsApp all seven days.
+
+H2: Reach us
+Call / WhatsApp: +91 97177 00596
+Hours: 10:00 am – 7:00 pm, all days
+Site address: Northwind Estates, Sector 22D, Yamuna Expressway, Greater Noida, Uttar Pradesh
+Developer's corporate office: Plot 07, Sector Pi-1, Greater Noida, Uttar Pradesh 201306
+Marketed by: Real Revenue, a unit of Earlydays Innovations Pvt. Ltd. (authorised channel partner)
+
+H2: Book a site visit
+Site visits run daily with pick-up available from Pari Chowk and select Noida locations. A typical visit covers the Sector 22D plot and master plan presentation, the Film City and airport approach, and — on request — NorthWind Sanctuary in Sector Pi-1 to see the developer's delivered quality.
+[Lead form — see Section 2]
+
+H2: What happens after you enquire
+1. A project advisor calls you back within 15 minutes during working hours.
+2. You receive the price sheet, floor plans and payment plan on WhatsApp.
+3. We schedule a site visit at a time that suits you.
+4. If you decide to go ahead, we guide you through the expression-of-interest, unit selection and documentation.
+
+H2: FAQs — contact
+Q: Is this the developer's office number?
+A: This is the project sales desk run by Real Revenue, an authorised channel partner. Pricing and offers are identical to the developer's.
+
+Q: Can I visit without an appointment?
+A: We recommend booking so that an advisor and the master plan presentation are ready for you; walk-ins during working hours are also welcome.
+
+CTA band:  Call +91 97177 00596 | WhatsApp Now
+
+
+================================================================================
+PAGE 13 — BLOG (launch set of 5 posts)
+================================================================================
+Blog index URL:  https://northwindyamuna.com/blog
+Blog index title:  Northwind Yamuna Blog | Sector 22D & Yamuna Expressway
+Blog index desc:   Guides on buying in Sector 22D, Yamuna Expressway — airport impact, payment plans, furnished vs bare-shell, and Northwind Estates project updates.
+
+--- POST 1 ---
+URL:         /blog/northwind-sector-22d-investment-guide-2026
+Title:       Is Northwind Sector 22D a Good Investment in 2026?
+Meta desc:   Northwind Estates Sector 22D Yamuna Expressway investment guide — airport, Film City, launch price vs the sector, rental demand and pre-booking checks.
+Keyword:     northwind sector 22d investment
+H1:          Is Northwind Sector 22D, Yamuna Expressway a Good Investment in 2026?
+Outline:
+H2 Where Sector 22D is and why it matters
+H2 Three drivers: operational airport, Film City next door, industrial parks
+H2 What premium launches are quoting today (₹9,000–₹9,500 per sq. ft. bare-shell)
+H2 Why Northwind chose Sector 22D — a YEIDA-planned sector building out together
+H2 Rental demand — who will rent here in 2028–31
+H2 Risks to weigh: timelines, metro, social infrastructure lag
+H2 How Northwind Sector 22D fits (furnished, low density, value pricing)
+H2 Checklist before booking at launch
+Body (draft):
+Sector 22D is one of the YEIDA residential sectors closest to Noida International Airport — roughly 15 minutes by road — and it borders Sector 21, where the 1,000-acre International Film City is under construction. Those two facts explain why Northwind Estates bid ₹189 crore for its 5-acre plot here in May 2026, and why the sector's group-housing plots were taken up so quickly.
+The airport is no longer a plan. Commercial flights began on 15 June 2026 with a Phase 1 capacity of 12 million passengers a year, scaling to 70 million by Phase 4. Airports of this size create hotel, MRO, cargo and logistics employment within a 15–20 km radius, and the residential demand that follows is largely rental first, then end-user.
+Film City Phase 1 on 230 acres is being built by Bayview Bhutani Film City with about ₹1,510 crore of investment, and the first permanent studio is targeted by end-2026. Studios employ crews, technicians and support staff on long shoots — exactly the tenant profile that prefers a furnished 3 BHK on a short lease.
+On pricing, premium bare-shell launches in Sector 22D have moved to ₹9,000–₹9,500 per sq. ft. during 2026, with at least one large developer revising upward within weeks of launch. A furnished 3 BHK at Northwind at about ₹7,350 per sq. ft.* therefore sits at the value end of the sector, with lower density than most neighbours.
+The risks are the usual ones for a growth corridor: schools and hospitals inside the sector will lag the towers by a few years; the metro extension is planned, not built; and construction timelines across all projects run to 2030–31. Buy with a five-year horizon, check the RERA registration before paying beyond an expression of interest, and compare carpet areas rather than super areas across projects.
+
+--- POST 2 ---
+URL:         /blog/northwind-sector-22d-distance-from-jewar-airport
+Title:       Northwind Sector 22D to Noida Airport: Distance & Time
+Meta desc:   How far is Northwind Estates Sector 22D from Noida International Airport (Jewar)? Distance, drive time, route via Yamuna Expressway and buyer takeaways.
+Keyword:     northwind sector 22d distance from jewar airport
+H1:          Northwind Sector 22D to Noida International Airport — Distance, Route and Drive Time
+Outline:
+H2 The short answer: 10–15 km, about 15 minutes
+H2 The route: sector road → Yamuna Expressway → airport approach
+H2 Airport facts buyers should know (DXN, 15 June 2026 opening, 12 → 70 MPPA)
+H2 Other distances from Sector 22D (Film City, BIC, Pari Chowk, Noida, Delhi)
+H2 What airport proximity does to rents and resale — lessons from other Indian airport corridors
+H2 Noise and flight-path questions answered
+H2 How Northwind's master plan uses the airport location (orientation, views, furnished-rental fit)
+
+--- POST 3 ---
+URL:         /blog/northwind-sector-22d-20x5-payment-plan
+Title:       Northwind Sector 22D 20×5 Payment Plan Explained
+Meta desc:   How the 20×5 payment plan works at Northwind Estates Sector 22D Yamuna Expressway — booking amount, construction-linked instalments and a 3 BHK example.
+Keyword:     northwind sector 22d payment plan
+H1:          Northwind Sector 22D's 20×5 Payment Plan, Explained with a Worked Example
+Outline:
+H2 What 20×5 means
+H2 Worked example on a ₹1.23 Cr* 3 BHK
+H2 20×5 vs 10:90 vs 30:70 vs down-payment plans
+H2 How home loans disburse against construction-linked plans
+H2 Questions to ask before signing the payment schedule
+
+--- POST 4 ---
+URL:         /blog/northwind-sector-22d-fully-furnished-homes
+Title:       Why Northwind Sector 22D Homes Come Fully Furnished
+Meta desc:   What fully furnished means at Northwind Estates Sector 22D — kitchen, wardrobes, ACs and lighting included — versus a bare-shell flat on cost and rent.
+Keyword:     northwind sector 22d fully furnished flats
+H1:          Why Northwind Sector 22D Homes Come Fully Furnished — and What That Saves You
+Outline:
+H2 What each term includes
+H2 The real cost of finishing a bare-shell 3 BHK (₹15–20 lakh, 6–9 months)
+H2 Rental yield and time-to-rent
+H2 Resale and buyer preference
+H2 What Northwind's furnished offer covers
+H2 When bare-shell still wins
+
+--- POST 5 ---
+URL:         /blog/northwind-estates-sector-22d-launch-update
+Title:       Northwind Estates Sector 22D Launch Update (Sept 2026)
+Meta desc:   Latest on Northwind Estates' Sector 22D Yamuna Expressway launch — the ₹189 crore YEIDA allotment, master plan, configurations, launch price and RERA status.
+Keyword:     northwind estates yamuna expressway sector 22d
+H1:          Northwind Estates Sector 22D — Launch Update, September 2026
+Outline:
+H2 May 2026: the ₹189 crore YEIDA allotment
+H2 The plan: 6 towers, 540 homes, 3 per floor
+H2 Configurations and launch pricing
+H2 Where approvals stand (RERA under process)
+H2 What happens next — sample flat, registration, tower-wise release
+H2 How to register interest
+
+--------------------------------------------------------------------------------
+SECTION 4 — SCHEMA MARKUP (JSON-LD)
+--------------------------------------------------------------------------------
+Place on every page (site-wide):
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://northwindyamuna.com/#organization",
+      "name": "Real Revenue",
+      "legalName": "Earlydays Innovations Pvt. Ltd.",
+      "url": "https://northwindyamuna.com/",
+      "logo": "https://northwindyamuna.com/images/logo.png",
+      "description": "Authorised channel partner for Northwind Estates Sector 22D, Yamuna Expressway.",
+      "telephone": "+919717700596",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919717700596",
+        "contactType": "sales",
+        "areaServed": "IN",
+        "availableLanguage": ["en", "hi"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Greater Noida",
+        "addressRegion": "Uttar Pradesh",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://northwindyamuna.com/#website",
+      "url": "https://northwindyamuna.com/",
+      "name": "Northwind Yamuna",
+      "publisher": { "@id": "https://northwindyamuna.com/#organization" },
+      "inLanguage": "en-IN"
+    },
+    {
+      "@type": "ApartmentComplex",
+      "@id": "https://northwindyamuna.com/#project",
+      "name": "Northwind Estates Sector 22D, Yamuna Expressway",
+      "alternateName": ["Northwind Sector 22D", "Northwind Wellness", "Northwind Yamuna Expressway"],
+      "url": "https://northwindyamuna.com/",
+      "image": "https://northwindyamuna.com/images/northwind-sector-22d-hero.jpg",
+      "description": "Fully furnished 3 & 4 BHK wellness residences on 5 acres in Sector 22D, Yamuna Expressway — 6 towers of G+30, 540 homes, 3 apartments per floor, 15 minutes from Noida International Airport.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sector 22D, Yamuna Expressway",
+        "addressLocality": "Greater Noida",
+        "addressRegion": "Uttar Pradesh",
+        "addressCountry": "IN"
+      },
+      "geo": { "@type": "GeoCoordinates", "latitude": 28.2405, "longitude": 77.5330 },
+      "numberOfAccommodationUnits": 540,
+      "petsAllowed": true,
+      "amenityFeature": [
+        { "@type": "LocationFeatureSpecification", "name": "Wellness clubhouse with spa", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Temperature-controlled swimming pool", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Gymnasium", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Yoga and meditation deck", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "Jogging track", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "3-tier security", "value": true },
+        { "@type": "LocationFeatureSpecification", "name": "EV charging", "value": true }
+      ],
+      "containsPlace": [
+        {
+          "@type": "Apartment",
+          "name": "3 BHK + 3T",
+          "numberOfRooms": 3,
+          "numberOfBathroomsTotal": 3,
+          "floorSize": { "@type": "QuantitativeValue", "value": 1675, "unitCode": "FTK" },
+          "offers": { "@type": "Offer", "price": "12300000", "priceCurrency": "INR", "availability": "https://schema.org/PreOrder", "url": "https://northwindyamuna.com/3-bhk-flats-sector-22d-yamuna-expressway" }
+        },
+        {
+          "@type": "Apartment",
+          "name": "4 BHK + 4T + Servant",
+          "numberOfRooms": 4,
+          "numberOfBathroomsTotal": 4,
+          "floorSize": { "@type": "QuantitativeValue", "value": 2200, "unitCode": "FTK" },
+          "offers": { "@type": "Offer", "priceCurrency": "INR", "availability": "https://schema.org/PreOrder", "url": "https://northwindyamuna.com/4-bhk-flats-sector-22d-yamuna-expressway" }
+        }
+      ],
+      "brand": { "@type": "Organization", "name": "Northwind Estates", "url": "https://www.northwindestates.com/" }
+    }
+  ]
+}
+</script>
+
+Home page — add FAQPage:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    { "@type": "Question", "name": "Where exactly is Northwind Estates Sector 22D located?", "acceptedAnswer": { "@type": "Answer", "text": "The project is in Sector 22D, Yamuna Expressway, within the YEIDA notified area of Greater Noida, Gautam Buddh Nagar, Uttar Pradesh — about 15 minutes from Noida International Airport and next to the International Film City sector." } },
+    { "@type": "Question", "name": "What is the starting price of Northwind Estates Sector 22D?", "acceptedAnswer": { "@type": "Answer", "text": "The 3 BHK (1,675 sq. ft.) starts at ₹1.23 Cr under the launch offer. 4 BHK pricing is shared on request. Prices are indicative and subject to change." } },
+    { "@type": "Question", "name": "Are the apartments fully furnished?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. The launch offer covers fully furnished homes — modular kitchen, wardrobes, air-conditioning and light fittings are included as per the furnishing schedule." } },
+    { "@type": "Question", "name": "Is the project RERA registered?", "acceptedAnswer": { "@type": "Answer", "text": "UP RERA registration is under process. The number will be displayed on the website as soon as it is issued." } },
+    { "@type": "Question", "name": "What is the 20×5 payment plan?", "acceptedAnswer": { "@type": "Answer", "text": "20% of the cost is paid at booking and the balance in 5% instalments linked to construction stages." } },
+    { "@type": "Question", "name": "When is possession expected?", "acceptedAnswer": { "@type": "Answer", "text": "Tentatively 2030–31, to be confirmed with the UP RERA registration." } },
+    { "@type": "Question", "name": "How many flats are there per floor?", "acceptedAnswer": { "@type": "Answer", "text": "Only three apartments per floor, served by four high-speed lifts in each of the six G+30 towers." } }
+  ]
+}
+</script>
+
+Inner pages — BreadcrumbList (example for /price):
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://northwindyamuna.com/" },
+    { "@type": "ListItem", "position": 2, "name": "Price & Payment Plan", "item": "https://northwindyamuna.com/price" }
+  ]
+}
+</script>
+
+Blog posts — Article:
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Is Sector 22D, Yamuna Expressway a Good Investment in 2026?",
+  "datePublished": "2026-09-15",
+  "dateModified": "2026-09-15",
+  "author": { "@type": "Organization", "name": "Real Revenue" },
+  "publisher": { "@id": "https://northwindyamuna.com/#organization" },
+  "mainEntityOfPage": "https://northwindyamuna.com/blog/sector-22d-yamuna-expressway-investment-guide-2026",
+  "image": "https://northwindyamuna.com/images/blog/sector-22d-investment-guide.jpg"
+}
+</script>
+
+--------------------------------------------------------------------------------
+SECTION 5 — TECHNICAL SEO NOTES
+--------------------------------------------------------------------------------
+Canonical:      Serve on https://northwindyamuna.com (non-www). 301 www → non-www. Canonical tag on every page must match the served URL exactly (avoid the www/non-www mismatch seen on earlier microsites).
+Robots:         index,follow on all pages except /thank-you (noindex,follow).
+Sitemap:        /sitemap.xml listing: /, /overview, /3-bhk-flats-sector-22d-yamuna-expressway, /4-bhk-flats-sector-22d-yamuna-expressway, /price, /floor-plans, /amenities, /location, /specifications, /northwind-estates, /faqs, /contact, /blog, /blog/* (5 posts).
+Image alt text pattern:  "Northwind Estates Sector 22D Yamuna Expressway — [subject]" e.g. "…— 3 BHK living room render", "…— master plan with central green", "…— location map showing Noida International Airport".
+Image file names:  northwind-sector-22d-hero.jpg, northwind-sector-22d-3bhk-floor-plan.jpg, northwind-sector-22d-4bhk-floor-plan.jpg, northwind-sector-22d-master-plan.jpg, northwind-sector-22d-location-map.jpg, northwind-sector-22d-clubhouse.jpg, northwind-sector-22d-pool.jpg.
+Internal linking:  Every page links to /price and /contact in body copy; Home links to all inner pages; 3 BHK ↔ 4 BHK cross-link; Location ↔ Blog posts 1 and 2; Price ↔ Blog post 3; Specifications ↔ Blog post 4.
+OG image:      1200×630 render with project name, "Sector 22D, Yamuna Expressway", "3 & 4 BHK from ₹1.23 Cr*", and the enquiry number.
+Google Business Profile:  Create as "Northwind Sector 22D Sales Office — Real Revenue" (category: Real estate agency), phone +91 97177 00596, link to northwindyamuna.com.
+Core Web Vitals:  Lazy-load renders below the fold; serve WebP; inline critical CSS; defer the map embed until interaction.
+
+--------------------------------------------------------------------------------
+SECTION 6 — CHARACTER COUNT CHECK (meta titles ≤ 60, descriptions ≤ 160)
+--------------------------------------------------------------------------------
+HOME                       title 58 | desc 153
+PROJECT OVERVIEW           title 60 | desc 156
+3 BHK APARTMENTS           title 55 | desc 155
+4 BHK APARTMENTS           title 55 | desc 154
+PRICE & PAYMENT PLAN       title 59 | desc 158
+FLOOR PLANS                title 56 | desc 154
+AMENITIES                  title 59 | desc 152
+LOCATION                   title 57 | desc 152
+SPECIFICATIONS             title 59 | desc 155
+ABOUT THE DEVELOPER        title 56 | desc 159
+FAQs                       title 60 | desc 152
+CONTACT                    title 57 | desc 156
+(Verified programmatically before delivery.)
+
+================================================================================
+END OF CONTENT PACK
+================================================================================
