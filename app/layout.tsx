@@ -68,6 +68,7 @@ export const metadata: Metadata = {
 };
 
 import { ModalProvider } from "@/components/ModalContext";
+import ExperienceEnhancer from "@/components/ExperienceEnhancer";
 
 export default function RootLayout({
   children,
@@ -105,7 +106,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           ></iframe>
         </noscript>
         <ModalProvider>
-          {children}
+          <ExperienceEnhancer>{children}</ExperienceEnhancer>
         </ModalProvider>
       </body>
     </html>

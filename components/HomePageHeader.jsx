@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
@@ -12,7 +12,23 @@ const GOLD_HOVER = "#A8841E";
 
 export default function HomePageHeader() {
   const [open, setOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   const pathname = usePathname();
+
+  useEffect(() => {
+    const updateHeader = () => setScrolled(window.scrollY > 24);
+    updateHeader();
+    window.addEventListener("scroll", updateHeader, { passive: true });
+    return () => window.removeEventListener("scroll", updateHeader);
+  }, []);
+
+  useEffect(() => {
+    const closeOnEscape = (event) => {
+      if (event.key === "Escape") setOpen(false);
+    };
+    document.addEventListener("keydown", closeOnEscape);
+    return () => document.removeEventListener("keydown", closeOnEscape);
+  }, []);
 
   const isActive = (href) => {
     if (href === "/") return pathname === "/";
@@ -26,7 +42,7 @@ export default function HomePageHeader() {
   return (
     <>
       {/* Main header */}
-      <header className="w-full bg-white border-b border-[rgba(196,154,43,0.2)] shadow-sm fixed left-0 right-0 top-0 z-30">
+      <header className={`w-full bg-white border-b border-[rgba(196,154,43,0.2)] fixed left-0 right-0 top-0 z-30 transition-shadow duration-300 ${scrolled ? "shadow-lg" : "shadow-sm"}`}>
         <div className="max-w-7xl mx-auto px-4 lg:px-8 flex items-stretch gap-0 h-[72px]">
 
           {/* Logo */}
@@ -96,6 +112,8 @@ export default function HomePageHeader() {
           <button
             type="button"
             aria-label="Open menu"
+            aria-expanded={open}
+            aria-controls="mobile-navigation"
             className="xl:hidden ml-auto flex items-center justify-center w-10 h-10 rounded flex-shrink-0 transition-colors self-center"
             style={{ backgroundColor: GOLD }}
             onClick={() => setOpen(true)}
@@ -122,6 +140,8 @@ export default function HomePageHeader() {
 
       {/* Mobile drawer */}
       <div
+        id="mobile-navigation"
+        aria-hidden={!open}
         className={`fixed top-0 left-0 h-screen z-50 flex flex-col shadow-2xl transition-transform duration-300 xl:hidden ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}

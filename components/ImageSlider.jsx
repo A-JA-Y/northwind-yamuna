@@ -18,9 +18,12 @@ export default function ImageSlider({images}) {
   };
 
   useEffect(() => {
-    startAutoSlide();
-    return () => stopAutoSlide();
-  }, []);
+    const interval = setInterval(() => {
+      setCurrent((prev) => (prev + 1) % images.length);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [images.length]);
 
   const nextSlide = () => {
     setCurrent((prev) => (prev + 1) % images.length);
@@ -54,16 +57,20 @@ export default function ImageSlider({images}) {
 
       {/* Left Button */}
       <button
+        type="button"
         onClick={prevSlide}
-        className="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-black/50 text-white px-3 py-2 rounded-full hover:bg-black/70"
+        aria-label="Previous image"
+        className="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-black/55 text-white px-3 py-2 rounded-full hover:bg-[#c49a2b] transition-colors"
       >
         ‹
       </button>
 
       {/* Right Button */}
       <button
+        type="button"
         onClick={nextSlide}
-        className="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-black/50 text-white px-3 py-2 rounded-full hover:bg-black/70"
+        aria-label="Next image"
+        className="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-black/55 text-white px-3 py-2 rounded-full hover:bg-[#c49a2b] transition-colors"
       >
         ›
       </button>
@@ -73,8 +80,11 @@ export default function ImageSlider({images}) {
         {images.map((_, index) => (
           <button
             key={index}
+            type="button"
             onClick={() => setCurrent(index)}
-            className={`w-3 h-3 rounded-full ${
+            aria-label={`Show image ${index + 1}`}
+            aria-current={index === current ? "true" : undefined}
+            className={`w-3 h-3 rounded-full transition-all ${
               index === current ? "bg-white" : "bg-white/50"
             }`}
           />
