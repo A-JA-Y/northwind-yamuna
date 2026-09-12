@@ -29,7 +29,7 @@ import bgImg from "../assets/Lines-PNG-Free-Image.webp";
 
 
 const amenities = [
-  { icon: <FaSpa />,            text: "Wellness Clubhouse with Spa, Sauna & Steam" },
+  { icon: <FaSpa />,            text: "50,000 Sq. Ft. Wellness Clubhouse with Spa, Sauna & Steam" },
   { icon: <FaSwimmingPool />,   text: "Temperature-Controlled Pool with Kids' Pool" },
   { icon: <FaDumbbell />,       text: "Fully Equipped Gym — Cardio & Strength Zones" },
   { icon: <FaLeaf />,           text: "Yoga & Meditation Deck; Reflexology Path" },
@@ -75,7 +75,7 @@ export default function Amenities() {
         {/* Heading */}
         <div className="text-center">
           <h6 className="text-[#DCA54A] uppercase mb-4">
-            30+ Wellness &amp; Lifestyle Amenities
+            28+ Wellness &amp; Lifestyle Amenities
           </h6>
           <h2 className="text-[#FDE6C0] text-3xl md:text-4xl lg:text-5xl font-bold leading-tight max-w-3xl mx-auto">
             A Campus Planned So Healthy Routines Happen Inside It
@@ -88,9 +88,9 @@ export default function Amenities() {
           {/* Left */}
           <div className="flex-1 flex flex-col gap-5">
             <p className="text-sm md:text-base leading-relaxed">
-              Northwind Sector 22D is themed around everyday wellness. With 540 homes on five
-              acres and only three homes per floor, every facility is shared by far fewer
-              families than in a typical township.
+              Northwind Sector 22D is themed around everyday wellness. With 600+ homes on five
+              acres, only six homes per floor and a 50,000 sq. ft. clubhouse, every facility is
+              shared by far fewer families than in a typical township.
             </p>
 
             <ul className="flex flex-col gap-[18px]">

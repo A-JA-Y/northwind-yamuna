@@ -22,7 +22,7 @@ const snapshotRows = [
   ["Recognition", "Emerging Luxury Developer of the Year — ET NOW; Upcoming Ultra Luxury Project of the Year — Times Realty & Infrastructure Conclave 2026"],
   ["Flagship project", "NorthWind Sanctuary, Sector Pi-1, Greater Noida (IGBC Platinum pre-certified)"],
   ["New launch", "Sector 22D, Yamuna Expressway (5 acres, ₹189 crore YEIDA allotment)"],
-  ["Architects", "Confluence"],
+  ["Architects (Sector 22D)", "ACPL"],
 ];
 
 export default function AboutNorthwindEstatesPage() {
@@ -158,13 +158,13 @@ export default function AboutNorthwindEstatesPage() {
             </h2>
             <p className="mb-4 text-sm leading-relaxed">
               The developer&apos;s ongoing flagship, NorthWind Sanctuary in Sector Pi-1, Greater
-              Noida, is the closest preview of the Sector 22D launch, because it was planned by the
-              same architects (Confluence) on the same principles:
+              Noida, is the closest preview of the Sector 22D launch, because it was planned on
+              the same low-density principles:
             </p>
             <ul className="list-disc pl-5 space-y-2 mb-4 text-sm">
-              <li>4.5 acres, three towers (Amaltas, Banyan, Cedar), 185 residences — 80% of the site kept as landscaped greens (Sector 22D: 5 acres, six slim towers, a large central green)</li>
-              <li>Large, three-side-open 3 BHK and 4 BHK homes (Sector 22D: 1,675 and 2,200 sq. ft., three homes per floor)</li>
-              <li>A wellness-led amenity programme — 55-metre Olympic-length pool, reflexology pathway, sky walk, pickleball (Sector 22D: spa clubhouse, yoga deck, reflexology path, jogging loop)</li>
+              <li>4.5 acres, three towers (Amaltas, Banyan, Cedar), 185 residences — 80% of the site kept as landscaped greens (Sector 22D: 5 acres, four glass-facade towers on the four corners, 75% green and open space)</li>
+              <li>Large 3 BHK and 4 BHK homes (Sector 22D: 1,467 to 2,550 sq. ft., only six homes per floor, two per wing, designed by ACPL)</li>
+              <li>A wellness-led amenity programme — 55-metre Olympic-length pool, reflexology pathway, sky walk, pickleball (Sector 22D: 50,000 sq. ft. spa clubhouse, yoga deck, reflexology path, jogging loop)</li>
               <li>IGBC Platinum pre-certification, UP RERA UPRERAPRJ798312, and Upcoming Ultra Luxury Project of the Year at the Times Realty &amp; Infrastructure Conclave 2026</li>
             </ul>
             <p className="text-sm leading-relaxed">

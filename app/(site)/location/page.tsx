@@ -548,7 +548,7 @@ export default function LocationPage() {
                 "@type": "ApartmentComplex",
                 "@id": "https://northwindyamuna.com/#project",
                 "name": "Northwind Estates Sector 22D, Yamuna Expressway",
-                "description": "Fully furnished 3 & 4 BHK wellness residences on 5 acres — 6 towers of G+30, 540 homes, 3 apartments per floor, 15 minutes from Noida International Airport.",
+                "description": "Fully furnished 3 & 4 BHK wellness residences on 5 acres — 4 towers of G+30, 600+ homes, only 6 apartments per floor, 15 minutes from Noida International Airport.",
                 "url": "https://northwindyamuna.com/",
                 "image": "https://northwindyamuna.com/hero.webp",
                 "address": {

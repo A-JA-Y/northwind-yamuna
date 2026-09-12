@@ -75,7 +75,7 @@ function SliderField({ label, min, max, step, value, onChange, pillLabel, rightL
 }
 
 export default function EmiCalculator() {
-  const [loan, setLoan] = useState(12300000);
+  const [loan, setLoan] = useState(12500000);
   const [downPercent, setDownPercent] = useState(20);
   const [years, setYears] = useState(20);
   const [rate, setRate] = useState(8.5);

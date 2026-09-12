@@ -98,7 +98,7 @@ export default function Home() {
                 url: "https://northwindyamuna.com/",
                 image: "https://northwindyamuna.com/hero.webp",
                 description:
-                  "Fully furnished 3 & 4 BHK wellness residences on 5 acres in Sector 22D, Yamuna Expressway — 6 towers of G+30, 540 homes, 3 apartments per floor, 15 minutes from Noida International Airport.",
+                  "Fully furnished 3 & 4 BHK wellness residences on 5 acres in Sector 22D, Yamuna Expressway — 4 glass-facade towers of G+30, 600+ homes, only 6 apartments per floor with 6 lifts, 50,000 sq. ft. clubhouse, ₹8,500 per sq. ft. all inclusive, 15 minutes from Noida International Airport.",
                 address: {
                   "@type": "PostalAddress",
                   streetAddress: "Sector 22D, Yamuna Expressway",
@@ -107,7 +107,7 @@ export default function Home() {
                   addressCountry: "IN",
                 },
                 geo: { "@type": "GeoCoordinates", latitude: 28.2405, longitude: 77.533 },
-                numberOfAccommodationUnits: 540,
+                numberOfAccommodationUnits: 600,
                 petsAllowed: true,
                 amenityFeature: [
                   { "@type": "LocationFeatureSpecification", name: "Wellness clubhouse with spa", value: true },
@@ -121,13 +121,27 @@ export default function Home() {
                 containsPlace: [
                   {
                     "@type": "Apartment",
+                    name: "3 BHK + 2T",
+                    numberOfRooms: 3,
+                    numberOfBathroomsTotal: 2,
+                    floorSize: { "@type": "QuantitativeValue", value: 1467, unitCode: "FTK" },
+                    offers: {
+                      "@type": "Offer",
+                      price: "12469500",
+                      priceCurrency: "INR",
+                      availability: "https://schema.org/PreOrder",
+                      url: "https://northwindyamuna.com/3-bhk-flats-sector-22d-yamuna-expressway",
+                    },
+                  },
+                  {
+                    "@type": "Apartment",
                     name: "3 BHK + 3T",
                     numberOfRooms: 3,
                     numberOfBathroomsTotal: 3,
                     floorSize: { "@type": "QuantitativeValue", value: 1675, unitCode: "FTK" },
                     offers: {
                       "@type": "Offer",
-                      price: "12300000",
+                      price: "14237500",
                       priceCurrency: "INR",
                       availability: "https://schema.org/PreOrder",
                       url: "https://northwindyamuna.com/3-bhk-flats-sector-22d-yamuna-expressway",
@@ -138,9 +152,24 @@ export default function Home() {
                     name: "4 BHK + 4T + Servant",
                     numberOfRooms: 4,
                     numberOfBathroomsTotal: 4,
-                    floorSize: { "@type": "QuantitativeValue", value: 2200, unitCode: "FTK" },
+                    floorSize: { "@type": "QuantitativeValue", value: 1950, unitCode: "FTK" },
                     offers: {
                       "@type": "Offer",
+                      price: "16575000",
+                      priceCurrency: "INR",
+                      availability: "https://schema.org/PreOrder",
+                      url: "https://northwindyamuna.com/4-bhk-flats-sector-22d-yamuna-expressway",
+                    },
+                  },
+                  {
+                    "@type": "Apartment",
+                    name: "4 BHK + 5T + Servant + Study",
+                    numberOfRooms: 4,
+                    numberOfBathroomsTotal: 5,
+                    floorSize: { "@type": "QuantitativeValue", value: 2550, unitCode: "FTK" },
+                    offers: {
+                      "@type": "Offer",
+                      price: "21675000",
                       priceCurrency: "INR",
                       availability: "https://schema.org/PreOrder",
                       url: "https://northwindyamuna.com/4-bhk-flats-sector-22d-yamuna-expressway",
@@ -178,7 +207,7 @@ export default function Home() {
                 name: "What is the starting price of Northwind Estates Sector 22D?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "The 3 BHK (1,675 sq. ft.) starts at ₹1.23 Cr under the launch offer. 4 BHK pricing is shared on request. Prices are indicative and subject to change.",
+                  text: "All homes are priced at ₹8,500 per sq. ft. all inclusive on limited founder inventory. The 3 BHK + 2T (1,467 sq. ft.) starts at about ₹1.25 Cr, the 3 BHK + 3T (1,675 sq. ft.) at ₹1.42 Cr, the 4 BHK + 4T + Servant (1,950 sq. ft.) at ₹1.66 Cr and the 4 BHK + 5T + Servant + Study (2,550 sq. ft.) at ₹2.17 Cr. Prices are indicative and subject to change; a price revision is expected soon.",
                 },
               },
               {
@@ -186,7 +215,7 @@ export default function Home() {
                 name: "Are the apartments fully furnished?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Yes. The launch offer covers fully furnished homes — modular kitchen, wardrobes, air-conditioning and light fittings are included as per the furnishing schedule.",
+                  text: "Yes. The launch offer covers fully furnished homes — modular kitchen with hob, chimney and RO, modular wardrobes, 5-star inverter air-conditioners, Italian marble flooring, smart lock and video door phone are included as per the furnishing schedule.",
                 },
               },
               {
@@ -202,7 +231,7 @@ export default function Home() {
                 name: "What is the 20×5 payment plan?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "20% of the cost is paid at booking and the balance in 5% instalments linked to construction stages.",
+                  text: "Five equal instalments of 20%: at booking, on completion of the ground floor, on completion of the 15th floor roof, on completion of the superstructure, and on offer of possession.",
                 },
               },
               {
@@ -218,7 +247,7 @@ export default function Home() {
                 name: "How many flats are there per floor?",
                 acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Only three apartments per floor, served by four high-speed lifts in each of the six G+30 towers.",
+                  text: "Only six apartments per floor — two per core / wing — served by six lifts in each of the four G+30 towers.",
                 },
               },
             ],

@@ -53,25 +53,27 @@ const AboutProject = ({heading}) => {
           </p>
 
           <p className="text-gray-600 text-sm leading-relaxed">
-            Six slim towers of G+30 hold 540 fully furnished residences. Every floor carries only
-            three apartments, served by four high-speed lifts, so each home opens on three sides
-            for daylight and cross-ventilation — while the ground level is kept largely free for a
-            central green, walking loops and open-air wellness spaces.
+            Four iconic towers of G+30, placed on the four corners of the site, hold 600+ fully
+            furnished residences. Every floor carries only six apartments, served by six lifts,
+            so each home enjoys daylight, cross-ventilation and privacy — while 75% of the site
+            is kept green and open for a central landscaped green, walking loops and a 50,000
+            sq. ft. wellness clubhouse.
           </p>
 
           <p className="text-gray-600 text-sm leading-relaxed">
             Noida International Airport is about 15 minutes away and began commercial flights in
             June 2026; the 1,000-acre International Film City is coming up in the adjoining
-            Sector 21. Designed by Confluence, the practice behind NorthWind Sanctuary.
+            Sector 21. Designed by ACPL, with Italian marble flooring and a grand 11.25 ft
+            floor-to-floor height in every home.
           </p>
 
           {/* Checklist */}
           <ul className="flex flex-col gap-2 mt-1">
             {[
-              "5 Acres · 6 Towers · G+30 · 540 Residences",
-              "Only 3 Homes per Floor · 4 Lifts per Tower",
-              "Fully Furnished 3 & 4 BHK · Three-Side Open",
-              "3 BHK from ₹1.23 Cr* · 20×5 Payment Plan*",
+              "5 Acres · 4 Towers · G+30 · 600+ Residences",
+              "Only 6 Homes per Floor · 6 Lifts per Tower",
+              "Fully Furnished 3 & 4 BHK · 28+ Amenities",
+              "₹8,500/Sq. Ft. All Inclusive* · 20×5 Payment Plan*",
             ].map((item) => (
               <li
                 key={item}

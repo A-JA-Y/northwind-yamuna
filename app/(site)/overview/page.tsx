@@ -7,9 +7,9 @@ import ModalWrapper from "@/components/ModalWrapper";
 import StickyDownloadButton from "@/components/StickyButton";
 
 export const metadata: Metadata = {
-  title: "Northwind Sector 22D Overview | 5 Acres, 6 Towers, 540 Homes",
+  title: "Northwind Sector 22D Overview | 5 Acres, 4 Towers, 600+ Homes",
   description:
-    "Full overview of Northwind Sector 22D on Yamuna Expressway — 5-acre wellness community, 6 towers of G+30, only 3 homes per floor, fully furnished 3 & 4 BHK.",
+    "Full overview of Northwind Sector 22D on Yamuna Expressway — 5-acre wellness community, 4 towers of G+30, only 6 homes per floor, fully furnished 3 & 4 BHK at ₹8,500/sq ft.",
   alternates: { canonical: "https://northwindyamuna.com/overview" },
 };
 
@@ -18,17 +18,21 @@ const glanceRows = [
   ["Developer", "Northwind Estates"],
   ["Location", "Sector 22D, Yamuna Expressway, Greater Noida (YEIDA)"],
   ["Land parcel", "5 acres (YEIDA auction, May 2026)"],
-  ["Towers", "6"],
+  ["Towers", "4 (glass-facade, placed on the 4 corners)"],
   ["Floors", "G+30"],
-  ["Total residences", "540"],
-  ["Apartments per floor", "3"],
-  ["Lifts per tower", "4 high-speed"],
-  ["Configurations", "3 BHK + 3T (1,675 sq. ft.) | 4 BHK + 4T + Servant (2,200 sq. ft.)"],
-  ["Furnishing", "Fully furnished"],
-  ["Amenities", "30+ (wellness-themed)"],
-  ["Architects", "Confluence"],
-  ["Launch price", "3 BHK from ₹1.23 Cr* | 4 BHK on request"],
-  ["Payment plan", "20×5*"],
+  ["Total residences", "600+"],
+  ["Apartments per floor", "6 (only 2 per core / wing)"],
+  ["Lifts per tower", "6"],
+  ["Configurations", "3 BHK + 2T (1,467 sq. ft.) | 3 BHK + 3T (1,675 sq. ft.) | 4 BHK + 4T + Servant (1,950 sq. ft.) | 4 BHK + 5T + Servant + Study (2,550 sq. ft.)"],
+  ["Furnishing", "Fully furnished — Italian marble flooring, 5-star inverter ACs"],
+  ["Floor-to-floor height", "11.25 ft (highest on Yamuna Expressway till date)"],
+  ["Clubhouse", "50,000+ sq. ft."],
+  ["Green & open space", "75%"],
+  ["Amenities", "28+ (wellness-themed)"],
+  ["Architects", "ACPL"],
+  ["Development cost", "₹650+ crore (planned)"],
+  ["Launch price", "₹8,500 / sq. ft. all inclusive* | 3 BHK from ₹1.25 Cr* | 4 BHK from ₹1.66 Cr*"],
+  ["Payment plan", "20×5* (five instalments of 20%)"],
   ["RERA", "Under process"],
   ["Possession", "Tentative 2030–31*"],
 ];
@@ -39,7 +43,7 @@ export default function OverviewPage() {
       <PageBanner
         eyebrow="The Project"
         title="Northwind Sector 22D — Project Overview"
-        subtitle="The first Yamuna Expressway project from Northwind Estates — a wellness-led residential community on a 5-acre YEIDA plot, 15 minutes from Noida International Airport."
+        subtitle="The first Yamuna Expressway project from Northwind Estates — a wellness-led residential community of four glass-facade towers on a 5-acre YEIDA plot, 15 minutes from Noida International Airport."
       />
       <ModalWrapper />
       <AboutProject heading={true} />
@@ -85,21 +89,22 @@ export default function OverviewPage() {
             <div className="prose max-w-none text-gray-700">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Fewer Homes, More Open Ground</h2>
               <p className="mb-4 text-sm leading-relaxed">
-                Most 5-acre group housing plots on the expressway are planned with four to six
-                apartments per floor. Northwind has gone the other way: six slim towers, three homes
-                on each floor, four lifts per tower. The result is 540 homes on a footprint that
-                leaves the ground level largely open for a central green, walking and cycling loops,
-                and outdoor wellness spaces. Every apartment is three-side open, which brings in
-                daylight from more than one direction and allows real cross-ventilation instead of a
-                single-aspect layout.
+                Most 5-acre group housing plots on the expressway are planned with eight to ten
+                apartments per floor. Northwind has gone the other way: four iconic glass-facade
+                towers placed on the four corners of the site, only six homes on each floor — two
+                per core / wing — and six lifts per tower. The result is 600+ homes on a footprint
+                that keeps 75% of the land green and open for a central green, walking and cycling
+                loops, and outdoor wellness spaces. A grand 11.25 ft floor-to-floor height, the
+                highest on the Yamuna Expressway till date, gives every apartment an unmatched
+                sense of space.
               </p>
             </div>
             <div className="prose max-w-none text-gray-700">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Wellness as the Organising Idea</h2>
               <p className="mb-4 text-sm leading-relaxed">
-                The project is being marketed as Northwind Wellness for a reason. The clubhouse
-                programme leans towards spa, sauna, steam, yoga and meditation rather than only a
-                gym and a banquet hall. Outdoor spaces include a reflexology path, senior citizen
+                The project is being marketed as Northwind Wellness for a reason. The 50,000+
+                sq. ft. clubhouse programme leans towards spa, sauna, steam, yoga and meditation
+                rather than only a gym and a banquet hall. Outdoor spaces include a reflexology path, senior citizen
                 seating zones, a jogging track and an herb garden. The intent is that daily routines
                 — a morning walk, an evening swim, a weekend yoga session — happen inside the campus
                 rather than needing a drive.
@@ -111,34 +116,57 @@ export default function OverviewPage() {
             <h2 className="text-2xl font-semibold text-gray-900 mb-4">Homes That Come Furnished</h2>
             <p className="mb-4 text-sm leading-relaxed">
               The launch covers fully furnished apartments. In practical terms that means the
-              modular kitchen, wardrobes in all bedrooms, split air-conditioners, false ceilings
-              with light fittings and bathroom fittings are all part of the offer. For an end user,
+              modular kitchen with hob, chimney and RO, modular wardrobes in all bedrooms, 5-star
+              inverter air-conditioners, Italian marble / imported stone flooring, branded CP
+              fittings and a smart lock with video door phone are all part of the offer. For an end user,
               it removes six to nine months of interior work after possession. For an investor, a
               furnished home rents faster and at a premium in an airport-driven market.
             </p>
           </div>
 
           <div>
-            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Two Configurations</h2>
+            <h2 className="text-2xl font-semibold text-gray-900 mb-6">Four Configurations — Sizes Start From 1,467 Sq. Ft.</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="bg-[#FAF8F4] p-6 rounded-lg border border-[#e5dcc5]">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">3 BHK + 3 Toilets — 1,675 sq. ft.</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">3 BHK + 2 Toilets — 1,467 sq. ft.</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
-                  A compact-luxury three-bedroom home with a living-dining space that opens to the
-                  main balcony, a separate kitchen with utility, and an attached toilet for every
-                  bedroom. Suited to families of four to five and to investors who want the most
-                  in-demand ticket size in the sector.
+                  The entry point into the project: a three-bedroom home with a living-dining
+                  space that opens to the main balcony, a separate modular kitchen with utility,
+                  an attached master toilet and a second common toilet. From ₹1.25 Cr*.
                 </p>
                 <Link href="/3-bhk-flats-sector-22d-yamuna-expressway" className="inline-block mt-3 text-sm text-[#c8922a] hover:underline font-semibold">
                   Explore the 3 BHK →
                 </Link>
               </div>
               <div className="bg-[#FAF8F4] p-6 rounded-lg border border-[#e5dcc5]">
-                <h3 className="text-lg font-bold text-gray-900 mb-2">4 BHK + 4 Toilets + Servant — 2,200 sq. ft.</h3>
+                <h3 className="text-lg font-bold text-gray-900 mb-2">3 BHK + 3 Toilets — 1,675 sq. ft.</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  A compact-luxury three-bedroom home with an attached toilet for every bedroom
+                  and a utility balcony off the kitchen. Suited to families of four to five and to
+                  investors who want the most in-demand ticket size in the sector. From ₹1.42 Cr*.
+                </p>
+                <Link href="/3-bhk-flats-sector-22d-yamuna-expressway" className="inline-block mt-3 text-sm text-[#c8922a] hover:underline font-semibold">
+                  Explore the 3 BHK →
+                </Link>
+              </div>
+              <div className="bg-[#FAF8F4] p-6 rounded-lg border border-[#e5dcc5]">
+                <h3 className="text-lg font-bold text-gray-900 mb-2">4 BHK + 4 Toilets + Servant — 1,950 sq. ft.</h3>
                 <p className="text-sm text-gray-600 leading-relaxed">
                   A four-bedroom home with a servant room and toilet, a larger living-dining area
-                  and wider balconies. Suited to joint families, buyers upgrading from Noida or
-                  Greater Noida, and NRIs who want a ready home near the airport.
+                  and wider balconies. Suited to joint families and buyers upgrading from Noida or
+                  Greater Noida. From ₹1.66 Cr*.
+                </p>
+                <Link href="/4-bhk-flats-sector-22d-yamuna-expressway" className="inline-block mt-3 text-sm text-[#c8922a] hover:underline font-semibold">
+                  Explore the 4 BHK →
+                </Link>
+              </div>
+              <div className="bg-[#FAF8F4] p-6 rounded-lg border border-[#e5dcc5]">
+                <h3 className="text-lg font-bold text-gray-900 mb-2">4 BHK + 5 Toilets + Servant + Study — 2,550 sq. ft.</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">
+                  The largest home in the project: four en-suite bedrooms, a fifth toilet, a
+                  servant room, a family lounge and a dedicated study. Suited to large joint
+                  families and NRIs who want a ready, lock-and-leave home near the airport. From
+                  ₹2.17 Cr*.
                 </p>
                 <Link href="/4-bhk-flats-sector-22d-yamuna-expressway" className="inline-block mt-3 text-sm text-[#c8922a] hover:underline font-semibold">
                   Explore the 4 BHK →
@@ -151,11 +179,12 @@ export default function OverviewPage() {
             <div className="prose max-w-none text-gray-700">
               <h2 className="text-2xl font-semibold text-gray-900 mb-4">Pricing and Payment</h2>
               <p className="mb-4 text-sm leading-relaxed">
-                The 3 BHK starts at ₹1.23 Cr* under the launch offer, which works out to roughly
-                ₹7,350 per sq. ft.* for a furnished home. For context, premium bare-shell launches
-                in Sector 22D are currently quoting ₹9,000–₹9,500 per sq. ft. The 4 BHK price is
-                shared on request. Payment is on a 20×5 plan* — 20% at booking, balance in
-                construction-linked 5% instalments.
+                Every home is priced at ₹8,500 per sq. ft. all inclusive* on limited founder
+                inventory — the 3 BHK from ₹1.25 Cr* and the 4 BHK from ₹1.66 Cr*, fully
+                furnished. For context, premium bare-shell launches in Sector 22D are currently
+                quoting ₹9,000–₹9,500 per sq. ft. plus charges. Payment is on a 20×5 plan* —
+                five equal instalments of 20%, from booking to possession. A price revision is
+                coming soon.
               </p>
               <Link href="/price" className="text-[#c8922a] hover:underline font-semibold text-sm">
                 See the full price &amp; payment plan →

@@ -11,7 +11,7 @@ export default function EnquirySection({
   logoSrc = logo,
   logoAlt = "Northwind Estates",
   heading = "The Art of Rare Living — 20+ Years Behind the Launch",
-  body = "Northwind Estates is a Greater Noida-based, CREDAI-member developer built on more than two decades of real estate experience and a philosophy it calls 'The Art of Rare Living' — fewer, larger homes on generous open ground. The group has delivered over 10 lakh sq. ft. across Greater Noida, Noida and Indirapuram, and its ongoing flagship, NorthWind Sanctuary in Sector Pi-1, is IGBC Platinum pre-certified. Sector 22D — a 5-acre plot won in an open YEIDA auction for ₹189 crore — is its first project on the Yamuna Expressway, designed by Confluence on the same low-density principles.",
+  body = "Northwind Estates is a Greater Noida-based, CREDAI-member developer built on more than two decades of real estate experience and a philosophy it calls 'The Art of Rare Living' — fewer, larger homes on generous open ground. The group has delivered over 10 lakh sq. ft. across Greater Noida, Noida and Indirapuram, and its ongoing flagship, NorthWind Sanctuary in Sector Pi-1, is IGBC Platinum pre-certified. Sector 22D — a 5-acre plot won in an open YEIDA auction for ₹189 crore — is its first project on the Yamuna Expressway, designed by ACPL on the same low-density principles: four glass-facade towers, only six homes per floor and 75% green and open space.",
 }) {
   const router = useRouter();
   const [form, setForm] = useState({ name: "", phone: "", email: "" });

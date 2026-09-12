@@ -8,22 +8,23 @@ import StickyDownloadButton from "@/components/StickyButton";
 export const metadata: Metadata = {
   title: "4 BHK Flats in Sector 22D Yamuna Expressway | Northwind",
   description:
-    "Fully furnished 4 BHK + servant flats in Sector 22D Yamuna Expressway by Northwind Estates. 2,200 sq ft, 3-side open, 4 lifts per tower. Price on request.",
+    "Fully furnished 4 BHK + servant flats in Sector 22D Yamuna Expressway by Northwind Estates. 4 BHK + 4T 1,950 sq ft and 4 BHK + 5T + study 2,550 sq ft, 6 lifts per tower. From ₹1.66 Cr* at ₹8,500/sq ft all inclusive.",
   alternates: {
     canonical: "https://northwindyamuna.com/4-bhk-flats-sector-22d-yamuna-expressway",
   },
 };
 
 const glanceTable = [
-  ["Configuration", "4 BHK + 4 Toilets + Servant room"],
-  ["Super area", "2,200 sq. ft."],
+  ["Configurations", "4 BHK + 4 Toilets + Servant | 4 BHK + 5 Toilets + Servant + Study"],
+  ["Super area", "1,950 sq. ft. (4 BHK + 4T + S) | 2,550 sq. ft. (4 BHK + 5T + S + Study)"],
   ["Balconies", "Wide living/dining balcony + master bedroom balcony"],
-  ["Kitchen", "Modular, with utility and servant access"],
-  ["Furnishing", "Fully furnished"],
-  ["Homes per floor", "3"],
-  ["Lifts per tower", "4"],
-  ["Price", "On request"],
-  ["Payment plan", "20×5*"],
+  ["Kitchen", "Modular with hob, chimney and RO; utility and servant access"],
+  ["Furnishing", "Fully furnished — Italian marble flooring, 5-star inverter ACs"],
+  ["Floor-to-floor height", "11.25 ft"],
+  ["Homes per floor", "6 (only 2 per core / wing)"],
+  ["Lifts per tower", "6"],
+  ["Launch price", "₹1.66 Cr* (1,950 sq. ft.) | ₹2.17 Cr* (2,550 sq. ft.) — ₹8,500 / sq. ft. all inclusive*"],
+  ["Payment plan", "20×5* (five instalments of 20%)"],
 ];
 
 export default function FourBhkPage() {
@@ -32,7 +33,7 @@ export default function FourBhkPage() {
       <PageBanner
         eyebrow="Residences · Limited Inventory"
         title="4 BHK Flats in Sector 22D, Yamuna Expressway"
-        subtitle="A 2,200 sq. ft. fully furnished home with four bedrooms, four toilets and a servant room — three-side open on a floor shared with only two other families."
+        subtitle="Two fully furnished 4 BHK layouts — 1,950 sq. ft. with four toilets and a servant room, and 2,550 sq. ft. with five toilets, a servant room and a study — on floors of only six homes, two per wing, from ₹1.66 Cr*."
       />
 
       <section className="w-full bg-white py-16 px-6">
@@ -43,16 +44,18 @@ export default function FourBhkPage() {
               4 BHK Flats in Sector 22D, Yamuna Expressway — Northwind Estates
             </h1>
             <p className="text-lg leading-relaxed mb-6">
-              The 4 BHK at Northwind Sector 22D is a <strong>2,200 sq. ft.</strong> fully furnished
-              home with four bedrooms, four toilets and a servant room, planned three-side open on
-              a floor shared with only two other families. Pricing is shared on request because
-              inventory in this configuration is limited to a fraction of the 540 homes.
+              The 4 BHK at Northwind Sector 22D comes in two fully furnished layouts — a
+              <strong> 1,950 sq. ft. 4 BHK + 4T + Servant</strong> and a <strong>2,550 sq. ft.
+              4 BHK + 5T + Servant + Study</strong> — each planned as one of only six apartments on
+              its floor, with just one neighbour sharing its core / wing. At <strong>₹8,500 per
+              sq. ft. all inclusive*</strong> the 4 BHK starts at <strong>₹1.66 Cr*</strong>;
+              inventory in this configuration is a limited share of the 600+ homes.
             </p>
             <Link
               href="/contact"
               className="inline-block text-[#c8922a] hover:underline font-semibold"
             >
-              Request the 4 BHK Price Sheet &rarr;
+              Get the 4 BHK Price Sheet on WhatsApp &rarr;
             </Link>
           </div>
 
@@ -71,7 +74,9 @@ export default function FourBhkPage() {
               </table>
             </div>
             <p className="text-xs text-gray-500 leading-relaxed italic">
-              *Indicative. Subject to change without notice. Areas are super built-up.
+              *Indicative launch pricing on limited founder inventory (super area × ₹8,500);
+              subject to change without notice. GST, stamp duty, registration and IFMS extra.
+              Areas are super built-up. Price revision coming soon.
             </p>
           </div>
 
@@ -83,8 +88,10 @@ export default function FourBhkPage() {
               utility area and a servant room with its own toilet, planned so household help can
               come and go without crossing the living room. The master bedroom is a corner suite
               with a walk-in wardrobe zone, an attached toilet and a private balcony. Three more
-              bedrooms, each with an attached toilet, complete the plan — one of them works well as
-              a study or a parents&apos; room on the quieter side of the floor plate.
+              bedrooms, each with an attached toilet, complete the 1,950 sq. ft. plan. The 2,550
+              sq. ft. layout adds a family lounge, a fifth toilet and a dedicated study on the
+              quieter side of the floor plate. Every room enjoys the grand 11.25 ft floor-to-floor
+              height.
             </p>
             <Link href="/floor-plans" className="text-[#c8922a] hover:underline font-semibold text-sm">
               See the 4 BHK floor plan →
@@ -97,12 +104,12 @@ export default function FourBhkPage() {
                 What &quot;Fully Furnished&quot; Includes in the 4 BHK
               </h2>
               <ul className="list-disc pl-5 space-y-2 mb-6 text-sm">
-                <li>Modular kitchen with hob, chimney, tall unit and under-counter storage</li>
-                <li>Wardrobes in all four bedrooms; walk-in wardrobe framing in the master bedroom</li>
-                <li>Split air-conditioners in the living-dining area and all four bedrooms</li>
-                <li>False ceiling with LED lighting across living, dining and bedrooms</li>
-                <li>Premium sanitaryware and CP fittings; shower enclosures in master and one more toilet</li>
-                <li>Video door phone, digital main-door lock and provision for home automation</li>
+                <li>Italian marble / imported stone flooring in living, dining, foyer and family lounge; laminated wooden flooring in the master bedroom</li>
+                <li>Modular kitchen with hob, chimney and RO</li>
+                <li>Modular wardrobes in all four bedrooms; walk-in wardrobe zone in the master bedroom</li>
+                <li>5-star inverter split air-conditioners in the living-dining area and all four bedrooms</li>
+                <li>Branded CP fittings and chinaware in all toilets</li>
+                <li>Video door phone and smart lock at the main door</li>
               </ul>
               <p className="text-xs text-gray-500 italic">
                 Final furnishing schedule will be annexed to the builder-buyer agreement.
@@ -114,10 +121,11 @@ export default function FourBhkPage() {
                 Price and Payment Plan for the 4 BHK
               </h2>
               <p className="text-sm leading-relaxed mb-4">
-                Launch pricing for the 4 BHK is shared on request so that buyers get the current
-                floor-wise sheet rather than a figure that changes with inventory. The payment
-                structure is the same 20×5 plan*: 20% at booking, balance in construction-linked 5%
-                instalments. GST, stamp duty and registration are extra as applicable.
+                The 1,950 sq. ft. 4 BHK + 4T + Servant starts at <strong>₹1.66 Cr*</strong> and
+                the 2,550 sq. ft. 4 BHK + 5T + Servant + Study at <strong>₹2.17 Cr*</strong>, both
+                at ₹8,500 per sq. ft. all inclusive on limited founder inventory. The payment
+                structure is the same 20×5 plan*: five equal instalments of 20% from booking to
+                possession. GST, stamp duty, registration and IFMS are extra as applicable.
               </p>
               <p className="text-sm">
                 <Link href="/price" className="text-[#c8922a] hover:underline font-semibold">
@@ -133,8 +141,8 @@ export default function FourBhkPage() {
               Joint families upgrading from Greater Noida or Noida, senior professionals and
               business owners who fly often, and NRIs who want a large, furnished, lock-and-leave
               home 15 minutes from the airport. The servant room is a practical necessity for most
-              of these households, and a 2,200 sq. ft. four-bedroom is rare in a project where every
-              floor has only three homes.
+              of these households, and a 2,550 sq. ft. four-bedroom with a study is rare in a
+              project where every floor has only six homes, two per wing.
             </p>
           </div>
 
@@ -145,7 +153,8 @@ export default function FourBhkPage() {
                 <h3 className="font-semibold text-gray-800 text-base mb-2">How many 4 BHK units are there?</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
                   The exact tower-wise split will be published with the RERA registration. 4 BHKs
-                  are a minority of the 540 homes, which is why pricing is on request.
+                  are a minority of the 600+ homes, so founder inventory at ₹8,500 per sq. ft. is
+                  limited.
                 </p>
               </div>
               <div className="border border-gray-200 rounded-lg p-4">
@@ -159,8 +168,8 @@ export default function FourBhkPage() {
               <div className="border border-gray-200 rounded-lg p-4">
                 <h3 className="font-semibold text-gray-800 text-base mb-2">Can two 4 BHKs on the same floor be bought together?</h3>
                 <p className="text-gray-600 text-sm leading-relaxed">
-                  Yes, subject to availability. Families often take two of the three homes on a
-                  floor to have the level nearly to themselves.
+                  Yes, subject to availability. With only two apartments per core / wing, families
+                  often take both homes in a wing to have the lobby entirely to themselves.
                 </p>
               </div>
             </div>

@@ -30,7 +30,7 @@ export default function PlansSection() {
           </h6>
 
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Two Layouts. Both Furnished, Both Three-Side Open.
+            Four Layouts. 3 &amp; 4 BHK, All Fully Furnished.
           </h2>
         </div>
 
@@ -96,9 +96,9 @@ export default function PlansSection() {
           </h6>
 
           <p className="text-gray-600 text-sm mb-6 max-w-lg">
-            Six towers on the periphery, a central landscaped green with the clubhouse and
-            pool at its heart, and a jogging and cycling loop around it — get the complete
-            site overview.
+            Four towers on the four corners, 75% green and open space with the 50,000 sq. ft.
+            clubhouse and pool at its heart, and a jogging and cycling loop around it — get
+            the complete site overview.
           </p>
 
           {/* Card */}

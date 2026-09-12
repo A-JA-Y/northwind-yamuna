@@ -16,76 +16,80 @@ const specGroups = [
     title: "Structure",
     items: [
       "Earthquake-resistant RCC frame structure designed for Seismic Zone IV",
-      "G+30 towers with basement and stilt parking",
-      "External walls in AAC blocks / RCC with weather-resistant textured paint",
+      "Four G+30 glass-facade towers — the first on the Yamuna Expressway — with basement and stilt parking",
+      "Grand 11.25 ft floor-to-floor height, the highest on the Yamuna Expressway till date",
+      "Only 2 apartments per core / wing, 6 apartments per floor, 6 lifts per tower",
     ],
   },
   {
-    title: "Flooring",
+    title: "Living / Dining / Foyer / Family Lounge",
     items: [
-      "Living, dining and bedrooms: large-format vitrified tiles",
-      "Master bedroom: option of laminated wooden flooring as per furnishing schedule",
-      "Kitchen and utility: anti-skid vitrified tiles",
-      "Toilets: anti-skid ceramic tiles on floor, designer tiles up to ceiling height on walls",
-      "Balconies: anti-skid tiles with MS / glass railing",
+      "Flooring: Italian marble / imported stone",
+      "Walls: acrylic emulsion paint",
+      "Ceiling: acrylic emulsion with boxing wherever required for concealing services",
+      "5-star inverter split air-conditioners",
+    ],
+  },
+  {
+    title: "Master Bedroom (Furnished)",
+    items: [
+      "Flooring: laminated wooden flooring",
+      "Walls and ceiling: acrylic emulsion paint with boxing wherever required",
+      "Modular wardrobe of standard make",
+      "5-star inverter split air-conditioner (1.5 to 2 ton as per design)",
+    ],
+  },
+  {
+    title: "Other Bedrooms (Furnished)",
+    items: [
+      "Flooring: premium vitrified tiles",
+      "Walls and ceiling: acrylic emulsion paint with boxing wherever required",
+      "Modular wardrobe of standard make",
+      "5-star inverter split air-conditioner in every bedroom",
     ],
   },
   {
     title: "Kitchen (Furnished)",
     items: [
-      "Modular kitchen with granite / quartz counter and stainless-steel sink",
-      "Hob and chimney",
-      "Overhead and under-counter storage, tall unit in the 4 BHK",
-      "Provision for water purifier, dishwasher and washing machine in utility",
-    ],
-  },
-  {
-    title: "Bedrooms (Furnished)",
-    items: [
-      "Wardrobes in all bedrooms; walk-in wardrobe framing in the 4 BHK master bedroom",
-      "Split air-conditioners in all bedrooms",
-      "False ceiling with LED lighting",
-    ],
-  },
-  {
-    title: "Living & Dining (Furnished)",
-    items: [
-      "Split air-conditioners",
-      "False ceiling with cove and spot lighting",
-      "Provision for TV and home-theatre wiring",
+      "Modular cabinetry with hob, chimney and RO",
+      "Counter: artificial stone / stone",
+      "Flooring: vitrified tiles; walls: tiles / acrylic emulsion paint",
+      "Servant / utility room with vitrified tile flooring",
     ],
   },
   {
     title: "Toilets",
     items: [
-      "Premium sanitaryware and single-lever CP fittings",
-      "Shower enclosure in master toilet (and one more toilet in the 4 BHK)",
-      "Hot and cold water mixer, provision for geyser and exhaust",
-      "False ceiling with moisture-resistant panels",
+      "Flooring: vitrified / ceramic tiles; walls: tiles / acrylic emulsion paint",
+      "Counter in master toilet: artificial stone / stone",
+      "Branded CP fittings and chinaware fixtures",
+      "False ceiling with trap door wherever required",
     ],
   },
   {
-    title: "Doors & Windows",
+    title: "Balconies & Terraces",
     items: [
-      "Main door: engineered wood frame with veneer / laminate finish, digital lock and video door phone",
-      "Internal doors: flush doors with laminate finish and premium hardware",
-      "Windows: UPVC / aluminium with glazed panels and mosquito mesh",
+      "Flooring: vitrified / ceramic tiles",
+      "Walls and ceiling: exterior paint",
+      "Railing: combination of RCC, stainless steel and glass",
     ],
   },
   {
-    title: "Electricals",
+    title: "Doors, Windows & Electricals",
     items: [
-      "Concealed copper wiring with modular switches",
-      "Adequate power points in all rooms; AC points pre-wired",
-      "MCB / ELCB protection per apartment",
-      "Standard power backup for apartments; 100% backup for common areas and lifts",
+      "External doors and windows: UPVC / aluminium",
+      "Internal doors: factory-finished engineered doors",
+      "Modular electrical switches",
+      "Power backup up to 5 KVA per apartment; 100% backup for common areas and lifts",
     ],
   },
   {
-    title: "Common Areas & Lifts",
+    title: "Smart Features & Common Areas",
     items: [
-      "4 high-speed lifts per tower, including a stretcher-size lift",
-      "Air-conditioned ground-floor lobbies with designer finishes",
+      "Smart lock at the main door with video door phone",
+      "One parking spot per apartment",
+      "Designer lift lobbies; 6 lifts per tower",
+      "Internal circulation: one 6-seater electric buggy per tower",
       "Fire detection, sprinklers and hydrants as per NBC norms",
     ],
   },
@@ -105,7 +109,7 @@ export default function SpecificationsPage() {
       <PageBanner
         eyebrow="Specifications"
         title="What a Fully Furnished Home Includes"
-        subtitle="Northwind Sector 22D is offered as a fully furnished home — unusual for a launch in this price band. Here is the planned standard for structure, finishes and furnishing."
+        subtitle="Northwind Sector 22D is offered as a fully furnished home with Italian marble flooring, 5-star inverter ACs and an 11.25 ft floor-to-floor height — unusual for a launch in this price band. Here is the planned standard for structure, finishes and furnishing."
       />
       <ModalWrapper />
 
@@ -117,10 +121,11 @@ export default function SpecificationsPage() {
               Northwind Sector 22D Specifications — Fully Furnished Flats on the Yamuna Expressway
             </h1>
             <p className="text-lg leading-relaxed mb-6">
-              The specifications below describe the planned standard for structure, finishes and
-              furnishing at Northwind Sector 22D. The final specification sheet and furnishing
-              schedule will be annexed to the builder-buyer agreement and may vary within the same
-              standard.
+              The specifications below are taken from the developer&apos;s sales brochure and
+              describe the planned standard for structure, finishes and furnishing at Northwind
+              Sector 22D — the first glass-facade residential apartments on the Yamuna Expressway,
+              designed by ACPL. The final specification sheet and furnishing schedule will be
+              annexed to the builder-buyer agreement and may vary within the same standard.
             </p>
           </div>
 

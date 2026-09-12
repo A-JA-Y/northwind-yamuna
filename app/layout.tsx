@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://northwindyamuna.com"),
   title: "Northwind Estates Sector 22D Yamuna Expressway | 3 & 4 BHK",
   description:
-    "Northwind Estates Sector 22D Yamuna Expressway: fully furnished 3 & 4 BHK wellness homes on 5 acres, 15 min from Noida Airport. From ₹1.23 Cr*. Call now.",
+    "Northwind Estates Sector 22D Yamuna Expressway: fully furnished 3 & 4 BHK wellness homes on 5 acres, 15 min from Noida Airport. ₹8,500/sq ft all inclusive*. Call now.",
 
   alternates: {
     canonical: "https://northwindyamuna.com/",
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Northwind Estates Sector 22D, Yamuna Expressway — New Launch",
     description:
-      "Fully furnished 3 & 4 BHK wellness homes. 5 acres, 6 towers, only 3 homes per floor. 15 minutes from Noida International Airport.",
+      "Fully furnished 3 & 4 BHK wellness homes. 5 acres, 4 towers, only 6 homes per floor with 6 lifts. 15 minutes from Noida International Airport.",
     url: "https://northwindyamuna.com/",
     siteName: "Northwind Yamuna",
     images: [
@@ -62,7 +62,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Northwind Estates Sector 22D, Yamuna Expressway",
     description:
-      "Fully furnished 3 & 4 BHK wellness residences on 5 acres — only 3 homes per floor, 15 minutes from Noida International Airport.",
+      "Fully furnished 3 & 4 BHK wellness residences on 5 acres — only 6 homes per floor, 15 minutes from Noida International Airport.",
     images: ["https://northwindyamuna.com/hero.webp"],
   },
 };

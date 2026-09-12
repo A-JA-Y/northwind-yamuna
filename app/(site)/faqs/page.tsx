@@ -17,7 +17,7 @@ const faqSections: { heading: string; faqs: { q: string; a: string }[] }[] = [
     faqs: [
       {
         q: "What is Northwind Estates Sector 22D?",
-        a: "A new residential launch by Northwind Estates on a 5-acre YEIDA plot in Sector 22D, Yamuna Expressway — six towers of G+30, 540 fully furnished 3 and 4 BHK homes, three homes per floor, planned as a wellness community.",
+        a: "A new residential launch by Northwind Estates on a 5-acre YEIDA plot in Sector 22D, Yamuna Expressway — four glass-facade towers of G+30, 600+ fully furnished 3 and 4 BHK homes, only six homes per floor with six lifts, a 50,000 sq. ft. clubhouse and 75% green and open space, planned as a wellness community.",
       },
       {
         q: "Why is it also called Northwind Wellness?",
@@ -25,7 +25,7 @@ const faqSections: { heading: string; faqs: { q: string; a: string }[] }[] = [
       },
       {
         q: "How big is the project?",
-        a: "5 acres, 6 towers, G+30 floors, 540 residences.",
+        a: "5 acres, 4 towers, G+30 floors, 600+ residences, a 50,000 sq. ft. clubhouse and 28+ amenities. Planned development cost is ₹650+ crore.",
       },
     ],
   },
@@ -34,15 +34,15 @@ const faqSections: { heading: string; faqs: { q: string; a: string }[] }[] = [
     faqs: [
       {
         q: "What configurations are available?",
-        a: "3 BHK + 3T at 1,675 sq. ft. and 4 BHK + 4T + servant at 2,200 sq. ft. super area.",
+        a: "Four layouts, sizes starting from 1,467 sq. ft.: 3 BHK + 2T (1,467 sq. ft.), 3 BHK + 3T (1,675 sq. ft.), 4 BHK + 4T + servant (1,950 sq. ft.) and 4 BHK + 5T + servant + study (2,550 sq. ft.) super area.",
       },
       {
         q: "Are the homes furnished?",
-        a: "Yes — modular kitchen, wardrobes, ACs, false ceilings with lighting and sanitary fittings are part of the offer.",
+        a: "Yes — modular kitchen with hob, chimney and RO, modular wardrobes, 5-star inverter ACs, Italian marble / imported stone flooring, branded CP fittings, smart lock and video door phone are part of the offer.",
       },
       {
         q: "How many homes per floor?",
-        a: "Three, served by four high-speed lifts per tower.",
+        a: "Only six — two per core / wing — served by six lifts per tower.",
       },
     ],
   },
@@ -51,15 +51,15 @@ const faqSections: { heading: string; faqs: { q: string; a: string }[] }[] = [
     faqs: [
       {
         q: "What is the starting price?",
-        a: "₹1.23 Cr* for the 3 BHK. 4 BHK pricing on request.",
+        a: "₹8,500 per sq. ft. all inclusive* on limited founder inventory — 3 BHK from ₹1.25 Cr* and 4 BHK from ₹1.66 Cr*. A price revision is coming soon.",
       },
       {
         q: "What is the payment plan?",
-        a: "20×5* — 20% at booking, balance in 5% construction-linked instalments.",
+        a: "20×5* — five equal instalments of 20%: at booking, on completion of the ground floor, on completion of the 15th floor roof, on completion of the superstructure, and on offer of possession. A construction-linked plan is also available.",
       },
       {
         q: "What charges are extra?",
-        a: "GST, stamp duty, registration, IFMS, additional parking, and any floor-rise, PLC or view premium.",
+        a: "GST (5%), stamp duty, registration, IFMS (₹50 per sq. ft.), one-time lease rent, one year advance maintenance, additional parking, and NPCL / IGL connection charges as per actual.",
       },
     ],
   },

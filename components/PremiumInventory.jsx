@@ -1,8 +1,8 @@
 
 
-const interiorFeatures = ["Large-format vitrified tile flooring", "False ceiling with LED lighting", "Premium sanitaryware & CP fittings", "Video door phone & digital main-door lock"];
-const furnishedItems = ["Modular kitchen", "Split ACs", "Wardrobes", "Light fittings"];
-const layoutFeatures = ["Three-side-open corner homes", "Only 3 apartments per floor", "4 high-speed lifts per tower", "Wide balconies off living & master"];
+const interiorFeatures = ["Italian marble / imported stone flooring", "Grand 11.25 ft floor-to-floor height", "Branded CP fittings & chinaware", "Video door phone & smart main-door lock"];
+const furnishedItems = ["Modular kitchen", "5-star inverter ACs", "Modular wardrobes", "Hob, chimney & RO"];
+const layoutFeatures = ["Glass-facade towers on 4 corners", "Only 6 apartments per floor", "6 lifts per tower", "Only 2 apartments per core / wing"];
 
 const nearby = {
   "Airport Corridor": ["Noida Intl. Airport — 15 min", "Film City, Sector 21 — 5 min", "Buddh Intl. Circuit — 10 min"],
@@ -19,7 +19,7 @@ export default function VillaFeatures() {
     >
       <div className="max-w-5xl mx-auto">
         <h6 className="text-center uppercase mb-3" style={{ color: "#c8922a", letterSpacing: "2.5px", fontSize: "11px", fontWeight: 600 }}>
-          Fully furnished, three-side open
+          Fully furnished, low-density living
         </h6>
         <h2
           className="text-center font-bold text-gray-900 mb-10"
@@ -66,15 +66,17 @@ export default function VillaFeatures() {
               Space &amp; Layout
             </p>
             <h3 className="font-bold mb-4" style={{ fontSize: "16px", color: "#2c1f0e" }}>
-              Two configurations
+              Four configurations
             </h3>
-            <div className="flex gap-2 mb-4">
+            <div className="grid grid-cols-2 gap-2 mb-4">
               {[
-                { label: "3 BHK", sub: "1,675 sq. ft." },
-                { label: "4 BHK", sub: "2,200 sq. ft." },
+                { label: "3 BHK + 2T", sub: "1,467 sq. ft." },
+                { label: "3 BHK + 3T", sub: "1,675 sq. ft." },
+                { label: "4 BHK + 4T + S", sub: "1,950 sq. ft." },
+                { label: "4 BHK + 5T + S + Study", sub: "2,550 sq. ft." },
               ].map((v) => (
-                <div key={v.label} className="flex-1 text-center py-3" style={{ background: "#faf6e8", border: "0.5px solid #d4c9ae" }}>
-                  <div style={{ fontSize: "18px", fontWeight: 700, color: "#DCA54A" }}>{v.label}</div>
+                <div key={v.label} className="text-center py-3 px-1" style={{ background: "#faf6e8", border: "0.5px solid #d4c9ae" }}>
+                  <div style={{ fontSize: "13px", fontWeight: 700, color: "#DCA54A" }}>{v.label}</div>
                   <div style={{ fontSize: "11px", color: "#6b5c3e" }}>{v.sub}</div>
                 </div>
               ))}

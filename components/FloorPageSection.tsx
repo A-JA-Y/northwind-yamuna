@@ -2,36 +2,60 @@
 import { useState } from "react";
 import Image from "next/image";
 
-import plan3bhk from "@/assets/plan-1.webp";
-import plan4bhk from "@/assets/plan-2.webp";
+import plan3bhk2t from "@/assets/plan-1.webp";
+import plan3bhk3t from "@/assets/plan-2.webp";
+import plan4bhk4t from "@/assets/plan-3.webp";
+import plan4bhk5t from "@/assets/plan-4.webp";
 import masterPlan from "@/assets/master-plan.webp";
 
 import { useModal } from "./ModalContext";
 import usePlansUnlocked from "@/utils/usePlansUnlocked";
 
-// Apartment floor plan data
+// Apartment floor plan data — all prices at ₹8,500 / sq. ft. all inclusive*
 const apartmentPlans = [
   {
-    id: "3bhk",
+    id: "3bhk-2t",
+    type: "3 BHK",
+    size: "1,467 sq. ft.",
+    config: "3 BHK + 2T",
+    price: "₹1.25 Cr*",
+    image: plan3bhk2t,
+    description:
+      "The entry-level 3 BHK: foyer opening to a living-dining space with the main balcony along it; separate modular kitchen with utility; master bedroom with attached toilet and a second common toilet serving the other two bedrooms.",
+    features: ["3 Bedrooms", "2 Toilets", "Balcony", "Utility", "Modular Kitchen", "Fully Furnished"],
+  },
+  {
+    id: "3bhk-3t",
     type: "3 BHK",
     size: "1,675 sq. ft.",
     config: "3 BHK + 3T",
-    price: "₹1.23 Cr*",
-    image: plan3bhk,
+    price: "₹1.42 Cr*",
+    image: plan3bhk3t,
     description:
-      "Entrance foyer opening to a continuous living-dining space with the main balcony along it; separate kitchen with utility balcony; corner master bedroom with private balcony; attached toilet for every bedroom. Two balconies, openings on three sides.",
-    features: ["3 Bedrooms", "3 Toilets", "2 Balconies", "Utility Balcony", "Three-Side Open", "Fully Furnished"],
+      "Entrance foyer opening to a continuous living-dining space with the main balcony along it; separate kitchen with utility balcony; master bedroom with private balcony; attached toilet for every bedroom.",
+    features: ["3 Bedrooms", "3 Toilets", "2 Balconies", "Utility Balcony", "Modular Kitchen", "Fully Furnished"],
   },
   {
-    id: "4bhk",
+    id: "4bhk-4t",
     type: "4 BHK",
-    size: "2,200 sq. ft.",
+    size: "1,950 sq. ft.",
     config: "4 BHK + 4T + Servant",
-    price: "On request",
-    image: plan4bhk,
+    price: "₹1.66 Cr*",
+    image: plan4bhk4t,
     description:
-      "Large living-dining with a wide front balcony; kitchen with utility, servant room and toilet off the service side; corner master suite with walk-in wardrobe zone and private balcony; three more en-suite bedrooms — one works as a study.",
-    features: ["4 Bedrooms", "4 Toilets", "Servant Room", "Walk-in Wardrobe", "Three-Side Open", "Fully Furnished"],
+      "Living-dining with a wide front balcony; kitchen with utility, servant room and toilet off the service side; master suite with private balcony; three more en-suite bedrooms.",
+    features: ["4 Bedrooms", "4 Toilets", "Servant Room", "2 Balconies", "Modular Kitchen", "Fully Furnished"],
+  },
+  {
+    id: "4bhk-5t",
+    type: "4 BHK",
+    size: "2,550 sq. ft.",
+    config: "4 BHK + 5T + Servant + Study",
+    price: "₹2.17 Cr*",
+    image: plan4bhk5t,
+    description:
+      "The largest home in the project: large living-dining and family lounge with a wide front balcony; kitchen with utility, servant room and toilet; master suite with walk-in wardrobe zone; three more en-suite bedrooms plus a dedicated study.",
+    features: ["4 Bedrooms", "5 Toilets", "Servant Room", "Study", "Walk-in Wardrobe", "Fully Furnished"],
   },
 ];
 
@@ -44,8 +68,10 @@ export default function FloorPlanSection() {
 
   // Price comparison table data
   const priceData = [
-    { type: "3 BHK + 3T", size: "1,675 sq. ft.", config: "3 BHK", price: "₹1.23 Cr* onwards" },
-    { type: "4 BHK + 4T + Servant", size: "2,200 sq. ft.", config: "4 BHK", price: "On request" },
+    { type: "3 BHK + 2T", size: "1,467 sq. ft.", config: "3 BHK", price: "₹1.25 Cr* onwards" },
+    { type: "3 BHK + 3T", size: "1,675 sq. ft.", config: "3 BHK", price: "₹1.42 Cr* onwards" },
+    { type: "4 BHK + 4T + Servant", size: "1,950 sq. ft.", config: "4 BHK", price: "₹1.66 Cr* onwards" },
+    { type: "4 BHK + 5T + Servant + Study", size: "2,550 sq. ft.", config: "4 BHK", price: "₹2.17 Cr* onwards" },
   ];
 
   return (
@@ -57,11 +83,13 @@ export default function FloorPlanSection() {
             Northwind Sector 22D Floor Plans — 3 BHK and 4 BHK Layouts
           </h1>
           <p className="text-gray-600 max-w-4xl mx-auto text-sm md:text-base leading-relaxed">
-            Northwind Sector 22D offers two apartment layouts across its six towers. Both are
-            three-side open, both put the living-dining space and master bedroom on the balcony
-            side, and both keep the kitchen and service areas together. The plans below describe
-            the room arrangement; tower-specific dimensioned drawings are shared with the price
-            list and will form part of the agreement.
+            Northwind Sector 22D offers four apartment layouts across its four glass-facade
+            towers — two 3 BHK options and two 4 BHK options, all fully furnished with Italian
+            marble flooring and a grand 11.25 ft floor-to-floor height. Every layout puts the
+            living-dining space and master bedroom on the balcony side and keeps the kitchen and
+            service areas together. The plans below describe the room arrangement; tower-specific
+            dimensioned drawings are shared with the price list and will form part of the
+            agreement.
           </p>
           <button
             onClick={() => openModal()}
@@ -75,13 +103,13 @@ export default function FloorPlanSection() {
         {/* H2 - Typical floor plate */}
         <div className="mt-4">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-4">
-            Typical Floor Plate — 3 Homes, 4 Lifts
+            Typical Floor Plate — 6 Homes, 6 Lifts
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto text-sm">
-            Each tower floor holds three apartments arranged around a central core of four
-            high-speed lifts and two staircases. The arrangement gives each home a corner
-            position with openings on three sides. Service shafts and refuse chutes are planned
-            in the core, away from the living spaces.
+            Each tower floor holds only six apartments, planned as two apartments per core / wing
+            and served by six lifts. The arrangement gives every home privacy, a lobby shared
+            with just one neighbour, and short lift waits. Service shafts and refuse chutes are
+            planned in the core, away from the living spaces.
           </p>
         </div>
 
@@ -119,8 +147,9 @@ export default function FloorPlanSection() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3 text-center">
-            *Indicative launch pricing, inclusive of furnishing; subject to change without notice.
-            Areas are super built-up — the RERA carpet area will be published with the
+            *Indicative pricing at ₹8,500 per sq. ft. all inclusive (super area × rate), inclusive
+            of furnishing; GST, stamp duty, registration and IFMS extra. Subject to change without
+            notice. Areas are super built-up — the RERA carpet area will be published with the
             registration.
           </p>
         </div>
@@ -128,11 +157,11 @@ export default function FloorPlanSection() {
         {/* H2 - Floor Plan Configurations */}
         <div className="mt-8">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 text-center mb-6">
-            The Two Layouts
+            The Four Layouts
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto text-sm mb-10">
             No 2 BHKs and no 5 BHKs — the project is planned with 3 BHK and 4 BHK homes only,
-            every one of them a fully furnished, three-side-open corner home.
+            sizes starting from 1,467 sq. ft., every one of them fully furnished.
           </p>
 
           <div className="grid md:grid-cols-2 gap-6">
@@ -208,11 +237,11 @@ export default function FloorPlanSection() {
               </thead>
               <tbody>
                 {[
-                  { buyer: "A family of four to five", unit: "3 BHK (1,675 sq. ft. · ₹1.23 Cr*)", why: "The most in-demand ticket size in the sector, with an attached toilet for every bedroom" },
-                  { buyer: "A first-time buyer in the corridor", unit: "3 BHK ⭐", why: "Lowest entry ticket into a low-density, fully furnished project" },
+                  { buyer: "A first-time buyer in the corridor", unit: "3 BHK + 2T (1,467 sq. ft. · ₹1.25 Cr*) ⭐", why: "Lowest entry ticket into a low-density, fully furnished project" },
+                  { buyer: "A family of four to five", unit: "3 BHK + 3T (1,675 sq. ft. · ₹1.42 Cr*)", why: "The most in-demand ticket size in the sector, with an attached toilet for every bedroom" },
                   { buyer: "A rental investor", unit: "3 BHK", why: "Furnished units rent fastest to airport and Film City staff" },
-                  { buyer: "A joint family or one with live-in help", unit: "4 BHK (2,200 sq. ft.)", why: "Servant room with separate access, four en-suite bedrooms" },
-                  { buyer: "Working from home often", unit: "4 BHK", why: "The fourth bedroom works as a dedicated study" },
+                  { buyer: "A joint family or one with live-in help", unit: "4 BHK + 4T + Servant (1,950 sq. ft. · ₹1.66 Cr*)", why: "Servant room with separate access, four en-suite bedrooms" },
+                  { buyer: "Working from home often", unit: "4 BHK + 5T + Servant + Study (2,550 sq. ft. · ₹2.17 Cr*)", why: "A dedicated study on top of four bedrooms and five toilets" },
                   { buyer: "An NRI wanting lock-and-leave", unit: "4 BHK", why: "Large, furnished home 15 minutes from the airport" },
                 ].map((item, idx) => (
                   <tr
@@ -237,17 +266,17 @@ export default function FloorPlanSection() {
             Northwind Sector 22D Master Plan
           </h2>
           <p className="text-gray-600 text-center max-w-3xl mx-auto text-sm mb-6">
-            The master plan places the six G+30 towers along the periphery of the 5-acre site,
-            leaving a large central landscaped green with the clubhouse and pool at its heart.
-            A jogging and cycling loop rings the green, with the reflexology path and senior
-            zones on the quieter edge — and the ground level kept vehicle-free with basement
-            and stilt parking.
+            The master plan places the four G+30 glass-facade towers on the four corners of the
+            5-acre site, keeping 75% of the land green and open with the 50,000 sq. ft.
+            clubhouse and pool at its heart. A jogging and cycling loop rings the green, with
+            the reflexology path and senior zones on the quieter edge — and the ground level kept
+            vehicle-free with basement and stilt parking.
           </p>
 
           <div className="grid md:grid-cols-2 gap-4 max-w-3xl mx-auto text-sm mb-6">
             <ul className="space-y-1 list-disc list-inside text-gray-600">
-              <li>Six towers on the periphery, central green at the heart</li>
-              <li>Clubhouse and pool visible from most homes</li>
+              <li>Four towers on the four corners, 75% green and open space</li>
+              <li>50,000 sq. ft. clubhouse and pool visible from most homes</li>
               <li>Jogging &amp; cycling loop, reflexology path</li>
             </ul>
             <ul className="space-y-1 list-disc list-inside text-gray-600">
@@ -269,7 +298,7 @@ export default function FloorPlanSection() {
           >
             <Image
               src={masterPlan}
-              alt="Northwind Sector 22D Master Plan - Towers on the Periphery Around a Central Green"
+              alt="Northwind Sector 22D Master Plan - Four Towers on the Corners Around a Central Green"
               className="w-full h-[260px] md:h-[320px] object-cover blur-[1px] scale-105"
             />
             <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/50 text-white">
@@ -307,7 +336,7 @@ export default function FloorPlanSection() {
             How to Read the Areas
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto text-sm text-center">
-            The 1,675 and 2,200 sq. ft. figures are super built-up areas, which include the
+            The 1,467, 1,675, 1,950 and 2,550 sq. ft. figures are super built-up areas, which include the
             apartment, balconies and a proportionate share of common areas. The RERA carpet
             area, which counts only the usable area inside the walls, will be published with the
             registration. Ask the project advisor for both numbers before comparing with other
@@ -321,7 +350,7 @@ export default function FloorPlanSection() {
             Get Dimensioned Floor Plans &amp; the Master Plan
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-sm mb-6">
-            Tower-specific dimensioned drawings for the 3 BHK and 4 BHK, along with the master
+            Tower-specific dimensioned drawings for all four layouts, along with the master
             plan and the current price sheet, are shared directly with verified buyers on
             WhatsApp and email.
           </p>
@@ -357,8 +386,10 @@ export default function FloorPlanSection() {
                 aria-label="Preferred Configuration"
               >
                 <option value="">Preferred Configuration</option>
-                <option value="3bhk">3 BHK + 3T — 1,675 sq. ft.</option>
-                <option value="4bhk">4 BHK + 4T + Servant — 2,200 sq. ft.</option>
+                <option value="3bhk-2t">3 BHK + 2T — 1,467 sq. ft.</option>
+                <option value="3bhk-3t">3 BHK + 3T — 1,675 sq. ft.</option>
+                <option value="4bhk-4t">4 BHK + 4T + Servant — 1,950 sq. ft.</option>
+                <option value="4bhk-5t">4 BHK + 5T + Servant + Study — 2,550 sq. ft.</option>
                 <option value="unsure">Not sure yet</option>
               </select>
               <button
@@ -377,10 +408,10 @@ export default function FloorPlanSection() {
             Floor Plan Pricing
           </h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            The 3 BHK starts at <strong>₹1.23 Cr*</strong> (≈ ₹7,350 per sq. ft.* for a
-            furnished home) and the 4 BHK is priced on request. Floor-rise, PLC and view premium
-            may apply on select units, so pricing is shared on a one-to-one basis to make sure
-            you get the current floor-wise sheet.
+            All homes are priced at <strong>₹8,500 per sq. ft. all inclusive*</strong> for a
+            fully furnished home — the 3 BHK starts at ₹1.25 Cr* and the 4 BHK at ₹1.66 Cr*.
+            Founder inventory at this rate is limited and a price revision is expected, so pricing
+            is shared on a one-to-one basis to make sure you get the current sheet.
           </p>
           <p className="mt-3">
             For the latest pricing, visit the{" "}

@@ -17,8 +17,8 @@ export default function ReasonsToInvest() {
 
           <p className="text-gray-600 text-sm mt-4 max-w-2xl mx-auto">
             An operational international airport 15 minutes away, the International Film City
-            next door, and a fully furnished, low-density launch priced at the value end of
-            the sector.
+            next door, and a fully furnished, low-density launch at ₹8,500 per sq. ft. all
+            inclusive* on a 20×5 payment plan.
           </p>
         </div>
 
@@ -36,8 +36,8 @@ export default function ReasonsToInvest() {
                 { icon: <FaPlane />, text: "15 minutes from operational Noida International Airport" },
                 { icon: <FaFilm />, text: "International Film City in adjoining Sector 21" },
                 { icon: <FaMapMarkerAlt />, text: "YEIDA-planned sector with authority-laid infrastructure" },
-                { icon: <FaBuilding />, text: "Only 3 homes per floor with 4 lifts per tower" },
-                { icon: <FaLeaf />, text: "Wellness master plan around a large central green" },
+                { icon: <FaBuilding />, text: "Only 6 homes per floor with 6 lifts per tower" },
+                { icon: <FaLeaf />, text: "Wellness master plan with 75% green and open space" },
               ].map((item, i) => (
                 <li key={i} className="group flex items-center gap-3 transition-transform duration-300 hover:translate-x-1.5">
                   <span className="text-[#DCA54A] text-lg transition-transform duration-300 group-hover:scale-125">{item.icon}</span>
@@ -55,8 +55,8 @@ export default function ReasonsToInvest() {
 
             <ul className="space-y-4">
               {[
-                { icon: <FaCouch />, text: "Fully furnished homes at ≈ ₹7,350/sq. ft.*" },
-                { icon: <FaConciergeBell />, text: "20×5 payment plan* — only 20% upfront" },
+                { icon: <FaCouch />, text: "Fully furnished homes at ₹8,500/sq. ft. all inclusive*" },
+                { icon: <FaConciergeBell />, text: "20×5 payment plan* — five equal instalments of 20%" },
                 { icon: <FaShieldAlt />, text: "Clean YEIDA-auction title; CREDAI-member developer" },
               ].map((item, i) => (
                 <li key={i} className="group flex items-center gap-3 transition-transform duration-300 hover:translate-x-1.5">

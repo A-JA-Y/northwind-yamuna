@@ -19,9 +19,8 @@ export default function WalkthroughSection() {
           </h2>
 
           <p className="text-gray-600 text-sm mt-3 max-w-xl mx-auto">
-            Tour the developer&apos;s ongoing flagship in Sector Pi-1, Greater Noida — planned
-            by the same architects (Confluence) on the same low-density, three-side-open
-            principles as the Sector 22D launch.
+            Tour the developer&apos;s ongoing flagship in Sector Pi-1, Greater Noida — built
+            on the same low-density, fewer-homes-per-floor principles as the Sector 22D launch.
           </p>
         </div>
 

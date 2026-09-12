@@ -10,7 +10,7 @@ import airport from "@/assets/highlight-5.webp";
 
 const cards = [
   {
-    title: "Only 3 Homes per Floor · 4 Lifts",
+    title: "Only 6 Homes per Floor · 6 Lifts",
     image: lowDensity,
   },
   {
@@ -18,11 +18,11 @@ const cards = [
     image: furnished,
   },
   {
-    title: "Wellness Clubhouse, Spa & Pool",
+    title: "50,000 Sq. Ft. Wellness Clubhouse",
     image: wellness,
   },
   {
-    title: "Large Central Landscaped Green",
+    title: "75% Green & Open Spaces",
     image: centralGreen,
   },
   {
@@ -48,9 +48,9 @@ export default function ProjectHighlights() {
 
         {/* Description */}
         <p className="text-center text-gray-500 mb-14 max-w-2xl mx-auto text-sm leading-relaxed">
-          Six slim towers placed along the periphery of five acres, three homes on each floor,
-          and the heart of the site given over to a landscaped green with the clubhouse and
-          pool at its centre.
+          Four iconic towers placed on the four corners of five acres, only six homes on each
+          floor with six lifts, and 75% of the site kept green and open around a 50,000 sq. ft.
+          clubhouse with 28+ amenities.
         </p>
 
         {/* Cards */}

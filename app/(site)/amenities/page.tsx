@@ -6,9 +6,9 @@ import ModalWrapper from "@/components/ModalWrapper";
 import StickyDownloadButton from "@/components/StickyButton";
 
 export const metadata: Metadata = {
-  title: "Northwind Wellness Amenities | 30+ Facilities in Sector 22D",
+  title: "Northwind Wellness Amenities | 28+ Facilities in Sector 22D",
   description:
-    "30+ wellness amenities at Northwind Estates Sector 22D Yamuna Expressway — spa clubhouse, heated pool, yoga deck, jogging track, sports courts and more.",
+    "28+ wellness amenities at Northwind Estates Sector 22D Yamuna Expressway — 50,000 sq ft spa clubhouse, heated pool, yoga deck, jogging track, sports courts and more.",
   alternates: { canonical: "https://northwindyamuna.com/amenities" },
 };
 
@@ -53,7 +53,7 @@ export default function AmenitiesPage() {
                 "name": "What amenities does Northwind Sector 22D offer?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "The planned amenity list has 30+ facilities: a wellness clubhouse with spa, sauna and steam, a temperature-controlled swimming pool with kids' pool, a fully equipped gym, yoga and meditation deck, jogging track and cycling loop, reflexology path, multipurpose and badminton courts, squash court, cricket net, indoor games lounge, banquet hall, mini theatre, co-working lounge, café, guest suites, amphitheatre, senior citizen zone, kids' play area with crèche, pet park and more."
+                  "text": "The planned amenity list has 28+ facilities: a 50,000+ sq. ft. wellness clubhouse with spa, sauna and steam, a temperature-controlled swimming pool with kids' pool, a fully equipped gym, yoga and meditation deck, jogging track and cycling loop, reflexology path, multipurpose and badminton courts, squash court, cricket net, indoor games lounge, banquet hall, mini theatre, co-working lounge, café, guest suites, amphitheatre, senior citizen zone, kids' play area with crèche, pet park and more."
                 }
               },
               {
@@ -85,7 +85,7 @@ export default function AmenitiesPage() {
                 "name": "Why does low density matter for amenities?",
                 "acceptedAnswer": {
                   "@type": "Answer",
-                  "text": "With 540 homes on 5 acres and only three homes per floor, the pool, gym and courts are shared by far fewer families than in a typical 1,000-plus-unit township — finding a lane in the pool or a badminton slot on a weekend is a very different experience."
+                  "text": "With 600+ homes on 5 acres, only six homes per floor and a 50,000 sq. ft. clubhouse, the pool, gym and courts are shared by far fewer families than in a typical 1,000-plus-unit township — finding a lane in the pool or a badminton slot on a weekend is a very different experience."
                 }
               },
               {
@@ -166,8 +166,8 @@ export default function AmenitiesPage() {
             Amenities
           </h3>
           <p className="text-base md:text-lg lg:text-xl text-gray-200 max-w-2xl mx-auto leading-relaxed">
-            30+ ways to live well — a campus planned so that a healthier daily routine happens
-            inside it.
+            28+ ways to live well — a 50,000 sq. ft. clubhouse and a campus planned so that a
+            healthier daily routine happens inside it.
           </p>
 
         </div>
@@ -181,7 +181,7 @@ export default function AmenitiesPage() {
         <div className="max-w-5xl mx-auto">
           {/* H1 */}
           <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-            Amenities at Northwind Wellness, Sector 22D — 30+ Ways to Live Well
+            Amenities at Northwind Wellness, Sector 22D — 28+ Ways to Live Well
           </h1>
 
           {/* Intro */}
@@ -193,9 +193,10 @@ export default function AmenitiesPage() {
             away from your front door.
           </p>
           <p className="text-lg md:text-xl leading-relaxed text-gray-700">
-            With 540 homes on five acres and only three homes per floor, every facility is shared
-            by far fewer families than in a typical township. All amenities are as per the
-            proposed plan and will be finalised with the approved drawings.
+            With 600+ homes on five acres, only six homes per floor and a 50,000+ sq. ft.
+            clubhouse, every facility is shared by far fewer families than in a typical township.
+            All amenities are as per the proposed plan and will be finalised with the approved
+            drawings.
           </p>
         </div>
       </section>
@@ -207,15 +208,16 @@ export default function AmenitiesPage() {
             Low Density, Felt Daily
           </h2>
           <p className="text-lg leading-relaxed text-gray-700 mb-6">
-            Three homes per floor and four lifts per tower mean the pool, gym and courts are
-            shared by a resident base a fraction of the size of a 1,000-plus-unit township.
-            Finding a lane in the pool on a weekend or a slot on the badminton court is a very
-            different experience here.
+            Six homes per floor — only two per core / wing — and six lifts per tower mean the
+            pool, gym and courts are shared by a resident base a fraction of the size of a
+            1,000-plus-unit township. Finding a lane in the pool on a weekend or a slot on the
+            badminton court is a very different experience here.
           </p>
           <p className="text-lg leading-relaxed text-gray-700">
-            The towers sit along the periphery of the 5-acre site, giving the heart of the campus
-            over to a landscaped central green with the clubhouse and pool at its centre — and a
-            vehicle-free ground level, with parking in the basement and stilt.
+            The four towers sit on the four corners of the 5-acre site, keeping 75% of the land
+            green and open with the 50,000+ sq. ft. clubhouse and pool at its centre — and a
+            vehicle-free ground level, with parking in the basement and stilt and a six-seater
+            electric buggy per tower for internal circulation.
           </p>
           <div className="mt-4 flex flex-wrap gap-4">
             <Link
@@ -238,7 +240,7 @@ export default function AmenitiesPage() {
       <section className="w-full py-16 px-6 md:px-12 lg:px-20 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 text-center mb-4">
-            The 30+ Planned Amenities, Grouped by How You&apos;ll Use Them
+            The 28+ Planned Amenities, Grouped by How You&apos;ll Use Them
           </h2>
           <p className="text-lg text-center max-w-4xl mx-auto text-gray-700 mb-12">
             The amenity programme leans deliberately towards everyday wellness — spa, yoga,
@@ -251,7 +253,7 @@ export default function AmenitiesPage() {
             <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow border-l-4 border-[#DCA54A]">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Wellness &amp; Fitness</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                Wellness clubhouse with spa, sauna and steam rooms; temperature-controlled
+                A 50,000+ sq. ft. wellness clubhouse with spa, sauna and steam rooms; temperature-controlled
                 swimming pool with deck and a separate kids&apos; pool; fully equipped gymnasium
                 with cardio and strength zones; yoga and meditation deck; aerobics and dance
                 studio.
@@ -287,7 +289,7 @@ export default function AmenitiesPage() {
             <div className="bg-gray-50 rounded-xl p-6 hover:shadow-lg transition-shadow border-l-4 border-[#DCA54A]">
               <h3 className="text-xl font-bold text-gray-900 mb-2">Green &amp; Sustainable</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
-                A large central landscaped green with the towers on the periphery; rainwater
+                75% green and open space with the four towers on the corners; rainwater
                 harvesting; a sewage treatment plant with treated-water reuse for landscaping;
                 solar lighting in common areas; waste segregation and organic composting; and EV
                 charging points in parking.
@@ -299,9 +301,9 @@ export default function AmenitiesPage() {
               <h3 className="text-xl font-bold text-gray-900 mb-2">Safety &amp; Convenience</h3>
               <p className="text-gray-600 text-sm leading-relaxed">
                 3-tier security — gate, tower entry and apartment level — with CCTV and manned
-                lobbies; video door phone and intercom in every home; four high-speed lifts per
-                tower including a stretcher-size lift; 100% power backup for common areas and
-                standard backup for apartments; fire detection and suppression as per NBC norms.
+                lobbies; video door phone and smart lock in every home; six lifts per tower with
+                only two apartments per core / wing; 100% power backup for common areas and up to
+                5 KVA backup for apartments; fire detection and suppression as per NBC norms.
               </p>
             </div>
 
@@ -311,7 +313,8 @@ export default function AmenitiesPage() {
               <p className="text-gray-600 text-sm leading-relaxed">
                 Basement and stilt parking keep cars off the ground level, so the central green,
                 walking loops, kids&apos; zones and senior areas stay safe, quiet and genuinely
-                usable every day.
+                usable every day. One parking spot per apartment and a six-seater electric buggy
+                per tower for internal circulation.
               </p>
             </div>
           </div>
@@ -387,7 +390,7 @@ export default function AmenitiesPage() {
             Walk the Master Plan with a Project Advisor
           </h2>
           <p className="text-lg md:text-xl text-black mb-6 leading-relaxed">
-            From the spa clubhouse and temperature-controlled pool to the yoga deck, reflexology
+            From the 50,000 sq. ft. spa clubhouse and temperature-controlled pool to the yoga deck, reflexology
             path and jogging loop around the central green, every element of Northwind Sector 22D
             is planned to make wellness a daily habit rather than a weekend plan.
           </p>

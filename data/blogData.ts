@@ -96,7 +96,7 @@ export const blogData: BlogMeta[] = [
           "name": "How does Northwind's pricing compare with the sector?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Premium bare-shell launches in Sector 22D moved to ₹9,000–₹9,500 per sq. ft. during 2026, with furnished interiors adding roughly ₹900–₹1,200 per sq. ft. on top. Northwind's furnished 3 BHK at about ₹7,350 per sq. ft.* sits at the value end of the sector, with lower density than most neighbours."
+            "text": "Premium bare-shell launches in Sector 22D moved to ₹9,000–₹9,500 per sq. ft. during 2026, before PLC and charges, with furnished interiors adding roughly ₹900–₹1,200 per sq. ft. on top. Northwind's fully furnished homes at ₹8,500 per sq. ft. all inclusive* sit at the value end of the sector, with lower density than most neighbours."
           }
         },
         {
@@ -241,11 +241,11 @@ export const blogData: BlogMeta[] = [
     title: "Northwind Sector 22D's 20×5 Payment Plan, Explained with a Worked Example",
     slug: "northwind-sector-22d-20x5-payment-plan",
     excerpt:
-      "What 20×5 means, a worked example on the ₹1.23 Cr* 3 BHK, how it compares with 10:90 and down-payment plans, and how home loans disburse against it.",
+      "What 20×5 means, a worked example on the ₹1.25 Cr* 3 BHK, how it compares with 10:90 and down-payment plans, and how home loans disburse against it.",
     metaTitle:
       "Northwind Sector 22D 20×5 Payment Plan Explained",
     metaDescription:
-      "How the 20×5 payment plan works at Northwind Estates Sector 22D Yamuna Expressway — booking amount, construction-linked instalments and a 3 BHK example.",
+      "How the 20×5 payment plan works at Northwind Estates Sector 22D Yamuna Expressway — five instalments of 20%, milestone schedule and a 3 BHK example.",
     keywords: [
       "northwind sector 22d payment plan",
       "20x5 payment plan meaning real estate",
@@ -283,7 +283,7 @@ export const blogData: BlogMeta[] = [
           "name": "What does 20×5 mean?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "You pay 20% of the cost at booking/allotment and the balance in 5% instalments linked to construction milestones, with the final balance at offer of possession. The exact milestone schedule is part of the price sheet."
+            "text": "You pay five equal instalments of 20%: at booking, on completion of the ground floor, on completion of the 15th floor roof, on completion of the superstructure, and on offer of possession. The exact schedule is part of the price sheet."
           }
         },
         {
@@ -291,7 +291,7 @@ export const blogData: BlogMeta[] = [
           "name": "What does 20% look like on the 3 BHK?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "On the ₹1.23 Cr* launch price, the booking stage works out to roughly ₹24.6 lakh*, with the balance spread across construction-linked 5% instalments of about ₹6.15 lakh* each. GST, stamp duty, registration and IFMS are extra as applicable."
+            "text": "On the ₹1.25 Cr* launch price of the 1,467 sq. ft. 3 BHK + 2T, each 20% instalment works out to roughly ₹24.9 lakh* — one at booking and four at construction milestones through to possession. GST, stamp duty, registration and IFMS are extra as applicable."
           }
         },
         {
@@ -307,7 +307,7 @@ export const blogData: BlogMeta[] = [
           "name": "Is 20×5 better than a down-payment plan?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "A down-payment plan usually earns a discount but concentrates risk before construction milestones are met. 20×5 keeps the upfront outlay at one-fifth of cost and ties payments to visible progress — usually the better fit for loan-funded buyers at launch stage."
+            "text": "A down-payment plan usually earns a discount but concentrates risk before construction milestones are met. 20×5 keeps the upfront outlay at one-fifth of cost and ties the remaining four instalments to visible progress — usually the better fit for loan-funded buyers at launch stage."
           }
         }
       ]
