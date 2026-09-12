@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useRouter } from "next/navigation";
 import submitForm from "@/api/submitform";
 import { theme } from "@/utils/theme";
-import { InputField, TextareaField } from "@/components/form/InputFields";
+import { InputField } from "@/components/form/InputFields";
 import Image from "next/image";
 import logo from "@/assets/northwind-logo-dark.svg";
 
@@ -55,9 +55,10 @@ export default function EnquirySection({
       link.click();
       document.body.removeChild(link);
 
+    setSubmitted(true);
     router.push('/thank-you');
 
-  } catch (err) {
+  } catch {
     setApiError("Something went wrong. Please try again.");
   } finally {
     setLoading(false);
@@ -152,6 +153,7 @@ export default function EnquirySection({
                       loading ? "opacity-70 cursor-not-allowed" : ""
                     ].join(" ")}
                   >
+                    {loading && <span className="btn-spinner" aria-hidden="true" />}
                     {loading ? "Submitting..." : "Submit"}
                   </button>
                 </div>

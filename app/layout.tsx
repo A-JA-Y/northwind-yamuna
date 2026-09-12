@@ -78,7 +78,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${inter.variable}  h-full antialiased light `}
+      className={`${inter.variable} ${workSans.variable} h-full antialiased light`}
     >
       <Analytics />
       <Script id="google-tag-manager" strategy="afterInteractive">

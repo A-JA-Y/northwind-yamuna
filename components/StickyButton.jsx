@@ -21,7 +21,9 @@ export default function StickyDownloadButton() {
   return (
     <button
       onClick={handleClick}
+      aria-label="Download brochure"
       className="
+        sticky-brochure
         fixed bottom-16 right-0
         flex flex-col items-center justify-center
         bg-[#c8952a] text-white font-semibold

@@ -21,7 +21,6 @@ const InvestmentModal = ({ isOpen, onClose, setIsSubmitted }) => {
 
   const [submitError, setSubmitError] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
 
   const validate = () => {
     const newErrors = {
@@ -61,7 +60,7 @@ const link = document.createElement("a");
       router.push("/thank-you");
       
       onClose?.();
-    } catch (err) {
+    } catch {
       setSubmitError(true);
     } finally {
       setLoading(false);
@@ -225,6 +224,7 @@ const link = document.createElement("a");
                   }`}
               >
                 <div className="srfm-submit-wrap">
+                  {loading && <span className="btn-spinner" aria-hidden="true" />}
                   {loading ? "Submitting..." : "Submit"}
                 </div>
               </button>

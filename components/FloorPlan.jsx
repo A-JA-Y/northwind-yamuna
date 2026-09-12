@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 
 import plan1 from "@/assets/plan-1.webp";
@@ -9,22 +9,13 @@ import plan4 from "@/assets/plan-4.webp";
 import masterPlan from "@/assets/master-plan.webp";
 
 import { useModal } from "./ModalContext";
+import usePlansUnlocked from "@/utils/usePlansUnlocked";
 
 export default function PlansSection() {
   const { openModal, isLeadSubmitted } = useModal();
-  const [isUnlocked, setIsUnlocked] = useState(false);
+  const isUnlocked = usePlansUnlocked(isLeadSubmitted);
   const [activePlan, setActivePlan] = useState(null);
   const [isMasterOpen, setIsMasterOpen] = useState(false);
-
-  useEffect(() => {
-    if (isLeadSubmitted) {
-      setIsUnlocked(true);
-      localStorage.setItem("plansUnlocked", "true");
-    } else {
-      const saved = localStorage.getItem("plansUnlocked");
-      if (saved === "true") setIsUnlocked(true);
-    }
-  }, [isLeadSubmitted]);
 
   const plans = [plan1, plan2, plan3, plan4];
 

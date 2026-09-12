@@ -1,5 +1,5 @@
 "use client";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Image from "next/image";
 
 import plan3bhk from "@/assets/plan-1.webp";
@@ -7,6 +7,7 @@ import plan4bhk from "@/assets/plan-2.webp";
 import masterPlan from "@/assets/master-plan.webp";
 
 import { useModal } from "./ModalContext";
+import usePlansUnlocked from "@/utils/usePlansUnlocked";
 
 // Apartment floor plan data
 const apartmentPlans = [
@@ -36,20 +37,10 @@ const apartmentPlans = [
 
 export default function FloorPlanSection() {
   const { openModal, isLeadSubmitted } = useModal();
-  const [isUnlocked, setIsUnlocked] = useState(false);
+  const isUnlocked = usePlansUnlocked(isLeadSubmitted);
   const [activePlan, setActivePlan] = useState<(typeof apartmentPlans)[0] | null>(null);
   const [isMasterOpen, setIsMasterOpen] = useState(false);
   const [selectedUnit, setSelectedUnit] = useState("");
-
-  useEffect(() => {
-    if (isLeadSubmitted) {
-      setIsUnlocked(true);
-      localStorage.setItem("plansUnlocked", "true");
-    } else {
-      const saved = localStorage.getItem("plansUnlocked");
-      if (saved === "true") setIsUnlocked(true);
-    }
-  }, [isLeadSubmitted]);
 
   // Price comparison table data
   const priceData = [

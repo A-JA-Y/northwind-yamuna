@@ -207,7 +207,7 @@ export function HeroBand({
 }: {
   label: string;
   title: string;
-  isH1:Boolean;
+  isH1?: boolean;
   sub: string;
   tags?: string[];
 }) {
@@ -600,7 +600,7 @@ export function NewsPullQuote({ quote, cite }: { quote: string; cite: string }) 
   return (
     <div className="my-6 p-5 md:p-6 bg-gray-50 border-l-4 border-[#2e7d52] rounded-r-lg">
       <p className="italic text-[18px] text-gray-800 mb-2 leading-[1.5]" style={{ fontFamily: "'Playfair Display', serif" }}>
-        "{quote}"
+        &ldquo;{quote}&rdquo;
       </p>
       {cite && (
         <cite className="font-sans text-[12px] text-gray-400 not-italic">

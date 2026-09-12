@@ -4,57 +4,105 @@ import Image from "next/image";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 const AUTO_INTERVAL = 4200;
+const pad = (n) => String(n).padStart(2, "0");
 
-export default function ImageSlider({ images }) {
+export default function ImageSlider({ images, label = "Image gallery" }) {
+  const count = images.length;
   const [current, setCurrent] = useState(0);
-  const [isPaused, setIsPaused] = useState(false);
-  const touchStart = useRef(null);
+  const [hovered, setHovered] = useState(false);
+  const [inView, setInView] = useState(true);
+  const [dragging, setDragging] = useState(false);
+
+  const rootRef = useRef(null);
+  const drag = useRef({ active: false, startX: 0, delta: 0 });
+
+  const isPaused = hovered || dragging || !inView;
 
   const goTo = useCallback(
-    (index) => setCurrent((index + images.length) % images.length),
-    [images.length]
+    (index) => setCurrent(((index % count) + count) % count),
+    [count]
   );
-  const nextSlide = useCallback(() => goTo(current + 1), [current, goTo]);
-  const prevSlide = useCallback(() => goTo(current - 1), [current, goTo]);
+  const nextSlide = useCallback(() => setCurrent((i) => (i + 1) % count), [count]);
+  const prevSlide = useCallback(() => setCurrent((i) => (i - 1 + count) % count), [count]);
 
+  /* `current` is a dependency so manual navigation restarts the timer and the
+     progress dot never runs out of step with the actual advance. */
   useEffect(() => {
-    if (isPaused || images.length <= 1) return undefined;
+    if (isPaused || count <= 1) return undefined;
     const interval = setInterval(nextSlide, AUTO_INTERVAL);
     return () => clearInterval(interval);
-  }, [isPaused, nextSlide, images.length]);
+  }, [isPaused, nextSlide, count, current]);
 
-  const handleTouchStart = (event) => {
-    touchStart.current = event.touches[0].clientX;
+  /* Only auto-play while the slider is actually on screen. */
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      ([entry]) => setInView(entry.isIntersecting),
+      { threshold: 0.2 }
+    );
+    if (rootRef.current) observer.observe(rootRef.current);
+    return () => observer.disconnect();
+  }, []);
+
+  const setDragOffset = (px) => {
+    rootRef.current?.style.setProperty("--carousel-drag", `${px}px`);
   };
-  const handleTouchEnd = (event) => {
-    if (touchStart.current === null) return;
-    const distance = event.changedTouches[0].clientX - touchStart.current;
-    if (Math.abs(distance) > 40) {
-      if (distance < 0) nextSlide();
-      else prevSlide();
-    }
-    touchStart.current = null;
+
+  const handlePointerDown = (event) => {
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    if (event.target.closest("button")) return;
+    drag.current = { active: true, startX: event.clientX, delta: 0 };
+    rootRef.current?.setPointerCapture?.(event.pointerId);
+    setDragging(true);
+  };
+
+  const handlePointerMove = (event) => {
+    const d = drag.current;
+    if (!d.active) return;
+    d.delta = event.clientX - d.startX;
+    setDragOffset(d.delta * 0.35);
+  };
+
+  const endDrag = () => {
+    const d = drag.current;
+    if (!d.active) return;
+    d.active = false;
+    setDragging(false);
+    setDragOffset(0);
+    if (d.delta < -40) nextSlide();
+    else if (d.delta > 40) prevSlide();
+    d.delta = 0;
   };
 
   const handleKeyDown = (event) => {
     if (event.key === "ArrowRight") nextSlide();
-    if (event.key === "ArrowLeft") prevSlide();
+    else if (event.key === "ArrowLeft") prevSlide();
+    else if (event.key === "Home") goTo(0);
+    else if (event.key === "End") goTo(count - 1);
+    else return;
+    event.preventDefault();
   };
 
   return (
     <div
-      className="relative w-full h-full overflow-hidden rounded shadow-2xl group/slider outline-none"
+      ref={rootRef}
+      className={`carousel-root relative w-full h-full overflow-hidden rounded shadow-2xl group/slider outline-none ${
+        dragging ? "is-dragging" : ""
+      }`}
       role="region"
       aria-roledescription="carousel"
-      aria-label="Image gallery"
+      aria-label={label}
       tabIndex={0}
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
-      onFocus={() => setIsPaused(true)}
-      onBlur={() => setIsPaused(false)}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      onFocus={() => setHovered(true)}
+      onBlur={() => setHovered(false)}
       onKeyDown={handleKeyDown}
-      onTouchStart={handleTouchStart}
-      onTouchEnd={handleTouchEnd}
+      onPointerDown={handlePointerDown}
+      onPointerMove={handlePointerMove}
+      onPointerUp={endDrag}
+      onPointerCancel={endDrag}
+      onLostPointerCapture={endDrag}
+      onDragStart={(event) => event.preventDefault()}
     >
       {/* Slides */}
       {images.map((img, index) => (
@@ -73,13 +121,23 @@ export default function ImageSlider({ images }) {
             placeholder="blur"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 100vw, 512px"
             quality={85}
-            priority={index === 0}
+            draggable={false}
           />
         </div>
       ))}
 
       {/* Bottom gradient for control legibility */}
       <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-black/55 to-transparent pointer-events-none z-10" />
+
+      {/* Counter */}
+      <div className="carousel-count" aria-hidden="true">
+        <span key={current} className="carousel-count-current">{pad(current + 1)}</span>
+        <span className="carousel-count-total">/ {pad(count)}</span>
+      </div>
+
+      <p className="sr-only" aria-live="polite">
+        Image {current + 1} of {count}
+      </p>
 
       {/* Left Button */}
       <button

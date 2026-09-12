@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import submitForm from "../api/submitform";
 import { useRouter } from "next/navigation";
-import { FaTimesCircle } from "react-icons/fa";
+import { FaCheckCircle, FaTimesCircle } from "react-icons/fa";
 
 const ContactForm = () => {
   const router = useRouter();
@@ -63,7 +63,7 @@ const ContactForm = () => {
       email: "",
     });
 
-  } catch (error) {
+  } catch {
     setStatus("error");
   } finally {
     setLoading(false);
@@ -151,10 +151,13 @@ const ContactForm = () => {
           {/* Submit Button */}
           <div className="flex-shrink-0">
             <button
+              type="submit"
               onClick={handleSubmit}
               disabled={loading}
-              className="w-full md:w-auto bg-[#c8952a] hover:bg-[#b07d1f] text-white text-sm font-semibold tracking-widest uppercase px-6 py-3 rounded-md transition-colors duration-300 whitespace-nowrap"
+              aria-busy={loading}
+              className="w-full md:w-auto bg-[#c8952a] hover:bg-[#b07d1f] disabled:opacity-80 disabled:cursor-wait text-white text-sm font-semibold tracking-widest uppercase px-6 py-3 rounded-md transition-colors duration-300 whitespace-nowrap"
             >
+              {loading && <span className="btn-spinner" aria-hidden="true" />}
               {loading ? "Submitting..." : "Book Site Visit"}
             </button>
           </div>
@@ -164,16 +167,16 @@ const ContactForm = () => {
 
       {/* STATUS MESSAGES */}
       {status === "success" && (
-        <p className="text-green-600 mt-4 text-sm">
-          <FaCheckCircle className="text-green-600" />
-         Form submitted successfully!
+        <p className="text-green-600 mt-4 text-sm flex items-center gap-2" role="status">
+          <FaCheckCircle className="text-green-600" aria-hidden="true" />
+          Form submitted successfully!
         </p>
       )}
 
       {status === "error" && (
-        <p className="text-red-600 mt-4 text-sm">
-           <FaTimesCircle className="text-red-600" />
-            Failed to submit. Please try again.
+        <p className="text-red-600 mt-4 text-sm flex items-center gap-2" role="alert">
+          <FaTimesCircle className="text-red-600" aria-hidden="true" />
+          Failed to submit. Please try again.
         </p>
       )}
     </div>

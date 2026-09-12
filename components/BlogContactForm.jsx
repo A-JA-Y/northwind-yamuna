@@ -57,7 +57,7 @@ const BlogContactForm = () => {
       router.push("/thank-you");
       setFormData({ name: "", phone: "", email: "" });
 
-    } catch (error) {
+    } catch {
       setStatus("error");
     } finally {
       setLoading(false);

@@ -74,7 +74,7 @@ export default function HomePageHeader() {
                   className={`relative text-[13px] font-bold px-3 py-1.5 whitespace-nowrap tracking-widest uppercase transition-colors
                     ${isActive(item.href)
                       ? "text-[#C49A2B] after:absolute after:bottom-0 after:left-3 after:right-3 after:h-[2px] after:bg-[#C49A2B] after:rounded-full"
-                      : "text-[#555] hover:text-[#C49A2B]"
+                      : "hp-nav-link text-[#555] hover:text-[#C49A2B]"
                     }`}
                 >
                   {item.label}
@@ -90,7 +90,7 @@ export default function HomePageHeader() {
                   className={`relative text-[13px] font-bold px-3 py-1.5 whitespace-nowrap tracking-widest uppercase transition-colors
                     ${isActive(item.href)
                       ? "text-[#C49A2B] after:absolute after:bottom-0 after:left-3 after:right-3 after:h-[2px] after:bg-[#C49A2B] after:rounded-full"
-                      : "text-[#555] hover:text-[#C49A2B]"
+                      : "hp-nav-link text-[#555] hover:text-[#C49A2B]"
                     }`}
                 >
                   {item.label}

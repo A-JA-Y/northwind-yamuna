@@ -5,15 +5,10 @@ import InvestmentModal from "./InvestmentModal";
 
 export default function AutoModalWrapper() {
   const [isOpen, setIsOpen] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   useEffect(() => {
     // 1. Don't show if already submitted
-    const hasSubmitted = typeof window !== "undefined" && localStorage.getItem("formSubmitted") === "true";
-    if (hasSubmitted) {
-      setIsSubmitted(true);
-      return;
-    }
+    if (localStorage.getItem("formSubmitted") === "true") return undefined;
 
     // 2. Auto-open timer (5 seconds)
     const timer = setTimeout(() => {
@@ -31,10 +26,10 @@ export default function AutoModalWrapper() {
   }, []);
 
   return (
-    <InvestmentModal 
-      isOpen={isOpen} 
-      onClose={() => setIsOpen(false)} 
-      setIsSubmitted={setIsSubmitted} 
+    <InvestmentModal
+      isOpen={isOpen}
+      onClose={() => setIsOpen(false)}
+      setIsSubmitted={undefined}
     />
   );
 }

@@ -72,10 +72,14 @@ export default function ProjectHighlights() {
               />
 
               {/* Dark Gradient Overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent transition-opacity duration-500 group-hover:opacity-90"></div>
 
               {/* Title */}
-              <div className="absolute bottom-0 p-4">
+              <div className="absolute bottom-0 p-4 transition-transform duration-500 ease-out group-hover:-translate-y-1">
+                <span
+                  aria-hidden="true"
+                  className="block h-[2px] w-8 mb-2 bg-[#DCA54A] origin-left scale-x-0 transition-transform duration-500 ease-out group-hover:scale-x-100"
+                />
                 <p className="text-white text-sm font-medium leading-snug">
                   {card.title}
                 </p>

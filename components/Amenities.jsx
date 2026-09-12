@@ -122,7 +122,7 @@ export default function Amenities() {
 
           {/* Right Image */}
          <div className="w-full lg:w-[50%]  h-[300px] md:h-[550px] flex-shrink-0">
-  <ImageSlider images={images} />
+  <ImageSlider images={images} label="Amenities gallery" />
 </div>
 
         </div>

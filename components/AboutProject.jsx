@@ -1,6 +1,5 @@
 "use client";
 import { FaCheck } from "react-icons/fa";
-import Image from "next/image";
 import ImageSlider from "./ImageSlider";
 
 import projectBuilding from "../assets/about-1.webp";
@@ -25,7 +24,10 @@ const AboutProject = ({heading}) => {
         <div className="hidden md:flex flex-col items-start relative w-full md:w-1/2 h-[500px]">
 
 
-          <ImageSlider images={[projectBuilding,projectBuilding2,pic2,township,launge]}/>
+          <ImageSlider
+            images={[projectBuilding, projectBuilding2, pic2, township, launge]}
+            label="Project gallery"
+          />
         </div>
 
         {/* Right: Text Content */}

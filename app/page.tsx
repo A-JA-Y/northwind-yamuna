@@ -232,7 +232,7 @@ export default function Home() {
       <ReraStrip />
 
       <main className="w-full">
-        <section className="md:px-[30px] md:py-[45px] md:relative top-[-98px]">
+        <section className="md:px-[30px] md:py-[45px] md:relative md:top-[-98px]">
           <div className="md:block max-w-5xl m-auto">
             <ContactForm />
           </div>
