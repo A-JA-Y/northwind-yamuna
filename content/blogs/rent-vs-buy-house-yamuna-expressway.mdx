@@ -1,0 +1,277 @@
+import furnishedImg from "@/assets/highlight-2.webp";
+import expresswayImg from "@/assets/highlight-5.webp";
+import masterPlanImg from "@/assets/master-plan.webp";
+
+<HeroBand
+  label="Buyer Guide · Rent vs Buy · Sector 22D"
+  title="Rent vs Buy House on Yamuna Expressway: The Numbers for Sector 22D"
+  sub="Real Sector 22D rents, a worked ₹1.25 crore* 3 BHK, the 20×5 payment plan priced in, and how fast the flat has to gain value for buying to match renting."
+  tags={["Sector 22D Rents", "Rent vs EMI", "20×5 Plan*", "Break-even Table", "Tax"]}
+/>
+
+<TOC
+  items={[
+    { label: "Rent and price on Yamuna Expressway", href: "#rent-and-price-on-yamuna-expressway" },
+    { label: "Rent vs EMI: a worked example", href: "#rent-vs-emi-a-worked-example" },
+    { label: "How the 20×5 payment plan changes the sum", href: "#how-the-205-payment-plan-changes-the-sum" },
+    { label: "When does buying break even?", href: "#when-does-buying-break-even" },
+    { label: "Tax on rent and home loans", href: "#tax-on-rent-and-home-loans" },
+    { label: "Is it better to rent or buy a house here?", href: "#is-it-better-to-rent-or-buy-a-house-here" },
+    { label: "Northwind Sector 22D", href: "#northwind-sector-22d" },
+    { label: "FAQs", href: "#faqs" },
+    { label: "Conclusion", href: "#conclusion" }
+  ]}
+/>
+
+<Lead>The rent vs buy house question looks different near Noida International Airport. Flights began in June 2026, prices along the Yamuna Expressway have run up for five years, and rents here are still low. That gap is the whole story.</Lead>
+
+This page works it through for a 3 BHK at Northwind Sector 22D, listed at ₹1.25 crore\*. It is arithmetic, not advice.
+
+<StatGrid
+  items={[
+    { value: "₹25,000", label: "Rent, similar 3 BHK / month" },
+    { value: "₹78,400", label: "EMI at 8% over 20 years" },
+    { value: "₹47.5 lakh", label: "Your own money to buy" },
+    { value: "2.4%", label: "A year's rent vs price" },
+    { value: "7%+", label: "Yearly gain to break even" },
+    { value: "June 2026", label: "First airport flights" }
+  ]}
+/>
+
+## Rent and Price on Yamuna Expressway
+
+**Rent.** A flat for rent on Yamuna Expressway is cheap for its size. In Sector 22D, 3 BHKs of 1,350 to 1,400 sq. ft. are listed at ₹16,000 to ₹22,000 a month. In Gaur Yamuna City, a similar 3 BHK asks about ₹25,000. This page uses ₹25,000, the top of that range, because the Northwind homes come furnished.
+
+<BlogFigure
+  src={furnishedImg}
+  narrow
+  alt="Furnished master bedroom and dining room in a Northwind Sector 22D apartment"
+  caption="Northwind homes come furnished, which is why this page prices rent at the top of the local range. Indicative interior render."
+/>
+
+**Price.** The corridor's average apartment rate went from about ₹3,950 per sq. ft. in 2020 to about ₹10,200 in 2025. Northwind's launch rate is ₹8,500 per sq. ft.\*, with furnishing included.
+
+**Yield.** At ₹25,000 a month, a year's rent is about 2.4% of ₹1.25 crore. At ₹20,000 it is under 2%. Property near Noida International Airport is priced on what the area may become, not on what it rents for today.
+
+<PullQuote>Property near Noida International Airport is priced on what the area may become, not on what it rents for today.</PullQuote>
+
+<VideoEmbed
+  id="XlDc2vn1xyY"
+  label="Watch · June 2026"
+  title="Noida International Airport opens as the first flight lands"
+  source="India Today"
+  caption="Commercial flights began in June 2026, so part of the airport's effect is already in today's price."
+/>
+
+## Rent vs EMI: A Worked Example
+
+Take the 3 BHK of 1,467 sq. ft. at ₹1.25 crore\*.
+
+<Grid cols={2}>
+  <CostSheet
+    title="Buying"
+    tone="own"
+    rows={[
+      { label: "Price", value: "₹1.25 crore" },
+      { label: "GST at 5%", value: "₹6.25 lakh" },
+      { label: "Stamp duty and registration at 8%", value: "₹10 lakh" },
+      { label: "Down payment", value: "₹31.25 lakh", note: "Banks lend at most 75% on loans above ₹75 lakh." },
+      { label: "Your own money in total", value: "≈ ₹47.5 lakh", strong: true },
+      { label: "Loan", value: "₹93.75 lakh" },
+      { label: "EMI at 8% for 20 years, from possession", value: "≈ ₹78,400 / month", strong: true }
+    ]}
+  />
+  <CostSheet
+    title="Renting"
+    tone="rent"
+    rows={[
+      { label: "A similar 3 BHK nearby, today", value: "≈ ₹25,000 / month", strong: true },
+      { label: "In five years, if rents rise 5% a year", value: "≈ ₹31,900 / month", strong: true },
+      { label: "Rent paid over the five years to possession", value: "≈ ₹16.6 lakh" },
+      { label: "Rent today against the EMI", value: "about a third" }
+    ]}
+  />
+</Grid>
+
+<CompareBars
+  title="Monthly outgo on a 3 BHK in Sector 22D"
+  items={[
+    { label: "Rent today", value: 25000, display: "₹25,000", tone: "rent" },
+    { label: "Rent in five years, at possession", value: 31900, display: "₹31,900", tone: "rent" },
+    { label: "EMI from possession", value: 78400, display: "₹78,400", tone: "own" }
+  ]}
+  caption="Illustration: ₹93.75 lakh loan at 8% over 20 years; rent rising 5% a year."
+/>
+
+At possession, the EMI would be about two and a half times the rent. Keeping it at 40% of take-home pay needs about ₹1.96 lakh a month.
+
+IFMS (about ₹73,000 on this flat), lease rent and a year's advance maintenance are extra. Home loans start at about 7.4% to 7.5% in November 2026, and 8% is used here as a working rate.
+
+<CTAStrip
+  eyebrow="Your own numbers"
+  title="Run the EMI on your own budget"
+  sub="Change the loan amount, rate and tenure in the EMI calculator on our price page, or WhatsApp us for the indicative price list."
+  actions={[
+    { label: "Open the EMI calculator", href: "/price", variant: "primary" },
+    { label: "WhatsApp for the price list", href: "https://wa.me/919717700596?text=Hi%2C%20I%20read%20your%20rent%20vs%20buy%20guide%20for%20Sector%2022D.%20Please%20share%20the%20Northwind%20Estates%20Sector%2022D%20price%20list%20and%20cost%20sheet.", variant: "whatsapp" }
+  ]}
+/>
+
+## How the 20×5 Payment Plan Changes the Sum
+
+The 20×5 payment plan splits the price into five equal parts: booking, ground floor, 15th-floor roof, superstructure and offer of possession.
+
+<PlanTimeline
+  ownShare={25}
+  steps={[
+    { stage: "Booking", share: "20%", funding: "Your own money", tone: "own" },
+    { stage: "Ground floor", share: "20%", funding: "5% own money, 15% loan", tone: "mixed" },
+    { stage: "15th-floor roof", share: "20%", funding: "Home loan", tone: "loan" },
+    { stage: "Superstructure", share: "20%", funding: "Home loan", tone: "loan" },
+    { stage: "Offer of possession", share: "20%", funding: "Home loan", tone: "loan" }
+  ]}
+  caption="Where the money comes from on the worked example: your own 25% first, the 75% loan drawn late. GST, stamp duty and registration are on top."
+/>
+
+- **Your own 25% goes in first.** It covers the booking payment and part of the second.
+- **The loan is drawn late.** Most of it goes out in the last three stages, so interest during construction is lower than on a loan drawn at the start. On this example it comes to about ₹13 lakh over five years.
+- **You keep renting meanwhile.** At ₹25,000 a month rising 5% a year, that is about ₹16.6 lakh over five years.
+
+<Callout type="warning">One point on timing. The project is awaiting UP RERA registration, and banks sanction loans only after it. Until then, bookings can't be taken and no possession date is fixed.</Callout>
+
+For each stage in rupees, see [the 20×5 payment plan explained](/blogs/northwind-sector-22d-20x5-payment-plan).
+
+## When Does Buying Break Even?
+
+Owning costs more in cash, so it wins only if the flat gains value. Suppose a tenant invests everything the buyer pays out beyond rent. How fast must the flat appreciate for the buyer to end up level?
+
+<DataTable
+  caption="Yearly price growth the flat needs for buying to match renting"
+  headers={["Years from booking", "Tenant's money earns 7%", "Earns 9%", "Earns 11%"]}
+  rows={[
+    ["5 (at possession)", "6.9% a year", "7.8% a year", "8.6% a year"],
+    ["10", "6.3% a year", "7.3% a year", "8.4% a year"],
+    ["15", "6.0% a year", "7.2% a year", "8.5% a year"],
+    ["20", "5.8% a year", "7.2% a year", "8.8% a year"]
+  ]}
+  highlight={[1, 2]}
+  note="Illustration only. It assumes possession five years after booking, the 20×5 schedule, rent rising 5% a year and owner's upkeep of ₹4,000 a month after possession. Selling costs and tax on gains are left out."
+/>
+
+If your money would earn 9% elsewhere, the flat has to gain a little over 7% a year. Over ten years, that means ₹1.25 crore becoming about ₹2.53 crore.
+
+<BlogFigure
+  src={expresswayImg}
+  crop="wide-bottom"
+  alt="The Yamuna Expressway corridor leading towards Noida International Airport"
+  caption="The Yamuna Expressway. The corridor's average apartment rate rose about 158% between 2020 and 2025."
+/>
+
+How likely is that? The corridor's average rate rose about 158% between 2020 and 2025, which is roughly 21% a year. That was the run-up to the airport, and the airport is now open. One consultant's forecast for the next two years works out to about 11% a year. Both are above the bar, and neither is a promise. A market that has already tripled can also pause.
+
+<VideoEmbed
+  id="Z9oX-6XjvtY"
+  label="Watch · The tenant's side of the sum"
+  title="Is rent really a waste of money? Real estate vs mutual fund investing"
+  source="Bajaj Finserv Mutual Fund"
+  caption="The break-even table assumes the tenant invests the difference. This explainer looks at that side of the comparison."
+/>
+
+## Tax on Rent and Home Loans
+
+- **Old regime:** the owner of a self-occupied home can deduct up to ₹2 lakh of interest a year. A salaried tenant can claim HRA relief.
+- **New regime:** neither is available.
+- **Under construction:** interest paid before possession is claimed later, in five yearly parts.
+
+Check your own position with a tax adviser.
+
+## Is It Better to Rent or Buy a House Here?
+
+<SplitCards
+  cards={[
+    {
+      title: "Renting usually suits you if",
+      tone: "rent",
+      items: [
+        "you work near the airport or Film City now and need a home this year",
+        "the EMI would take more than 40% to 45% of your take-home pay",
+        "you'd rather not lock ₹47.5 lakh into one corridor",
+        "you may leave NCR within five to seven years"
+      ]
+    },
+    {
+      title: "Buying usually suits you if",
+      tone: "own",
+      items: [
+        "you plan to hold for ten years or more",
+        "your household takes home about ₹2 lakh a month or more",
+        "you have ₹47.5 lakh of your own without touching emergency money",
+        "you can pay rent and loan interest together until possession",
+        "you believe the airport belt will keep growing, and can live with it if it pauses"
+      ]
+    }
+  ]}
+/>
+
+<VideoEmbed
+  id="H6Zu2IvAU48"
+  label="Watch · The same sum in a spreadsheet"
+  title="Should you buy a house or rent? Check with this Excel sheet"
+  source="Ankur Warikoo Hindi"
+  caption="A ₹1 crore home against ₹25,000 a month in rent, close to the Sector 22D numbers worked out above. In Hindi."
+/>
+
+## Northwind Sector 22D
+
+Northwind Sector 22D is a planned launch by [Northwind Estates](/northwind-estates) on a 5-acre site with four towers of furnished homes. UP RERA registration is under process. Start with the [project overview](/overview).
+
+<BlogFigure
+  src={masterPlanImg}
+  alt="Master plan of Northwind Sector 22D showing four towers, central green and clubhouse on the 5-acre site"
+  caption="Northwind Sector 22D master plan: four towers on a 5-acre site. Indicative; subject to approved drawings."
+/>
+
+- **Homes:** [3 BHK flats in Sector 22D Yamuna Expressway](/3-bhk-flats-sector-22d-yamuna-expressway) and [4 BHK flats](/4-bhk-flats-sector-22d-yamuna-expressway), with indicative figures and both payment plans on the [price](/price) page
+- **More:** [floor plans](/floor-plans), [specifications](/specifications), [amenities](/amenities), [location](/location) and [FAQs](/faqs)
+
+<VideoEmbed
+  id="D7aZuzIDetY"
+  label="Developer walkthrough"
+  title="See what a Northwind Estates community looks like"
+  source="Pawan Saini"
+  caption="Sector 22D is still at launch stage, so this tour is of NorthWind Sanctuary, the developer's ongoing project in Sector Pi-1, Greater Noida."
+/>
+
+## FAQs
+
+<FAQ
+  items={[
+    { q: "1. Is it better to rent or buy a house on Yamuna Expressway?", a: "It depends on your horizon. Rents here are low, about 2% to 2.4% of a flat's price a year, so renting costs far less each month. Buying comes out ahead if the flat gains a little over 7% a year for ten years or more, measured against a tenant who invests the difference at 9%." },
+    { q: "2. Is rent cheaper than EMI in Sector 22D?", a: "Yes, by a wide margin. A 3 BHK rents for about ₹16,000 to ₹25,000 a month. The EMI on a ₹1.25 crore flat with 25% down is about ₹78,400 at 8% over 20 years." },
+    { q: "3. What is the rent for a 3 BHK on Yamuna Expressway?", a: "Recent listings in Sector 22D ask ₹16,000 to ₹22,000 a month for 3 BHKs of about 1,350 to 1,400 sq. ft. A similar flat in Gaur Yamuna City asks about ₹25,000." },
+    { q: "4. How much of my own money do I need for a ₹1.25 crore flat?", a: "About ₹47.5 lakh. Banks lend at most 75% on loans above ₹75 lakh, so the down payment is ₹31.25 lakh. GST at 5% adds ₹6.25 lakh, and stamp duty and registration add ₹10 lakh." },
+    { q: "5. What income do I need to buy a ₹1.25 crore flat?", a: "The EMI on a ₹93.75 lakh loan is about ₹78,400 at 8% over 20 years. Keeping that at 40% of take-home pay needs about ₹1.96 lakh a month." },
+    { q: "6. How does the 20×5 payment plan work?", a: "You pay 20% at booking, then 20% each at the ground floor, the 15th-floor roof, the superstructure and the offer of possession. Because most of the loan is drawn in the later stages, interest during construction is lower than on a loan drawn upfront." },
+    { q: "7. Has the airport already pushed prices up?", a: "Yes. Average apartment rates along the Yamuna Expressway rose from about ₹3,950 per sq. ft. in 2020 to about ₹10,200 in 2025. Commercial flights began in June 2026, so part of the airport's effect is already in today's price." },
+    { q: "8. Do I get tax benefits on rent or a home loan?", a: "Only in the old tax regime. An owner can deduct up to ₹2 lakh of interest a year on a home they live in, and a tenant can claim HRA relief. The new regime gives neither." }
+  ]}
+/>
+
+## Conclusion
+
+On rent vs buy house on Yamuna Expressway, the monthly sum is one-sided: rent is about a third of the EMI. Buying here is a decision about growth, and it needs a little over 7% a year for a decade to pay off. If you need a home near the airport now, rent. If you can hold for ten years, carry the EMI comfortably and believe in the corridor, buying is a reasonable bet. Put your own numbers in before you decide.
+
+For the cost sheet and payment plan once the project is registered, [contact us](/contact) or call [+91 97177 00596](tel:+919717700596).
+
+<CTAStrip
+  eyebrow="Northwind Sector 22D"
+  title="Get the cost sheet and payment plan"
+  sub="Ask for the cost sheet and payment plan for the 3 BHK or 4 BHK. Final figures follow once the project's UP RERA registration comes through."
+  actions={[
+    { label: "Call +91 97177 00596", href: "tel:+919717700596", variant: "call" },
+    { label: "WhatsApp us", href: "https://wa.me/919717700596?text=Hi%2C%20I%20read%20your%20rent%20vs%20buy%20guide%20for%20Sector%2022D.%20Please%20share%20the%20Northwind%20Estates%20Sector%2022D%20price%20list%20and%20cost%20sheet.", variant: "whatsapp" },
+    { label: "Contact a project advisor", href: "/contact", variant: "secondary" }
+  ]}
+/>
+
+<Disclaimer description="This page is general information, not financial, tax or legal advice. Figures are illustrations based on the stated assumptions and on published data as of November 2026. Prices are indicative. The project is awaiting UP RERA registration. This website belongs to an authorised channel partner, not the developer." />
