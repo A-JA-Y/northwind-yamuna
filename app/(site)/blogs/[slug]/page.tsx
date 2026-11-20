@@ -249,7 +249,8 @@ export default async function BlogDetail({ params }: { params: Params }) {
         {/* BODY */}
         <div className="max-w-7xl mx-auto px-6 md:px-12 py-14 grid lg:grid-cols-[2.2fr_1fr] gap-12">
           {/* ✅ FIXED: No components prop */}
-          <div className="prose prose-lg max-w-none">
+          {/* min-w-0 lets wide tables scroll inside their own wrapper instead of widening the page */}
+          <div className="prose prose-lg max-w-none min-w-0">
             <BlogContent />
           </div>
 

@@ -3,9 +3,11 @@
  */
 
 import type { MDXComponents } from "mdx/types";
-import Image, { type ImageProps } from "next/image";
+import Image, { type ImageProps, type StaticImageData } from "next/image";
 import Link from "next/link";
 import React from "react";
+import { FaArrowRight, FaCheck, FaPhoneAlt, FaWhatsapp } from "react-icons/fa";
+import YouTubeLite from "@/components/YouTubeLite";
 
 export { Link };
 
@@ -517,6 +519,440 @@ export function Disclaimer({ description }: { description: string }) {
 
 
 /* ─────────────────────────────────────────────
+   BLOG FIGURE (static-imported image + caption)
+───────────────────────────────────────────── */
+
+export function BlogFigure({
+  src,
+  alt,
+  caption,
+  narrow = false,
+  crop,
+}: {
+  src: StaticImageData;
+  alt: string;
+  caption?: string;
+  /** For portrait images, so they don't run taller than the screen. */
+  narrow?: boolean;
+  /** Show a wide letterbox slice of the image, anchored to its lower part (e.g. to trim empty sky). */
+  crop?: "wide-bottom";
+}) {
+  const sizes = narrow ? "(max-width: 640px) 100vw, 448px" : "(max-width: 1024px) 100vw, 820px";
+  return (
+    <figure className={`my-10 ${narrow ? "max-w-md mx-auto" : ""}`}>
+      <div className="overflow-hidden rounded-2xl border border-gray-100 shadow-lg bg-gray-50">
+        {crop ? (
+          <div className="relative aspect-[16/7]">
+            <Image
+              src={src}
+              alt={alt}
+              placeholder="blur"
+              fill
+              sizes={sizes}
+              className="object-cover object-[center_85%]"
+            />
+          </div>
+        ) : (
+          <Image src={src} alt={alt} placeholder="blur" sizes={sizes} className="w-full h-auto" />
+        )}
+      </div>
+      {caption && (
+        <figcaption className="mt-3 text-[13px] text-gray-500 font-light leading-relaxed">
+          {caption}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   VIDEO CARD (lightweight YouTube embed)
+───────────────────────────────────────────── */
+
+export function VideoEmbed({
+  id,
+  title,
+  label = "Watch",
+  caption,
+  source,
+}: {
+  id: string;
+  title: string;
+  label?: string;
+  caption?: string;
+  source?: string;
+}) {
+  return (
+    <figure className="my-10 rounded-2xl border border-gray-200 bg-gray-50 p-4 md:p-5">
+      <div className="mb-3">
+        <p className="text-[10.5px] uppercase tracking-widest text-emerald-600 font-medium mb-1">
+          {label}
+        </p>
+        <p className="font-serif text-lg text-gray-900 font-semibold leading-snug">{title}</p>
+      </div>
+      {/* lite-youtube caps itself at 720px wide by default; let it fill the card */}
+      <div className="overflow-hidden rounded-xl shadow-md [&_lite-youtube]:!max-w-none">
+        <YouTubeLite videoid={id} title={title} />
+      </div>
+      {(caption || source) && (
+        <figcaption className="mt-3 text-[13px] text-gray-500 font-light leading-relaxed">
+          {caption}
+          {source && (
+            <span className="block text-xs text-gray-400 mt-1">Video: {source}, via YouTube</span>
+          )}
+        </figcaption>
+      )}
+    </figure>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   COST SHEET (receipt-style rows)
+───────────────────────────────────────────── */
+
+type CostRow = { label: string; value: string; note?: string; strong?: boolean };
+
+const toneBorder = {
+  own: "border-t-[#c8952a]",
+  rent: "border-t-emerald-600",
+};
+
+const toneText = {
+  own: "text-[#a8761d]",
+  rent: "text-emerald-700",
+};
+
+export function CostSheet({
+  title,
+  tone = "own",
+  rows,
+}: {
+  title: string;
+  tone?: "own" | "rent";
+  rows: CostRow[];
+}) {
+  return (
+    <div className={`rounded-2xl border border-gray-200 border-t-4 ${toneBorder[tone]} bg-white p-5 shadow-sm`}>
+      <p className={`text-[11px] uppercase tracking-widest font-semibold mb-3 ${toneText[tone]}`}>
+        {title}
+      </p>
+      <dl className="divide-y divide-gray-100">
+        {rows.map((r) => (
+          <div key={r.label} className={`py-2.5 ${r.strong ? "bg-gray-50 -mx-2 px-2 rounded-md" : ""}`}>
+            <div className="flex items-baseline justify-between gap-4">
+              <dt className={`text-sm ${r.strong ? "font-medium text-gray-900" : "text-gray-600"}`}>
+                {r.label}
+              </dt>
+              <dd className={`text-sm tabular-nums text-right whitespace-nowrap ${r.strong ? "font-semibold text-gray-900" : "text-gray-800"}`}>
+                {r.value}
+              </dd>
+            </div>
+            {r.note && <p className="text-xs text-gray-400 mt-1 leading-relaxed">{r.note}</p>}
+          </div>
+        ))}
+      </dl>
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   COMPARISON BARS
+───────────────────────────────────────────── */
+
+type BarItem = {
+  label: string;
+  value: number;
+  display: string;
+  tone?: "own" | "rent";
+};
+
+const toneBar = {
+  own: "bg-[#c8952a]",
+  rent: "bg-emerald-600",
+};
+
+export function CompareBars({
+  title,
+  items,
+  caption,
+}: {
+  title?: string;
+  items: BarItem[];
+  caption?: string;
+}) {
+  const max = Math.max(...items.map((i) => i.value));
+  return (
+    <figure className="my-10 rounded-2xl border border-gray-200 p-5 md:p-6">
+      {title && (
+        <p className="text-[11px] uppercase tracking-widest text-gray-400 font-medium mb-5">{title}</p>
+      )}
+      <div className="space-y-5">
+        {items.map((item) => (
+          <div key={item.label}>
+            <div className="flex items-baseline justify-between gap-4 mb-1.5">
+              <span className="text-sm text-gray-700">{item.label}</span>
+              <span className="font-serif text-lg font-semibold text-gray-900 tabular-nums whitespace-nowrap">
+                {item.display}
+              </span>
+            </div>
+            <div className="h-3 w-full rounded-full bg-gray-100 overflow-hidden">
+              <div
+                className={`h-full rounded-full ${toneBar[item.tone ?? "rent"]}`}
+                style={{ width: `${Math.round((item.value / max) * 100)}%` }}
+              />
+            </div>
+          </div>
+        ))}
+      </div>
+      {caption && (
+        <figcaption className="text-xs text-gray-400 mt-5 leading-relaxed">{caption}</figcaption>
+      )}
+    </figure>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   PAYMENT PLAN TIMELINE (own money vs loan)
+───────────────────────────────────────────── */
+
+type PlanStep = { stage: string; share: string; funding: string; tone: "own" | "mixed" | "loan" };
+
+export function PlanTimeline({
+  steps,
+  ownShare,
+  caption,
+}: {
+  steps: PlanStep[];
+  /** Percentage of the price paid from your own money, shown on the bar. */
+  ownShare: number;
+  caption?: string;
+}) {
+  const dot = {
+    own: "bg-[#c8952a]",
+    mixed: "bg-gradient-to-r from-[#c8952a] to-emerald-700",
+    loan: "bg-emerald-700",
+  };
+  return (
+    <figure className="my-10 rounded-2xl border border-gray-200 p-5 md:p-6">
+      <div className="flex h-9 w-full overflow-hidden rounded-lg text-[11px] font-medium text-white">
+        <div className="flex items-center justify-center bg-[#c8952a] whitespace-nowrap" style={{ width: `${ownShare}%` }}>
+          <span className="sm:hidden">Own {ownShare}%</span>
+          <span className="hidden sm:inline">Own money {ownShare}%</span>
+        </div>
+        <div className="flex flex-1 items-center justify-center bg-emerald-700 whitespace-nowrap">
+          Home loan {100 - ownShare}%
+        </div>
+      </div>
+      <ol className="mt-5 grid grid-cols-1 sm:grid-cols-5 gap-3 list-none p-0">
+        {steps.map((s, i) => (
+          <li key={s.stage} className="rounded-xl bg-gray-50 px-3.5 py-3 sm:text-center">
+            <div className="flex sm:flex-col items-center gap-2 sm:gap-1.5">
+              <span className={`inline-flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full text-[11px] font-semibold text-white ${dot[s.tone]}`}>
+                {i + 1}
+              </span>
+              <span className="text-sm font-medium text-gray-900 leading-snug sm:min-h-[2.5rem] sm:flex sm:items-center sm:justify-center">
+                {s.stage}
+              </span>
+            </div>
+            <p className="font-serif text-xl text-emerald-700 font-semibold mt-1.5">{s.share}</p>
+            <p className="text-xs text-gray-500 leading-relaxed">{s.funding}</p>
+          </li>
+        ))}
+      </ol>
+      {caption && (
+        <figcaption className="text-xs text-gray-400 mt-4 leading-relaxed">{caption}</figcaption>
+      )}
+    </figure>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   DATA TABLE (generic headers, optional highlight)
+───────────────────────────────────────────── */
+
+export function DataTable({
+  caption,
+  headers,
+  rows,
+  highlight,
+  note,
+}: {
+  caption?: string;
+  headers: string[];
+  rows: string[][];
+  /** [rowIndex, colIndex] of a cell to emphasise. */
+  highlight?: [number, number];
+  note?: string;
+}) {
+  return (
+    <>
+    <div className="my-8 rounded-xl border border-gray-200 overflow-hidden">
+      {caption && (
+        <p
+          aria-hidden
+          className="text-left text-[11px] uppercase tracking-widest text-gray-400 font-medium px-4 pt-4 pb-3 m-0"
+        >
+          {caption}
+        </p>
+      )}
+      <div className="overflow-x-auto">
+        <table className="w-full border-collapse text-sm">
+          {caption && <caption className="sr-only">{caption}</caption>}
+          <thead>
+            <tr>
+              {headers.map((h) => (
+                <th
+                  key={h}
+                  scope="col"
+                  className="bg-emerald-800 text-white px-2.5 sm:px-4 py-2.5 text-left font-medium text-[0.78rem] sm:text-[0.82rem] align-bottom"
+                >
+                  {h}
+                </th>
+              ))}
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((row, r) => (
+              <tr key={r} className={r % 2 === 1 ? "bg-gray-50" : "bg-white"}>
+                {row.map((cell, c) => {
+                  const isHi = highlight && highlight[0] === r && highlight[1] === c;
+                  const cls = `px-2.5 sm:px-4 py-2.5 border-b border-gray-100 tabular-nums text-[13px] sm:text-sm sm:whitespace-nowrap ${
+                    isHi
+                      ? "bg-emerald-50 text-emerald-900 font-semibold ring-2 ring-inset ring-emerald-500"
+                      : c === 0
+                        ? "text-gray-900 font-normal"
+                        : "text-gray-600 font-light"
+                  }`;
+                  return c === 0 ? (
+                    <th key={c} scope="row" className={`${cls} text-left`}>
+                      {cell}
+                    </th>
+                  ) : (
+                    <td key={c} className={cls}>
+                      {/* On narrow screens break only after the first word ("7.8%" / "a year"), never mid-phrase */}
+                      {cell.includes(" ") ? (
+                        <>
+                          <span className="whitespace-nowrap">{cell.slice(0, cell.indexOf(" "))}</span>{" "}
+                          <span className="whitespace-nowrap">{cell.slice(cell.indexOf(" ") + 1)}</span>
+                        </>
+                      ) : (
+                        cell
+                      )}
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+    {note && <p className="text-[0.78rem] text-gray-400 -mt-5 mb-8 leading-relaxed">{note}</p>}
+    </>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   SPLIT CARDS (two checklists side by side)
+───────────────────────────────────────────── */
+
+type SplitCard = { title: string; tone?: "own" | "rent"; items: string[] };
+
+export function SplitCards({ cards }: { cards: SplitCard[] }) {
+  return (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+      {cards.map((card) => {
+        const tone = card.tone ?? "rent";
+        return (
+          <div
+            key={card.title}
+            className={`rounded-2xl border border-gray-200 border-t-4 ${toneBorder[tone]} bg-white p-5 shadow-sm`}
+          >
+            <p className={`font-serif text-lg font-semibold mb-3 ${toneText[tone]}`}>{card.title}</p>
+            <ul className="space-y-2.5 list-none p-0 m-0">
+              {card.items.map((item) => (
+                <li key={item} className="flex gap-2.5 text-[15px] text-gray-600 leading-relaxed">
+                  <FaCheck className={`mt-1.5 h-3 w-3 flex-shrink-0 ${toneText[tone]}`} aria-hidden />
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────────
+   CTA STRIP (call / WhatsApp / page buttons)
+───────────────────────────────────────────── */
+
+type CTAAction = { label: string; href: string; variant?: "primary" | "secondary" | "whatsapp" | "call" };
+
+export function CTAStrip({
+  eyebrow,
+  title,
+  sub,
+  actions,
+}: {
+  eyebrow?: string;
+  title: string;
+  sub?: string;
+  actions: CTAAction[];
+}) {
+  const btn = {
+    primary: "bg-emerald-800 text-white hover:bg-emerald-900",
+    secondary: "bg-white text-emerald-800 border border-emerald-800/30 hover:border-emerald-800",
+    whatsapp: "bg-[#1f9d55] text-white hover:bg-[#188046]",
+    call: "bg-[#c8952a] text-white hover:bg-[#a8761d]",
+  };
+  const icon = {
+    primary: <FaArrowRight className="h-3 w-3" aria-hidden />,
+    secondary: <FaArrowRight className="h-3 w-3" aria-hidden />,
+    whatsapp: <FaWhatsapp className="h-4 w-4" aria-hidden />,
+    call: <FaPhoneAlt className="h-3 w-3" aria-hidden />,
+  };
+  return (
+    <div className="my-10 rounded-2xl border border-[#e5dcc5] bg-[#FAF8F4] px-6 py-6 md:px-8 md:py-7">
+      {eyebrow && (
+        <p className="text-[10.5px] uppercase tracking-widest text-[#a8761d] font-semibold mb-1.5">{eyebrow}</p>
+      )}
+      <p className="font-serif text-xl md:text-2xl text-gray-900 font-semibold leading-snug">{title}</p>
+      {sub && <p className="text-sm text-gray-600 mt-2 leading-relaxed">{sub}</p>}
+      <div className="mt-5 flex flex-wrap gap-3">
+        {actions.map((a) => {
+          const variant = a.variant ?? "primary";
+          const cls = `inline-flex items-center gap-2 rounded-md px-5 py-2.5 text-sm font-medium no-underline transition-colors ${btn[variant]}`;
+          const content = (
+            <>
+              {variant === "whatsapp" || variant === "call" ? icon[variant] : null}
+              {a.label}
+              {variant === "primary" || variant === "secondary" ? icon[variant] : null}
+            </>
+          );
+          const external = /^(https?:|tel:|mailto:)/.test(a.href);
+          return external ? (
+            <a
+              key={a.label}
+              href={a.href}
+              className={cls}
+              {...(a.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+            >
+              {content}
+            </a>
+          ) : (
+            <Link key={a.label} href={a.href} className={cls}>
+              {content}
+            </Link>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+/* ─────────────────────────────────────────────
    OPTIMISED IMAGE WRAPPER
 ───────────────────────────────────────────── */
 
@@ -741,6 +1177,14 @@ export function useMDXComponents(components: MDXComponents): MDXComponents {
     CTABox,
     Disclaimer,
     Tag,
+    BlogFigure,
+    VideoEmbed,
+    CostSheet,
+    CompareBars,
+    PlanTimeline,
+    DataTable,
+    SplitCards,
+    CTAStrip,
 
     /* News Components */
     ArticleWrap,

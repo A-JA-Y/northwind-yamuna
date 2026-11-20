@@ -30,6 +30,128 @@ export type BlogMeta = {
 
 export const blogData: BlogMeta[] = [
   {
+    id: "blog-rent-vs-buy",
+
+    /* SEO */
+    title: "Rent vs Buy House on Yamuna Expressway: The Numbers for Sector 22D",
+    slug: "rent-vs-buy-house-yamuna-expressway",
+    excerpt:
+      "Sector 22D rents against the EMI on a ₹1.25 crore* 3 BHK, the 20×5 plan priced in, and how fast the flat has to gain value for buying to match renting.",
+    metaTitle: "Rent vs Buy House Near Noida Airport: Yamuna Expressway",
+    metaDescription:
+      "Rent vs buy house on Yamuna Expressway, worked on a ₹1.25 crore 3 BHK in Sector 22D: local rents, the 20x5 plan, break-even growth and tax.",
+    keywords: [
+      "rent vs buy house",
+      "rent vs buy house on yamuna expressway",
+      "is it better to rent or buy a house",
+      "rent vs emi",
+      "flat for rent on yamuna expressway",
+      "property near noida international airport",
+      "20x5 payment plan",
+      "3 bhk flats in sector 22d yamuna expressway",
+    ],
+    canonical: "https://northwindyamuna.com/blogs/rent-vs-buy-house-yamuna-expressway",
+
+    /* Display */
+    image: "/blog-rent-vs-buy-yamuna-expressway.webp",
+    altText:
+      "Northwind Sector 22D towers lit up at night beside a tree-lined road on the Yamuna Expressway",
+    date: "2026-11-19",
+    updatedAt: "2026-11-19",
+    author: "Real Revenue Research Desk",
+    category: "Buyer Guide",
+    readTime: "11 min read",
+    tags: ["rent vs buy", "rent vs emi", "yamuna expressway", "sector 22d", "20x5 payment plan"],
+    featured: true,
+
+    /* JSON-LD */
+    schemaMarkup: {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      headline: "Rent vs Buy House on Yamuna Expressway: The Numbers for Sector 22D",
+      description:
+        "Rent vs buy house on Yamuna Expressway, worked on a ₹1.25 crore 3 BHK in Sector 22D: local rents, the 20x5 plan, break-even growth and tax.",
+      image: "https://northwindyamuna.com/blog-rent-vs-buy-yamuna-expressway.webp",
+      url: "https://northwindyamuna.com/blogs/rent-vs-buy-house-yamuna-expressway",
+      mainEntityOfPage: "https://northwindyamuna.com/blogs/rent-vs-buy-house-yamuna-expressway",
+      datePublished: "2026-11-19",
+      dateModified: "2026-11-19",
+      inLanguage: "en-IN",
+      author: { "@type": "Organization", name: "Real Revenue" },
+      publisher: { "@type": "Organization", name: "Real Revenue", url: "https://northwindyamuna.com/" },
+    },
+    faqSchema: {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Is it better to rent or buy a house on Yamuna Expressway?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "It depends on your horizon. Rents here are low, about 2% to 2.4% of a flat's price a year, so renting costs far less each month. Buying comes out ahead if the flat gains a little over 7% a year for ten years or more, measured against a tenant who invests the difference at 9%.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Is rent cheaper than EMI in Sector 22D?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, by a wide margin. A 3 BHK rents for about ₹16,000 to ₹25,000 a month. The EMI on a ₹1.25 crore flat with 25% down is about ₹78,400 at 8% over 20 years.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What is the rent for a 3 BHK on Yamuna Expressway?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Recent listings in Sector 22D ask ₹16,000 to ₹22,000 a month for 3 BHKs of about 1,350 to 1,400 sq. ft. A similar flat in Gaur Yamuna City asks about ₹25,000.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How much of my own money do I need for a ₹1.25 crore flat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "About ₹47.5 lakh. Banks lend at most 75% on loans above ₹75 lakh, so the down payment is ₹31.25 lakh. GST at 5% adds ₹6.25 lakh, and stamp duty and registration add ₹10 lakh.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "What income do I need to buy a ₹1.25 crore flat?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "The EMI on a ₹93.75 lakh loan is about ₹78,400 at 8% over 20 years. Keeping that at 40% of take-home pay needs about ₹1.96 lakh a month.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "How does the 20×5 payment plan work?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "You pay 20% at booking, then 20% each at the ground floor, the 15th-floor roof, the superstructure and the offer of possession. Because most of the loan is drawn in the later stages, interest during construction is lower than on a loan drawn upfront.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Has the airport already pushed prices up?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes. Average apartment rates along the Yamuna Expressway rose from about ₹3,950 per sq. ft. in 2020 to about ₹10,200 in 2025. Commercial flights began in June 2026, so part of the airport's effect is already in today's price.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Do I get tax benefits on rent or a home loan?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Only in the old tax regime. An owner can deduct up to ₹2 lakh of interest a year on a home they live in, and a tenant can claim HRA relief. The new regime gives neither.",
+          },
+        },
+      ],
+    },
+  },
+  {
     id: "blog-investment-guide",
 
     /* SEO */
