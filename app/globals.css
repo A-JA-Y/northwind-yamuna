@@ -613,9 +613,10 @@ img {
   max-width: 100%;
 }
 
+/* Bottom-left: the bottom-right corner holds the floating Call + WhatsApp buttons. */
 .back-to-top {
   position: fixed;
-  right: 22px;
+  left: 22px;
   bottom: 22px;
   z-index: 35;
   width: 42px;
