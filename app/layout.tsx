@@ -37,10 +37,6 @@ export const metadata: Metadata = {
     canonical: "https://northwindyamuna.com/",
   },
 
-  icons: {
-    icon: "/favicon.ico",
-  },
-
   openGraph: {
     title: "Northwind Estates Sector 22D, Yamuna Expressway — New Launch",
     description:
@@ -69,6 +65,7 @@ export const metadata: Metadata = {
 
 import { ModalProvider } from "@/components/ModalContext";
 import ExperienceEnhancer from "@/components/ExperienceEnhancer";
+import FloatingContactButtons from "@/components/FloatingContactButtons";
 
 export default function RootLayout({
   children,
@@ -108,6 +105,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <ModalProvider>
           <ExperienceEnhancer>{children}</ExperienceEnhancer>
         </ModalProvider>
+        <FloatingContactButtons
+          phone="+91 97177 00596"
+          message="Hi, I am interested in Northwind Estates Sector 22D, Yamuna Expressway. Please share the price list and brochure."
+          callClassName="bg-[#141004] hover:bg-[#2b230b]"
+        />
       </body>
     </html>
   );
