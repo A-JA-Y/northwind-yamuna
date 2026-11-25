@@ -5,7 +5,8 @@ module.exports = {
   generateRobotsTxt: true,
   generateIndexSitemap: false,
 
-  exclude: ["/thank-you"],
+  // app/apple-icon.png builds as a route; it is an icon, not a page.
+  exclude: ["/thank-you", "/apple-icon.png"],
 
   transform: async (config, path) => {
     return {
